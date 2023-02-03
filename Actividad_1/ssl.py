@@ -7,8 +7,8 @@ cap = cv2.VideoCapture('ssl1.mp4')
 
 # TO DO 
 # Defina la resolucion de los videos
-WIDTH =
-HEIGHT = 
+WIDTH = 900
+HEIGHT = 600 
 
 # P1----P2
 # ||    ||
@@ -77,13 +77,14 @@ class Robot:
 def euclidean_distance(p1,p2):
     # TO DO 
     # Calcule distancia ecuclidianda entre dos puntos dados
+    (p1**2 + p2**2)**(1/2)
     return 
 
 def mask_color(lower, upper, img):
     # TO DO 
     # Realice la mascara de colores - lower limite inferior de rango - upper limite superior - img imagen a la que se va aplicar mascara
-    hsv = 
-    mask = 
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    mask = cv2.inRange(img, lower, upper)
     # Erocione y dilate la mascara
     return mask
 
