@@ -77,7 +77,7 @@ class Robot:
 def euclidean_distance(p1,p2):
     # TO DO 
     # Calcule distancia ecuclidianda entre dos puntos dados
-    (p1**2 + p2**2)**(1/2)
+    ((p1[0]-p2[0])**2 + (p2[1]-p2[1])**2)**(1/2)
     return 
 
 def mask_color(lower, upper, img):
@@ -91,7 +91,7 @@ def mask_color(lower, upper, img):
 def center_contours(mask):
     # TO DO 
     # calculo de centroides para la mascara 
-    contours, _ = 
+    contours, _ = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE )
     # centro del enclosing circle de cada contorno
     centers = [cv2.minEnclosingCircle(c)[0] for c in contours]
     return centers
@@ -107,7 +107,7 @@ def plot_centers(centers_blue, centers_yellow, centers_green, centers_purple, im
         cv2.circle(img,(int(x),int(y)),2,(255,255,255),-1)
     # cv2.imshow('ssl',img)
 
-
+'''
 while(cap.isOpened()):
     ret, frame = cap.read()
     if not ret:
@@ -117,7 +117,7 @@ while(cap.isOpened()):
     # transformacion proyectiva para ver de frente los frames del video en una imagen de 700x1050
     M = cv2.getPerspectiveTransform(np.float32(pts1),np.float32(pts2)) # matriz de transformacion
     new_size = (WIDTH,HEIGHT)
-    new_frame = 
+    new_frame = cv2.warpPerspective(frame, M, new_size, flags=cv2.INTER_LINEAR)
     # cv2.imshow('ssl',new_frame)
 
     # TO DO 
@@ -171,6 +171,6 @@ while(cap.isOpened()):
     cv2.imshow('ssl',new_frame)
     if cv2.waitKey(20) & 0xFF == ord('q'):
         break
-
+'''
 cap.release()
 cv2.destroyAllWindows()
