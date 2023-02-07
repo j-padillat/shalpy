@@ -31,17 +31,44 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-
-import rclpy
-from geometry_msgs.msg import Twist
 import sys
+
+import geometry_msgs.msg
+import rclpy
+
 if sys.platform == 'win32':
     import msvcrt
 else:
     import termios
     import tty
 
-msg = "Empezó xd"
+
+msg = """
+This node takes keypresses from the keyboard and publishes them
+as Twist messages. It works best with a US keyboard layout.
+---------------------------
+Moving around:
+   u    i    o
+   j    k    l
+   m    ,    .
+
+For Holonomic mode (strafing), hold down the shift key:
+---------------------------
+   U    I    O
+   J    K    L
+   M    <    >
+
+t : up (+z)
+b : down (-z)
+
+anything else : stop
+
+q/z : increase/decrease max speeds by 10%
+w/x : increase/decrease only linear speed by 10%
+e/c : increase/decrease only angular speed by 10%
+
+CTRL-C to quit
+"""
 
 moveBindings = {
     'i': (1, 0, 0, 0),
@@ -102,14 +129,13 @@ def vels(speed, turn):
     return 'currently:\tspeed %s\tturn %s ' % (speed, turn)
 
 
-
 def main():
     settings = saveTerminalSettings()
 
-
     rclpy.init()
-    node = rclpy.create_node('turtle_bot_teleop')
-    pub = node.create_publisher(Twist, '/turtlebot_cmdVel', 10)
+
+    node = rclpy.create_node('teleop_twist_keyboard')
+    pub = node.create_publisher(geometry_msgs.msg.Twist, 'cmd_vel', 10)
 
     speed = 0.5
     turn = 1.0
@@ -145,7 +171,7 @@ def main():
                 if (key == '\x03'):
                     break
 
-            twist = Twist()
+            twist = geometry_msgs.msg.Twist()
             twist.linear.x = x * speed
             twist.linear.y = y * speed
             twist.linear.z = z * speed
@@ -158,7 +184,7 @@ def main():
         print(e)
 
     finally:
-        twist = Twist()
+        twist = geometry_msgs.msg.Twist()
         twist.linear.x = 0.0
         twist.linear.y = 0.0
         twist.linear.z = 0.0

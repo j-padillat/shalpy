@@ -13,4 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtle_bot_14/__init__.py
+turtle_bot_14/teleop_twist_keyboard.py
 turtle_bot_14/turtle_bot_teleop.py
