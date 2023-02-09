@@ -123,28 +123,10 @@ def main():
         print(msg)
         print(vels(speed, turn))
         while True:
-            key = getKey(settings)
-            if key in moveBindings.keys():
-                x = moveBindings[key][0]
-                y = moveBindings[key][1]
-                z = moveBindings[key][2]
-                th = moveBindings[key][3]
-            elif key in speedBindings.keys():
-                speed = speed * speedBindings[key][0]
-                turn = turn * speedBindings[key][1]
-
-                print(vels(speed, turn))
-                if (status == 14):
-                    print(msg)
-                status = (status + 1) % 15
-            else:
-                x = 0.0
-                y = 0.0
-                z = 0.0
-                th = 0.0
-                if (key == '\x03'):
-                    break
-
+            x = 0.0
+            y = 0.0
+            z = 0.0
+            th = 0.0
             twist = Twist()
             twist.linear.x = x * speed
             twist.linear.y = y * speed
@@ -153,6 +135,60 @@ def main():
             twist.angular.y = 0.0
             twist.angular.z = th * turn
             pub.publish(twist)
+            
+            key = getKey(settings)
+
+            if key in moveBindings.keys():
+                x = moveBindings[key][0]
+                y = moveBindings[key][1]
+                z = moveBindings[key][2]
+                th = moveBindings[key][3]
+
+                twist = Twist()
+                twist.linear.x = x * speed
+                twist.linear.y = y * speed
+                twist.linear.z = z * speed
+                twist.angular.x = 0.0
+                twist.angular.y = 0.0
+                twist.angular.z = th * turn
+                pub.publish(twist)
+
+            elif key in speedBindings.keys():
+                speed = speed * speedBindings[key][0]
+                turn = turn * speedBindings[key][1]
+
+                print(vels(speed, turn))
+                if (status == 14):
+                    print(msg)
+                status = (status + 1) % 15
+
+                twist = Twist()
+                twist.linear.x = x * speed
+                twist.linear.y = y * speed
+                twist.linear.z = z * speed
+                twist.angular.x = 0.0
+                twist.angular.y = 0.0
+                twist.angular.z = th * turn
+                pub.publish(twist)
+
+            else:
+                x = 0.0
+                y = 0.0
+                z = 0.0
+                th = 0.0
+                twist = Twist()
+                twist.linear.x = x * speed
+                twist.linear.y = y * speed
+                twist.linear.z = z * speed
+                twist.angular.x = 0.0
+                twist.angular.y = 0.0
+                twist.angular.z = th * turn
+                pub.publish(twist)
+
+                if (key == '\x03'):
+                    break
+            
+                
 
     except Exception as e:
         print(e)
