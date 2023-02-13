@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'turtle_bot_teleop = turtle_bot_14.turtle_bot_teleop:main'
+            'turtle_bot_teleop = turtle_bot_14.turtle_bot_teleop:main',
+            'interfaz_sub = turtle_bot_14.interfaz_sub:main'
         ],
     },
 )
