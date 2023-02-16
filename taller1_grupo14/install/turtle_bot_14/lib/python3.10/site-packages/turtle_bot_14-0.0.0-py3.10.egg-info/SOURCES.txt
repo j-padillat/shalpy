@@ -12,6 +12,7 @@ resource/turtle_bot_14
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+turtle_bot_14/EjemploTkinter.py
 turtle_bot_14/__init__.py
 turtle_bot_14/interfaz_sub.py
 turtle_bot_14/turtle_bot_teleop.py
