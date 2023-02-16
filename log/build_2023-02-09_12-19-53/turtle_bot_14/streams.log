@@ -1,0 +1,42 @@
+[1.129s] Invoking command in '/home/sergio/Robotica/shalpy/taller1_grupo14/src/turtle_bot_14': PYTHONPATH=/home/sergio/Robotica/shalpy/build/turtle_bot_14/prefix_override:/home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_bot_14 build --build-base /home/sergio/Robotica/shalpy/build/turtle_bot_14/build install --record /home/sergio/Robotica/shalpy/build/turtle_bot_14/install.log --single-version-externally-managed
+[1.548s] running egg_info
+[1.550s] creating ../../../build/turtle_bot_14/turtle_bot_14.egg-info
+[1.550s] writing ../../../build/turtle_bot_14/turtle_bot_14.egg-info/PKG-INFO
+[1.551s] writing dependency_links to ../../../build/turtle_bot_14/turtle_bot_14.egg-info/dependency_links.txt
+[1.551s] writing entry points to ../../../build/turtle_bot_14/turtle_bot_14.egg-info/entry_points.txt
+[1.552s] writing requirements to ../../../build/turtle_bot_14/turtle_bot_14.egg-info/requires.txt
+[1.552s] writing top-level names to ../../../build/turtle_bot_14/turtle_bot_14.egg-info/top_level.txt
+[1.552s] writing manifest file '../../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+[1.555s] reading manifest file '../../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+[1.557s] writing manifest file '../../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+[1.557s] running build
+[1.557s] running build_py
+[1.558s] creating /home/sergio/Robotica/shalpy/build/turtle_bot_14/build
+[1.558s] creating /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib
+[1.558s] creating /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib/turtle_bot_14
+[1.558s] copying turtle_bot_14/__init__.py -> /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib/turtle_bot_14
+[1.559s] copying turtle_bot_14/teleop_twist_keyboard.py -> /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib/turtle_bot_14
+[1.559s] copying turtle_bot_14/turtle_bot_teleop.py -> /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib/turtle_bot_14
+[1.559s] running install
+[1.562s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.562s]   warnings.warn(
+[1.562s] running install_lib
+[1.564s] creating /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+[1.565s] copying /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib/turtle_bot_14/__init__.py -> /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+[1.565s] copying /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib/turtle_bot_14/teleop_twist_keyboard.py -> /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+[1.565s] copying /home/sergio/Robotica/shalpy/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_teleop.py -> /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+[1.565s] byte-compiling /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/__init__.py to __init__.cpython-310.pyc
+[1.566s] byte-compiling /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[1.568s] byte-compiling /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[1.569s] running install_data
+[1.571s] creating /home/sergio/Robotica/shalpy/install/turtle_bot_14/share/ament_index
+[1.571s] creating /home/sergio/Robotica/shalpy/install/turtle_bot_14/share/ament_index/resource_index
+[1.571s] creating /home/sergio/Robotica/shalpy/install/turtle_bot_14/share/ament_index/resource_index/packages
+[1.571s] copying resource/turtle_bot_14 -> /home/sergio/Robotica/shalpy/install/turtle_bot_14/share/ament_index/resource_index/packages
+[1.572s] copying package.xml -> /home/sergio/Robotica/shalpy/install/turtle_bot_14/share/turtle_bot_14
+[1.572s] running install_egg_info
+[1.574s] Copying ../../../build/turtle_bot_14/turtle_bot_14.egg-info to /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info
+[1.575s] running install_scripts
+[1.614s] Installing turtle_bot_teleop script to /home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/turtle_bot_14
+[1.614s] writing list of installed files to '/home/sergio/Robotica/shalpy/build/turtle_bot_14/install.log'
+[1.687s] Invoked command in '/home/sergio/Robotica/shalpy/taller1_grupo14/src/turtle_bot_14' returned '0': PYTHONPATH=/home/sergio/Robotica/shalpy/build/turtle_bot_14/prefix_override:/home/sergio/Robotica/shalpy/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_bot_14 build --build-base /home/sergio/Robotica/shalpy/build/turtle_bot_14/build install --record /home/sergio/Robotica/shalpy/build/turtle_bot_14/install.log --single-version-externally-managed
