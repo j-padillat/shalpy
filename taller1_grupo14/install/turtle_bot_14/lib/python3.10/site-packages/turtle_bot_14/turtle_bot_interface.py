@@ -4,7 +4,6 @@ import sys
 from tkinter import *
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
 import threading
 if sys.platform == 'win32':
     import msvcrt
@@ -83,11 +82,12 @@ def graficar_datos(x,y):
 ##### ----------------------------------------- #######
 
 
+#### The node is initialized ####
 def nodito():
     settings = saveTerminalSettings()
 
     rclpy.init()
-    node = rclpy.create_node('interfaz_sub')
+    node = rclpy.create_node('turtle_bot_interface')
     node.create_subscription(Twist, '/turtlebot_position',listener_callback,10)
 
     rclpy.spin(node)
@@ -99,13 +99,13 @@ def nodito():
     rclpy.shutdown()
 
     restoreTerminalSettings(settings)
+##### ----------------------------------------- #######
 
 
 def main():
-    thread = threading.Thread(target=nodito)
+    thread = threading.Thread(target=nodito)    # A thread is initialized to run the subscriber node
     thread.start()
-    ventana.mainloop()
-
+    ventana.mainloop()  # The window for the interface opens
 
 
 

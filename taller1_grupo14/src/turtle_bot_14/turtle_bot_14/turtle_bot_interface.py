@@ -4,7 +4,6 @@ import sys
 from tkinter import *
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
 import threading
 if sys.platform == 'win32':
     import msvcrt
@@ -13,7 +12,7 @@ else:
     import tty
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
 
-### CREATION OF A FIGURE AND THE ACES PLOT OBJECT ####
+### CREATION OF A FIGURE AND THE AXES PLOT OBJECT ####
 fig, ax = plt.subplots(dpi=90, figsize=(7,5),facecolor='white')
 ax.set_title("Pocision de Turtlebot",color='black',size=16, family="Arial")
 ax.set_facecolor('white')
@@ -52,7 +51,7 @@ def update(frame):
     return line,
 
 
-
+#### --- Terminal settings for IO ----------
 def saveTerminalSettings():
     if sys.platform == 'win32':
         return None
@@ -62,32 +61,34 @@ def restoreTerminalSettings(old_settings):
     if sys.platform == 'win32':
         return
     termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old_settings)
+##### ----------------------------------------- #######
 
+
+##### SUSCRIBER CALLBACK #####
 def listener_callback(msg):
     print('La posición es =  x: '+str(msg.linear.x)+'; y: ' + str(msg.linear.y))
     graficar_datos(msg.linear.x,msg.linear.y)
+##### ----------------------------------------- #######
 
 
+##### Definition of the plotting function #####
 def graficar_datos(x,y):
-    print('Entró xd')
     x_data.append(x)
     y_data.append(y)
-    ax.plot(x_data, y_data,'b.', linewidth=1)
-	#line, = ax.plot(x, y,color ='b', linestyle='solid')
+    l, = ax.plot(x_data, y_data,'b.', linewidth=1)
     canvas.draw()
     print(len(x_data))
-    #ax.plot(x, y, color ='b', linestyle='solid')
-	#line.set_ydata(np.sin(x)+10)
-	#ventana.after(100, graficar_datos(x,y)) ##actualizar datos
+    l.remove()
+##### ----------------------------------------- #######
 
 
-
+#### The node is initialized ####
 def nodito():
     settings = saveTerminalSettings()
 
     rclpy.init()
-    node = rclpy.create_node('interfaz_sub')
-    sub = node.create_subscription(Twist, '/turtlebot_position',listener_callback,10)
+    node = rclpy.create_node('turtle_bot_interface')
+    node.create_subscription(Twist, '/turtlebot_position',listener_callback,10)
 
     rclpy.spin(node)
 
@@ -97,32 +98,16 @@ def nodito():
     node.destroy_node()
     rclpy.shutdown()
 
-
     restoreTerminalSettings(settings)
+##### ----------------------------------------- #######
 
 
 def main():
-    thread = threading.Thread(target=nodito)
+    thread = threading.Thread(target=nodito)    # A thread is initialized to run the subscriber node
     thread.start()
-
-    #Button(frame, text='Grafica Datos', width = 15, bg='magenta',fg='white', command= graficar_datos).grid(column=1, row=1, pady =5)
-    ventana.mainloop()
-
+    ventana.mainloop()  # The window for the interface opens
 
 
 
 if __name__ == '__main__':
     main()
-
-
-'''
-class interfaz(nodo):
-    init
-    pub, sub
-    func
-
-main():
-rclpy. inasid
-
-shut dwon
-'''
