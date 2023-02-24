@@ -66,19 +66,30 @@ def restoreTerminalSettings(old_settings):
 
 ##### SUSCRIBER CALLBACK #####
 def listener_callback(msg):
-    print('La posición es =  x: '+str(msg.linear.x)+'; y: ' + str(msg.linear.y))
+    #print('La posición es =  x: '+str(msg.linear.x)+'; y: ' + str(msg.linear.y))
     graficar_datos(msg.linear.x,msg.linear.y)
 ##### ----------------------------------------- #######
 
 
 ##### Definition of the plotting function #####
 def graficar_datos(x,y):
-    x_data.append(x)
-    y_data.append(y)
-    l, = ax.plot(x_data, y_data,'b.', linewidth=1)
-    canvas.draw()
-    print(len(x_data))
-    l.remove()
+
+    if len(x_data) == 0:
+        x_data.append(x)
+        y_data.append(y)
+        l, = ax.plot(x_data, y_data,'b.', linewidth=1)
+        canvas.draw()
+        l.remove()
+        
+
+    if (abs(x_data[-1]-x)>=0.01) or (abs(y_data[-1]-y)>=0.01):
+        x_data.append(x)
+        y_data.append(y)
+        l, = ax.plot(x_data, y_data,'b.', linewidth=1)
+        canvas.draw()
+        print(len(x_data))
+        l.remove()
+        print('Cambió la figura')
 ##### ----------------------------------------- #######
 
 
