@@ -1,0 +1,47 @@
+[0.017s] Invoking command in '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces -- -j8 -l8
+[0.072s] [  6%] Built target player_interfaces__cpp
+[0.073s] [  6%] [32mBuilding C object CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o[0m
+[0.083s] [  6%] Built target ament_cmake_python_copy_player_interfaces
+[0.096s] In file included from [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.h:19[m[K,
+[0.096s]                  from [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c:4[m[K:
+[0.096s] [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__struct.h:41:10:[m[K [01;31m[Kfatal error: [m[Kplayer_interfaces/msg/detail/string__struct.h: No such file or directory
+[0.096s]    41 | #include [01;31m[K"player_interfaces/msg/detail/string__struct.h"[m[K
+[0.096s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.096s] compilation terminated.
+[0.097s] gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o] Error 1
+[0.098s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all] Error 2
+[0.098s] gmake[1]: *** Waiting for unfinished jobs....
+[0.100s] [ 12%] [32mBuilding CXX object CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/player_interfaces/srv/player__type_support.cpp.o[0m
+[0.100s] [ 12%] [32mBuilding CXX object CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/dds_fastrtps/player__type_support.cpp.o[0m
+[0.101s] [ 16%] [32mBuilding CXX object CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/player_interfaces/srv/detail/player__type_support.cpp.o[0m
+[0.171s] In file included from [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_cpp/player_interfaces/srv/player__type_support.cpp:7[m[K:
+[0.171s] [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp:127:10:[m[K [01;31m[Kfatal error: [m[Kplayer_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[0.171s]   127 | #include [01;31m[K"player_interfaces/msg/detail/string__struct.hpp"[m[K
+[0.171s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.171s] compilation terminated.
+[0.173s] gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/player_interfaces/srv/player__type_support.cpp.o] Error 1
+[0.173s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[0.190s] In file included from [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_introspection_cpp/player_interfaces/srv/detail/player__type_support.cpp:12[m[K:
+[0.190s] [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp:127:10:[m[K [01;31m[Kfatal error: [m[Kplayer_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[0.190s]   127 | #include [01;31m[K"player_interfaces/msg/detail/string__struct.hpp"[m[K
+[0.190s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.190s] compilation terminated.
+[0.192s] gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/player_interfaces/srv/detail/player__type_support.cpp.o] Error 1
+[0.192s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.203s] In file included from [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.203s]                  from [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/dds_fastrtps/player__type_support.cpp:4[m[K:
+[0.203s] [01m[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp:127:10:[m[K [01;31m[Kfatal error: [m[Kplayer_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[0.203s]   127 | #include [01;31m[K"player_interfaces/msg/detail/string__struct.hpp"[m[K
+[0.204s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.204s] compilation terminated.
+[0.206s] gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/dds_fastrtps/player__type_support.cpp.o] Error 1
+[0.207s] gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.408s] running egg_info
+[0.409s] writing player_interfaces.egg-info/PKG-INFO
+[0.409s] writing dependency_links to player_interfaces.egg-info/dependency_links.txt
+[0.410s] writing top-level names to player_interfaces.egg-info/top_level.txt
+[0.414s] reading manifest file 'player_interfaces.egg-info/SOURCES.txt'
+[0.415s] writing manifest file 'player_interfaces.egg-info/SOURCES.txt'
+[0.462s] [ 16%] Built target ament_cmake_python_build_player_interfaces_egg
+[0.464s] gmake: *** [Makefile:146: all] Error 2
+[0.467s] Invoked command in '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces -- -j8 -l8

@@ -1,11 +1,15 @@
 import rclpy
+from rclpy.node import Node
 from geometry_msgs.msg import Twist
+from player_interfaces.srv import Player
 import sys
 from tkinter import *
 from tkinter.filedialog import asksaveasfilename, askopenfilename
 import numpy as np
 import matplotlib.pyplot as plt
 import threading
+#from PIL import Image, ImageDraw
+#from PIL import ImageGrab
 if sys.platform == 'win32':
     import msvcrt
 else:
@@ -14,6 +18,7 @@ else:
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
 
 ### CREATION OF A FIGURE AND THE AXES PLOT OBJECT ####
+
 fig, ax = plt.subplots(dpi=90, figsize=(7,5),facecolor='white')
 ax.set_title("Pocision de Turtlebot",color='black',size=16, family="Arial")
 ax.set_facecolor('white')
@@ -30,6 +35,7 @@ colors='black',
 grid_color='r', grid_alpha=0.5)
 # ----- Initialize the data -----
 x_data, y_data = [], []
+linear_x, linear_y, angular_z = [],[],[]
 line, = ax.plot(x_data, y_data, 'b.', linewidth=1)
 DatosPos = np.array([[1, 2, 3, 4, 5, 6, 7, 8, 9, 10],[11, 12, 13, 14, 15, 16, 17, 18, 19, 20]])
 ##### ------------------------------------------ ######
@@ -55,24 +61,34 @@ def update(frame):
 # Definition for the button commands
 def guardar_datos():
   file = asksaveasfilename()
+  #image1 = Image.new("RGB", (642, 800), (255, 255, 255))
+  #draw = ImageDraw.Draw(image1)
+  fig.update()
+  fig.savefig(file)
+
   print('Entro a guardar')
-  plt.savefig(file)
+  #plt.savefig(file)
+
   
 def guardar_recorrido():
     file2 = asksaveasfilename(defaultextension='.txt')
-    np.savetxt(file2, DatosPos)
+    DatosVel = np.array([linear_x,linear_y,angular_z])
+    np.savetxt(file2, DatosVel)
   
 def cargar_recorrido():
-  file3 = askopenfilename()
+    cliente()
+
+
+    #file3 = askopenfilename()
   ######
   ######
   ##AQUI QUEDA GUARDADO EL RECORRIDO QUE SE CARGUE
   ######
   ######
-  recorridoCargado = np.genfromtxt(file3)
-  print("NuevoArray",recorridoCargado)
-  print(recorridoCargado[0])
-  print(recorridoCargado[0][0])
+    #recorridoCargado = np.genfromtxt(file3)
+    #print("NuevoArray",recorridoCargado)
+    #print(recorridoCargado[0])
+    #print(recorridoCargado[0][0])
 
 def para_recorrido():
     pass
@@ -145,19 +161,33 @@ def restoreTerminalSettings(old_settings):
 
 ##### SUSCRIBER CALLBACK #####
 def listener_callback(msg):
-    #print('La posición es =  x: '+str(msg.linear.x)+'; y: ' + str(msg.linear.y))
+    #print('La posición es =  x: '+str(msg.linear.x)+'; y: ' + str(msg.linear.y)+'; Angular: ' + str(msg.angular.z))
     graficar_datos(msg.linear.x,msg.linear.y)
+
+def velocity_callback(msg):
+    linear_x.append(msg.linear.x)
+    linear_y.append(msg.linear.y)
+    angular_z.append(msg.angular.z)
+
+    print(linear_x,linear_y,angular_z)
+
 ##### ----------------------------------------- #######
 
 
 ##### Definition of the plotting function #####
 def graficar_datos(x,y):
+    #     x_data.append(1,2,3)
+    #     y_data.append(4,5,6)
+    #     l, = ax.plot(x_data, y_data,'b.', linewidth=1)
+    #     canvas.draw()
+    
     if len(x_data) == 0:
         x_data.append(x)
         y_data.append(y)
         l, = ax.plot(x_data, y_data,'b.', linewidth=1)
         canvas.draw()
         l.remove()
+        
 
     if (abs(x_data[-1]-x)>=0.01) or (abs(y_data[-1]-y)>=0.01):
         x_data.append(x)
@@ -177,6 +207,7 @@ def nodito():
     rclpy.init()
     node = rclpy.create_node('turtle_bot_interface')
     node.create_subscription(Twist, '/turtlebot_position',listener_callback,10)
+    node.create_subscription(Twist, '/turtlebot_cmdVel', velocity_callback ,10)
 
     rclpy.spin(node)
 
@@ -187,6 +218,30 @@ def nodito():
     rclpy.shutdown()
 
     restoreTerminalSettings(settings)
+
+class MinimalClientAsync(Node):
+
+    def __init__(self):
+        super().__init__('cliente_player')
+        self.cli = self.create_client(Player, 'turtle_bot_player_srv')       
+        while not self.cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('service not available, waiting again...')
+        self.req = Player.Request()                                   
+
+    def send_request(self):
+        entrada = input("Introduzca el nombre del recorrido: ")
+        self.req.nombre = entrada
+        self.future = self.cli.call_async(self.req)
+
+def cliente():
+    client = MinimalClientAsync()
+    client.send_request()
+
+    while rclpy.ok():
+        rclpy.spin_once(client)
+
+    client.destroy_node()
+    rclpy.shutdown()
 ##### ----------------------------------------- #######
 
 
