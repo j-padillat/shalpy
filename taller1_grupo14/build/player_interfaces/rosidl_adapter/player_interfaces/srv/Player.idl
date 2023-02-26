@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from player_interfaces/srv/Player.srv
+// generated code does not contain a copyright notice
+
+
+module player_interfaces {
+  module srv {
+    struct Player_Request {
+      string nombre;
+    };
+    struct Player_Response {
+      string respuesta;
+    };
+  };
+};
