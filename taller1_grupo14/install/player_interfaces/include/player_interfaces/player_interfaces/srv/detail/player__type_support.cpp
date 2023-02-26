@@ -158,14 +158,14 @@ void Player_Response_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember Player_Response_message_member_array[1] = {
   {
-    "structure_needs_at_least_one_member",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
+    "respuesta",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(player_interfaces::srv::Player_Response, structure_needs_at_least_one_member),  // bytes offset in struct
+    offsetof(player_interfaces::srv::Player_Response, respuesta),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

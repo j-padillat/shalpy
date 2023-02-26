@@ -9,7 +9,7 @@ module player_interfaces {
       string nombre;
     };
     struct Player_Response {
-      uint8 structure_needs_at_least_one_member;
+      string respuesta;
     };
   };
 };

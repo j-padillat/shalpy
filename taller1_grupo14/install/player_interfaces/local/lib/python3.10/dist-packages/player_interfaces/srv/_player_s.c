@@ -126,6 +126,11 @@ PyObject * player_interfaces__srv__player__request__convert_to_py(void * raw_ros
 // already included above
 // #include "player_interfaces/srv/detail/player__functions.h"
 
+// already included above
+// #include "rosidl_runtime_c/string.h"
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool player_interfaces__srv__player__response__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -160,7 +165,21 @@ bool player_interfaces__srv__player__response__convert_from_py(PyObject * _pymsg
     assert(strncmp("player_interfaces.srv._player.Player_Response", full_classname_dest, 45) == 0);
   }
   player_interfaces__srv__Player_Response * ros_message = _ros_message;
-  ros_message->structure_needs_at_least_one_member = 0;
+  {  // respuesta
+    PyObject * field = PyObject_GetAttrString(_pymsg, "respuesta");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->respuesta, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -182,7 +201,24 @@ PyObject * player_interfaces__srv__player__response__convert_to_py(void * raw_ro
       return NULL;
     }
   }
-  (void)raw_ros_message;
+  player_interfaces__srv__Player_Response * ros_message = (player_interfaces__srv__Player_Response *)raw_ros_message;
+  {  // respuesta
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->respuesta.data,
+      strlen(ros_message->respuesta.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "respuesta", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
 
   // ownership of _pymessage is transferred to the caller
   return _pymessage;

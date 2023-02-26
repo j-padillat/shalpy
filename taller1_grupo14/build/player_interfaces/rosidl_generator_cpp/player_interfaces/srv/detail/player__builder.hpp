@@ -60,6 +60,26 @@ namespace player_interfaces
 namespace srv
 {
 
+namespace builder
+{
+
+class Init_Player_Response_respuesta
+{
+public:
+  Init_Player_Response_respuesta()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  ::player_interfaces::srv::Player_Response respuesta(::player_interfaces::srv::Player_Response::_respuesta_type arg)
+  {
+    msg_.respuesta = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::player_interfaces::srv::Player_Response msg_;
+};
+
+}  // namespace builder
 
 }  // namespace srv
 
@@ -70,7 +90,7 @@ template<>
 inline
 auto build<::player_interfaces::srv::Player_Response>()
 {
-  return ::player_interfaces::srv::Player_Response(rosidl_runtime_cpp::MessageInitialization::ZERO);
+  return player_interfaces::srv::builder::Init_Player_Response_respuesta();
 }
 
 }  // namespace player_interfaces

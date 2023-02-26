@@ -127,6 +127,9 @@ class Player_Request(metaclass=Metaclass_Player_Request):
 # Import statements for member types
 
 # already imported above
+# import builtins
+
+# already imported above
 # import rosidl_parser.definition
 
 
@@ -175,18 +178,22 @@ class Player_Response(metaclass=Metaclass_Player_Response):
     """Message class 'Player_Response'."""
 
     __slots__ = [
+        '_respuesta',
     ]
 
     _fields_and_field_types = {
+        'respuesta': 'string',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.respuesta = kwargs.get('respuesta', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -217,12 +224,27 @@ class Player_Response(metaclass=Metaclass_Player_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.respuesta != other.respuesta:
+            return False
         return True
 
     @classmethod
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def respuesta(self):
+        """Message field 'respuesta'."""
+        return self._respuesta
+
+    @respuesta.setter
+    def respuesta(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'respuesta' field must be of type 'str'"
+        self._respuesta = value
 
 
 class Metaclass_Player(type):

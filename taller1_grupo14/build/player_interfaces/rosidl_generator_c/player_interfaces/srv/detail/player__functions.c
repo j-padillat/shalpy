@@ -250,13 +250,22 @@ player_interfaces__srv__Player_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `respuesta`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 bool
 player_interfaces__srv__Player_Response__init(player_interfaces__srv__Player_Response * msg)
 {
   if (!msg) {
     return false;
   }
-  // structure_needs_at_least_one_member
+  // respuesta
+  if (!rosidl_runtime_c__String__init(&msg->respuesta)) {
+    player_interfaces__srv__Player_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -266,7 +275,8 @@ player_interfaces__srv__Player_Response__fini(player_interfaces__srv__Player_Res
   if (!msg) {
     return;
   }
-  // structure_needs_at_least_one_member
+  // respuesta
+  rosidl_runtime_c__String__fini(&msg->respuesta);
 }
 
 bool
@@ -275,8 +285,10 @@ player_interfaces__srv__Player_Response__are_equal(const player_interfaces__srv_
   if (!lhs || !rhs) {
     return false;
   }
-  // structure_needs_at_least_one_member
-  if (lhs->structure_needs_at_least_one_member != rhs->structure_needs_at_least_one_member) {
+  // respuesta
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->respuesta), &(rhs->respuesta)))
+  {
     return false;
   }
   return true;
@@ -290,8 +302,12 @@ player_interfaces__srv__Player_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // structure_needs_at_least_one_member
-  output->structure_needs_at_least_one_member = input->structure_needs_at_least_one_member;
+  // respuesta
+  if (!rosidl_runtime_c__String__copy(
+      &(input->respuesta), &(output->respuesta)))
+  {
+    return false;
+  }
   return true;
 }
 
