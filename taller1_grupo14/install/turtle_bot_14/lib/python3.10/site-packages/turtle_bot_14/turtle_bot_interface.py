@@ -8,8 +8,12 @@ from tkinter.filedialog import asksaveasfilename, askopenfilename
 import numpy as np
 import matplotlib.pyplot as plt
 import threading
-#from PIL import Image, ImageDraw
-#from PIL import ImageGrab
+
+### Turtle Bot Interface Node
+# This node is in charge of plotting the circuit of the robot, saving it into a figure and saving the trace in a .txt file
+# It also uploads a trace from a .txt file and reproduce it inside the simulation
+
+
 if sys.platform == 'win32':
     import msvcrt
 else:
@@ -55,12 +59,8 @@ canvas.get_tk_widget().grid(column=0, row=0, columnspan=3, padx=7, pady =5)
 
 # Definition for the button commands
 def guardar_imagen():
-  file = asksaveasfilename()
-  #image1 = Image.new("RGB", (642, 800), (255, 255, 255))
-  #draw = ImageDraw.Draw(image1)
-  #fig.update()
-  fig.savefig(file)
-  #plt.savefig(file)
+    file = asksaveasfilename()
+    fig.savefig(file)
 
   
 def guardar_recorrido():
@@ -69,13 +69,8 @@ def guardar_recorrido():
     np.savetxt(file2, DatosVel)
   
 def cargar_recorrido():
-    peticion = input("Escriba el nombre (se llama el servicio): ")
+    peticion = input("Escriba el nombre del recorrido: ")
     file3 = askopenfilename()
-    ######
-    ######
-    ##AQUI QUEDA GUARDADO EL RECORRIDO QUE SE CARGUE
-    ######
-    ######
     recorridoCargado = np.genfromtxt(file3)
     
     twistIndividual = Twist()
@@ -104,33 +99,15 @@ def cargar_recorrido():
 
     print(len(twistVector))
 
-    #nodoCliente.play_trace(twistVector)
     nodoCliente.send_request(peticion, twistVector)
     
-    # for i in recorridoCargado:
-    #     if i == 0:
-    #         for j in i:
-    #             twistIndividual.x
-
-
     nodoCliente.get_logger().info('Llego al cliente después del servicio')
-
-
-def boton_si():
-    BanderitaGuardarDatos = True
-    top.destroy()
-
-def boton_no():
-    BanderitaGuardarDatos = False
-    top.destroy()
-##### ----------------------------------------- #######
 
 
 ### Updates for the buttons
 
 frame2 = Frame(ventana,  bg='#FF5733', width=642, height=100)
 frame2.grid(row=1)
-
 
 BGuardar=Button(frame2, text='Guardar Imagen', width = 15, bg='white',fg='black', command= guardar_imagen)
 BGuardar.grid(column=1,row=0)
@@ -160,20 +137,6 @@ vacio3 = Label(frame2, text=" ", bg='#FF5733', width=6, height=3)
 vacio3.grid(column=6, row=0)
 vacio3.pack
 
-
-top= Toplevel(ventana)
-#top.geometry("400x250")
-top.title("Preguntita")
-Label(top, text= "¿Desea guardar el recorrido?", font=('Mistral 11 bold')).grid(column=0,row=0)
-#Label(top, text= "", font=('Mistral 11 bold')).grid(column=0,row=0)
-BPregunta=Button(top, text='Si', width = 15, bg='white',fg='black', command= boton_si)
-#BPregunta.pack(side=BOTTOM)
-BPregunta.grid(column=0,row=1)
-BPreguntaNO=Button(top, text='No', width = 15, bg='white',fg='black', command= boton_no)
-#BPreguntaNO.pack(side=BOTTOM)
-BPreguntaNO.grid(column=1,row=1)
-
-
 ##### ------------------------------------------- #######
 
 
@@ -190,9 +153,6 @@ def restoreTerminalSettings(old_settings):
 ##### ----------------------------------------- #######
 
 
-##### ----------------------------------------- #######
-
-
 ##### Definition of the plotting function #####
 def graficar_datos(x,y):
     if len(x_data) == 0:
@@ -200,22 +160,19 @@ def graficar_datos(x,y):
         y_data.append(y)
         l, = ax.plot(x_data, y_data,'b.', linewidth=1)
         canvas.draw()
-        #l.remove()
-        
+        l.set_ydata(y_data)
 
     if (abs(x_data[-1]-x)>=0.01) or (abs(y_data[-1]-y)>=0.01):
         x_data.append(x)
         y_data.append(y)
         l, = ax.plot(x_data, y_data,'b.', linewidth=1)
         canvas.draw()
-        #l.remove()
 
 
 def guardar_datos(x,y,z):
-    if BanderitaGuardarDatos:
-        linear_x.append(x)
-        linear_y.append(y)
-        angular_z.append(z)
+    linear_x.append(x)
+    linear_y.append(y)
+    angular_z.append(z)
 
 ##### ----------------------------------------- #######
 
@@ -226,7 +183,6 @@ class clientePlayer(Node):
     def __init__(self):
         super().__init__('cliente_player')
         self.cli = self.create_client(Player, 'turtle_bot_player_srv')
-        #self.publi = self.create_publisher(Twist, '/turtlebot_cmdVel', 10)
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
         self.req = Player.Request()
@@ -237,10 +193,6 @@ class clientePlayer(Node):
         self.future = self.cli.call_async(self.req)
         rclpy.spin_until_future_complete(self, self.future)
         return self.future.result()
-
-    # def play_trace(self, vectorcito):
-    #     for i in range(len(vectorcito)):
-    #         self.publi.publish(vectorcito[i])
 
 class nodoQueSeSuscribe(Node):
     def __init__(self):

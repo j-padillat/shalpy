@@ -43,15 +43,10 @@ typedef struct player_interfaces__srv__Player_Request__Sequence
 
 // Constants defined in the message
 
-// Include directives for member types
-// Member 'respuesta'
-// already included above
-// #include "rosidl_runtime_c/string.h"
-
 /// Struct defined in srv/Player in the package player_interfaces.
 typedef struct player_interfaces__srv__Player_Response
 {
-  rosidl_runtime_c__String respuesta;
+  uint8_t structure_needs_at_least_one_member;
 } player_interfaces__srv__Player_Response;
 
 // Struct for a sequence of player_interfaces__srv__Player_Response.

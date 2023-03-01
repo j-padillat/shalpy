@@ -311,8 +311,8 @@ cdr_serialize(
   const player_interfaces::srv::Player_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: respuesta
-  cdr << ros_message.respuesta;
+  // Member: structure_needs_at_least_one_member
+  cdr << ros_message.structure_needs_at_least_one_member;
   return true;
 }
 
@@ -322,8 +322,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   player_interfaces::srv::Player_Response & ros_message)
 {
-  // Member: respuesta
-  cdr >> ros_message.respuesta;
+  // Member: structure_needs_at_least_one_member
+  cdr >> ros_message.structure_needs_at_least_one_member;
 
   return true;
 }
@@ -341,10 +341,12 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: respuesta
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.respuesta.size() + 1);
+  // Member: structure_needs_at_least_one_member
+  {
+    size_t item_size = sizeof(ros_message.structure_needs_at_least_one_member);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -367,17 +369,11 @@ max_serialized_size_Player_Response(
   is_plain = true;
 
 
-  // Member: respuesta
+  // Member: structure_needs_at_least_one_member
   {
     size_t array_size = 1;
 
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
   return current_alignment - initial_alignment;

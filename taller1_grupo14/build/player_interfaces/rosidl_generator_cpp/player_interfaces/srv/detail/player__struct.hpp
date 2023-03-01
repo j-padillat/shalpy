@@ -168,32 +168,25 @@ struct Player_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->respuesta = "";
+      this->structure_needs_at_least_one_member = 0;
     }
   }
 
   explicit Player_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : respuesta(_alloc)
   {
+    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->respuesta = "";
+      this->structure_needs_at_least_one_member = 0;
     }
   }
 
   // field types and members
-  using _respuesta_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
-  _respuesta_type respuesta;
+  using _structure_needs_at_least_one_member_type =
+    uint8_t;
+  _structure_needs_at_least_one_member_type structure_needs_at_least_one_member;
 
-  // setters for named parameter idiom
-  Type & set__respuesta(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
-  {
-    this->respuesta = _arg;
-    return *this;
-  }
 
   // constant declarations
 
@@ -237,7 +230,7 @@ struct Player_Response_
   // comparison operators
   bool operator==(const Player_Response_ & other) const
   {
-    if (this->respuesta != other.respuesta) {
+    if (this->structure_needs_at_least_one_member != other.structure_needs_at_least_one_member) {
       return false;
     }
     return true;

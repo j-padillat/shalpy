@@ -329,10 +329,6 @@ extern "C"
 {
 #endif
 
-// already included above
-// #include "rosidl_runtime_c/string.h"  // respuesta
-// already included above
-// #include "rosidl_runtime_c/string_functions.h"  // respuesta
 
 // forward declare type support functions
 
@@ -348,18 +344,9 @@ static bool _Player_Response__cdr_serialize(
     return false;
   }
   const _Player_Response__ros_msg_type * ros_message = static_cast<const _Player_Response__ros_msg_type *>(untyped_ros_message);
-  // Field name: respuesta
+  // Field name: structure_needs_at_least_one_member
   {
-    const rosidl_runtime_c__String * str = &ros_message->respuesta;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
+    cdr << ros_message->structure_needs_at_least_one_member;
   }
 
   return true;
@@ -374,20 +361,9 @@ static bool _Player_Response__cdr_deserialize(
     return false;
   }
   _Player_Response__ros_msg_type * ros_message = static_cast<_Player_Response__ros_msg_type *>(untyped_ros_message);
-  // Field name: respuesta
+  // Field name: structure_needs_at_least_one_member
   {
-    std::string tmp;
-    cdr >> tmp;
-    if (!ros_message->respuesta.data) {
-      rosidl_runtime_c__String__init(&ros_message->respuesta);
-    }
-    bool succeeded = rosidl_runtime_c__String__assign(
-      &ros_message->respuesta,
-      tmp.c_str());
-    if (!succeeded) {
-      fprintf(stderr, "failed to assign string into field 'respuesta'\n");
-      return false;
-    }
+    cdr >> ros_message->structure_needs_at_least_one_member;
   }
 
   return true;
@@ -407,10 +383,12 @@ size_t get_serialized_size_player_interfaces__srv__Player_Response(
   (void)padding;
   (void)wchar_size;
 
-  // field.name respuesta
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->respuesta.size + 1);
+  // field.name structure_needs_at_least_one_member
+  {
+    size_t item_size = sizeof(ros_message->structure_needs_at_least_one_member);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -438,17 +416,11 @@ size_t max_serialized_size_player_interfaces__srv__Player_Response(
   full_bounded = true;
   is_plain = true;
 
-  // member: respuesta
+  // member: structure_needs_at_least_one_member
   {
     size_t array_size = 1;
 
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
+    current_alignment += array_size * sizeof(uint8_t);
   }
 
   return current_alignment - initial_alignment;

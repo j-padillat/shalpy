@@ -182,11 +182,6 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "player_interfaces/srv/detail/player__struct.h"
 
 
-// Include directives for member types
-// Member `respuesta`
-// already included above
-// #include "rosidl_runtime_c/string_functions.h"
-
 #ifdef __cplusplus
 extern "C"
 {
@@ -208,14 +203,14 @@ void player_interfaces__srv__Player_Response__rosidl_typesupport_introspection_c
 
 static rosidl_typesupport_introspection_c__MessageMember player_interfaces__srv__Player_Response__rosidl_typesupport_introspection_c__Player_Response_message_member_array[1] = {
   {
-    "respuesta",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    "structure_needs_at_least_one_member",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(player_interfaces__srv__Player_Response, respuesta),  // bytes offset in struct
+    offsetof(player_interfaces__srv__Player_Response, structure_needs_at_least_one_member),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

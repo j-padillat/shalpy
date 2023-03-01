@@ -7,6 +7,10 @@ else:
     import termios
     import tty
 
+### Turtle Bot Teleop Node
+# This node publishes the commands to control the TurtleBot2 using the sys library for managing inputs.
+
+
 msg = "--- turtle_bot_teleop succesfully initialized ---"
 
 moveBindings = {
@@ -78,11 +82,6 @@ def main():
 
     speed = float(input("Please input the lineal speed: ")) # Init set 0.5
     turn = float(input("Please input the angular speed: ")) # Init set 1.0
-    # x = 0.0
-    # y = 0.0
-    # z = 0.0
-    # th = 0.0
-    # status = 0.0
 
     try:
         print(msg)
@@ -123,10 +122,6 @@ def main():
                 turn = turn * speedBindings[key][1]
 
                 print(vels(speed, turn))
-                
-                #if (status == 14):
-                #    print(msg)
-                #status = (status + 1) % 15
 
                 twist = Twist()
                 twist.linear.x = x * speed

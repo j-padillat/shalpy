@@ -12,7 +12,7 @@ module player_interfaces {
       sequence<geometry_msgs::msg::Twist> posiciones;
     };
     struct Player_Response {
-      string respuesta;
+      uint8 structure_needs_at_least_one_member;
     };
   };
 };
