@@ -16,6 +16,30 @@
 
 
 // forward declaration of message dependencies and their conversion functions
+namespace geometry_msgs
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const geometry_msgs::msg::Twist &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  geometry_msgs::msg::Twist &);
+size_t get_serialized_size(
+  const geometry_msgs::msg::Twist &,
+  size_t current_alignment);
+size_t
+max_serialized_size_Twist(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace geometry_msgs
+
 
 namespace player_interfaces
 {
@@ -34,6 +58,16 @@ cdr_serialize(
 {
   // Member: nombre
   cdr << ros_message.nombre;
+  // Member: posiciones
+  {
+    size_t size = ros_message.posiciones.size();
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; i++) {
+      geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+        ros_message.posiciones[i],
+        cdr);
+    }
+  }
   return true;
 }
 
@@ -45,6 +79,18 @@ cdr_deserialize(
 {
   // Member: nombre
   cdr >> ros_message.nombre;
+
+  // Member: posiciones
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    ros_message.posiciones.resize(size);
+    for (size_t i = 0; i < size; i++) {
+      geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+        cdr, ros_message.posiciones[i]);
+    }
+  }
 
   return true;
 }
@@ -66,6 +112,19 @@ get_serialized_size(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.nombre.size() + 1);
+  // Member: posiciones
+  {
+    size_t array_size = ros_message.posiciones.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        geometry_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+        ros_message.posiciones[index], current_alignment);
+    }
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -98,6 +157,26 @@ max_serialized_size_Player_Request(
       current_alignment += padding +
         eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
         1;
+    }
+  }
+
+  // Member: posiciones
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      current_alignment +=
+        geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Twist(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 

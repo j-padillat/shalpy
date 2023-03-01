@@ -34,10 +34,25 @@ extern "C"
 {
 #endif
 
+#include "geometry_msgs/msg/detail/twist__functions.h"  // posiciones
 #include "rosidl_runtime_c/string.h"  // nombre
 #include "rosidl_runtime_c/string_functions.h"  // nombre
 
 // forward declare type support functions
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_player_interfaces
+size_t get_serialized_size_geometry_msgs__msg__Twist(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_player_interfaces
+size_t max_serialized_size_geometry_msgs__msg__Twist(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_player_interfaces
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Twist)();
 
 
 using _Player_Request__ros_msg_type = player_interfaces__srv__Player_Request;
@@ -63,6 +78,25 @@ static bool _Player_Request__cdr_serialize(
       return false;
     }
     cdr << str->data;
+  }
+
+  // Field name: posiciones
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Twist
+      )()->data);
+    size_t size = ros_message->posiciones.size;
+    auto array_ptr = ros_message->posiciones.data;
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; ++i) {
+      if (!callbacks->cdr_serialize(
+          &array_ptr[i], cdr))
+      {
+        return false;
+      }
+    }
   }
 
   return true;
@@ -93,6 +127,33 @@ static bool _Player_Request__cdr_deserialize(
     }
   }
 
+  // Field name: posiciones
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Twist
+      )()->data);
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->posiciones.data) {
+      geometry_msgs__msg__Twist__Sequence__fini(&ros_message->posiciones);
+    }
+    if (!geometry_msgs__msg__Twist__Sequence__init(&ros_message->posiciones, size)) {
+      fprintf(stderr, "failed to create array for field 'posiciones'");
+      return false;
+    }
+    auto array_ptr = ros_message->posiciones.data;
+    for (size_t i = 0; i < size; ++i) {
+      if (!callbacks->cdr_deserialize(
+          cdr, &array_ptr[i]))
+      {
+        return false;
+      }
+    }
+  }
+
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -114,6 +175,18 @@ size_t get_serialized_size_player_interfaces__srv__Player_Request(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->nombre.size + 1);
+  // field.name posiciones
+  {
+    size_t array_size = ros_message->posiciones.size;
+    auto array_ptr = ros_message->posiciones.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += get_serialized_size_geometry_msgs__msg__Twist(
+        &array_ptr[index], current_alignment);
+    }
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -151,6 +224,25 @@ size_t max_serialized_size_player_interfaces__srv__Player_Request(
       current_alignment += padding +
         eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
         1;
+    }
+  }
+  // member: posiciones
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      current_alignment +=
+        max_serialized_size_geometry_msgs__msg__Twist(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 

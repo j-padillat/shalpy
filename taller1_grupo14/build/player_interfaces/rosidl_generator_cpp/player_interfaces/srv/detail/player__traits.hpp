@@ -14,6 +14,10 @@
 #include "player_interfaces/srv/detail/player__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
+// Include directives for member types
+// Member 'posiciones'
+#include "geometry_msgs/msg/detail/twist__traits.hpp"
+
 namespace player_interfaces
 {
 
@@ -29,6 +33,24 @@ inline void to_flow_style_yaml(
   {
     out << "nombre: ";
     rosidl_generator_traits::value_to_yaml(msg.nombre, out);
+    out << ", ";
+  }
+
+  // member: posiciones
+  {
+    if (msg.posiciones.size() == 0) {
+      out << "posiciones: []";
+    } else {
+      out << "posiciones: [";
+      size_t pending_items = msg.posiciones.size();
+      for (auto item : msg.posiciones) {
+        to_flow_style_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -45,6 +67,25 @@ inline void to_block_style_yaml(
     out << "nombre: ";
     rosidl_generator_traits::value_to_yaml(msg.nombre, out);
     out << "\n";
+  }
+
+  // member: posiciones
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.posiciones.size() == 0) {
+      out << "posiciones: []\n";
+    } else {
+      out << "posiciones:\n";
+      for (auto item : msg.posiciones) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "-\n";
+        to_block_style_yaml(item, out, indentation + 2);
+      }
+    }
   }
 }  // NOLINT(readability/fn_size)
 

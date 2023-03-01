@@ -253,7 +253,7 @@ PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 SITE:STRING=juanespadi-VivoBook-ASUS-Laptop-X510UNO
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librosidl_typesupport_cpp.so
+_lib:FILEPATH=/opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.10/numpy/numpyconfig.h
@@ -348,11 +348,17 @@ ament_lint_common_DIR:PATH=/opt/ros/humble/share/ament_lint_common/cmake
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
+//The directory containing a CMake configuration file for builtin_interfaces.
+builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
 
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 player_interfaces_BINARY_DIR:STATIC=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces
@@ -364,37 +370,37 @@ player_interfaces_IS_TOP_LEVEL:STATIC=ON
 player_interfaces_SOURCE_DIR:STATIC=/home/juanespadi/Documents/shalpy/taller1_grupo14/src/player_interfaces
 
 //Dependencies for the target
-player_interfaces__rosidl_generator_c_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
+player_interfaces__rosidl_generator_c_LIB_DEPENDS:STATIC=general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
 
 //Dependencies for the target
-player_interfaces__rosidl_generator_py_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_c;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_c;
+player_interfaces__rosidl_generator_py_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_c;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;std_msgs::std_msgs__rosidl_generator_py;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_c_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;
+player_interfaces__rosidl_typesupport_c_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_c;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_c__pyext_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_c;general;player_interfaces__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
+player_interfaces__rosidl_typesupport_c__pyext_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_c;general;player_interfaces__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_py;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_cpp::rosidl_typesupport_cpp;general;rosidl_typesupport_c::rosidl_typesupport_c;
+player_interfaces__rosidl_typesupport_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_cpp::rosidl_typesupport_cpp;general;rosidl_typesupport_c::rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_fastrtps_c_LIB_DEPENDS:STATIC=general;fastcdr;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;general;rosidl_typesupport_fastrtps_c::rosidl_typesupport_fastrtps_c;general;player_interfaces__rosidl_generator_c;
+player_interfaces__rosidl_typesupport_fastrtps_c_LIB_DEPENDS:STATIC=general;fastcdr;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;general;rosidl_typesupport_fastrtps_c::rosidl_typesupport_fastrtps_c;general;player_interfaces__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_fastrtps_c__pyext_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_fastrtps_c;general;player_interfaces__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
+player_interfaces__rosidl_typesupport_fastrtps_c__pyext_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_fastrtps_c;general;player_interfaces__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_py;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_fastrtps_cpp_LIB_DEPENDS:STATIC=general;fastcdr;general;rmw::rmw;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;
+player_interfaces__rosidl_typesupport_fastrtps_cpp_LIB_DEPENDS:STATIC=general;fastcdr;general;rmw::rmw;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_fastrtps_cpp::rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_introspection_c_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_c;general;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;
+player_interfaces__rosidl_typesupport_introspection_c_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_c;general;rosidl_typesupport_introspection_c::rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_introspection_c__pyext_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_introspection_c;general;player_interfaces__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
+player_interfaces__rosidl_typesupport_introspection_c__pyext_LIB_DEPENDS:STATIC=general;player_interfaces__rosidl_generator_py;general;/usr/lib/x86_64-linux-gnu/libpython3.10.so;general;player_interfaces__rosidl_typesupport_introspection_c;general;player_interfaces__rosidl_typesupport_c;general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_c::rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_c;general;std_msgs::std_msgs__rosidl_typesupport_fastrtps_cpp;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_py;general;rosidl_runtime_c::rosidl_runtime_c;general;/opt/ros/humble/lib/librmw.so;general;rcutils::rcutils;general;rosidl_runtime_c::rosidl_runtime_c;
 
 //Dependencies for the target
-player_interfaces__rosidl_typesupport_introspection_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;
+player_interfaces__rosidl_typesupport_introspection_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;
 
 //The directory containing a CMake configuration file for python_cmake_module.
 python_cmake_module_DIR:PATH=/opt/ros/humble/share/python_cmake_module/cmake
@@ -416,6 +422,9 @@ rosidl_cmake_DIR:PATH=/opt/ros/humble/share/rosidl_cmake/cmake
 
 //The directory containing a CMake configuration file for rosidl_default_generators.
 rosidl_default_generators_DIR:PATH=/opt/ros/humble/share/rosidl_default_generators/cmake
+
+//The directory containing a CMake configuration file for rosidl_default_runtime.
+rosidl_default_runtime_DIR:PATH=/opt/ros/humble/share/rosidl_default_runtime/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_c.
 rosidl_generator_c_DIR:PATH=/opt/ros/humble/share/rosidl_generator_c/cmake
@@ -452,6 +461,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesup
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint

@@ -78,11 +78,11 @@ def main():
 
     speed = float(input("Please input the lineal speed: ")) # Init set 0.5
     turn = float(input("Please input the angular speed: ")) # Init set 1.0
-    x = 0.0
-    y = 0.0
-    z = 0.0
-    th = 0.0
-    status = 0.0
+    # x = 0.0
+    # y = 0.0
+    # z = 0.0
+    # th = 0.0
+    # status = 0.0
 
     try:
         print(msg)

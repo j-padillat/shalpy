@@ -37,7 +37,52 @@ void Player_Request_fini_function(void * message_memory)
   typed_message->~Player_Request();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Player_Request_message_member_array[1] = {
+size_t size_function__Player_Request__posiciones(const void * untyped_member)
+{
+  const auto * member = reinterpret_cast<const std::vector<geometry_msgs::msg::Twist> *>(untyped_member);
+  return member->size();
+}
+
+const void * get_const_function__Player_Request__posiciones(const void * untyped_member, size_t index)
+{
+  const auto & member =
+    *reinterpret_cast<const std::vector<geometry_msgs::msg::Twist> *>(untyped_member);
+  return &member[index];
+}
+
+void * get_function__Player_Request__posiciones(void * untyped_member, size_t index)
+{
+  auto & member =
+    *reinterpret_cast<std::vector<geometry_msgs::msg::Twist> *>(untyped_member);
+  return &member[index];
+}
+
+void fetch_function__Player_Request__posiciones(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const auto & item = *reinterpret_cast<const geometry_msgs::msg::Twist *>(
+    get_const_function__Player_Request__posiciones(untyped_member, index));
+  auto & value = *reinterpret_cast<geometry_msgs::msg::Twist *>(untyped_value);
+  value = item;
+}
+
+void assign_function__Player_Request__posiciones(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  auto & item = *reinterpret_cast<geometry_msgs::msg::Twist *>(
+    get_function__Player_Request__posiciones(untyped_member, index));
+  const auto & value = *reinterpret_cast<const geometry_msgs::msg::Twist *>(untyped_value);
+  item = value;
+}
+
+void resize_function__Player_Request__posiciones(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<geometry_msgs::msg::Twist> *>(untyped_member);
+  member->resize(size);
+}
+
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Player_Request_message_member_array[2] = {
   {
     "nombre",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
@@ -54,13 +99,30 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Player_Reques
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "posiciones",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<geometry_msgs::msg::Twist>(),  // members of sub message
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(player_interfaces::srv::Player_Request, posiciones),  // bytes offset in struct
+    nullptr,  // default value
+    size_function__Player_Request__posiciones,  // size() function pointer
+    get_const_function__Player_Request__posiciones,  // get_const(index) function pointer
+    get_function__Player_Request__posiciones,  // get(index) function pointer
+    fetch_function__Player_Request__posiciones,  // fetch(index, &value) function pointer
+    assign_function__Player_Request__posiciones,  // assign(index, value) function pointer
+    resize_function__Player_Request__posiciones  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Player_Request_message_members = {
   "player_interfaces::srv",  // message namespace
   "Player_Request",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(player_interfaces::srv::Player_Request),
   Player_Request_message_member_array,  // message members
   Player_Request_init_function,  // function to initialize message memory (memory has to be allocated)

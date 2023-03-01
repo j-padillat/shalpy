@@ -32,6 +32,8 @@ CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/play
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
   rosidl_generator_c/player_interfaces/srv/detail/player__type_support.h \
   rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
@@ -47,6 +49,8 @@ CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/play
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 rosidl_generator_c/player_interfaces/srv/detail/player__type_support.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h:
 
 /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h:
 
@@ -83,6 +87,8 @@ rosidl_generator_c/player_interfaces/srv/detail/player__type_support.h:
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h:
 
 /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 

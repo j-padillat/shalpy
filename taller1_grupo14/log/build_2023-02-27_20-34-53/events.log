@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (player_interfaces) JobQueued: {'identifier': 'player_interfaces', 'dependencies': OrderedDict()}
+[0.000410] (turtle_bot_14) JobQueued: {'identifier': 'turtle_bot_14', 'dependencies': OrderedDict()}
+[0.000679] (player_interfaces) JobStarted: {'identifier': 'player_interfaces'}
+[0.021559] (turtle_bot_14) JobStarted: {'identifier': 'turtle_bot_14'}
+[0.032700] (player_interfaces) JobProgress: {'identifier': 'player_interfaces', 'progress': 'cmake'}
+[0.033587] (player_interfaces) JobProgress: {'identifier': 'player_interfaces', 'progress': 'build'}
+[0.034476] (player_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'juanespadi'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/juanespadi'), ('OLDPWD', '/home/juanespadi/Documents/shalpy'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '5526'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'juanespadi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juanespadi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juanespadi-VivoBook-ASUS-Laptop-X510UNO:@/tmp/.ICE-unix/1771,unix/juanespadi-VivoBook-ASUS-Laptop-X510UNO:/tmp/.ICE-unix/1771'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26d918b7_ad8b_438a_bf29_026cf1acd723'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BPLP01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099826] (-) TimerEvent: {}
+[0.200464] (-) TimerEvent: {}
+[0.300925] (-) TimerEvent: {}
+[0.401263] (-) TimerEvent: {}
+[0.501546] (-) TimerEvent: {}
+[0.601979] (-) TimerEvent: {}
+[0.702229] (-) TimerEvent: {}
+[0.733156] (player_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.802382] (-) TimerEvent: {}
+[0.902717] (-) TimerEvent: {}
+[0.999843] (turtle_bot_14) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_bot_14', 'build', '--build-base', '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/build', 'install', '--record', '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/install.log', '--single-version-externally-managed'], 'cwd': '/home/juanespadi/Documents/shalpy/taller1_grupo14/src/turtle_bot_14', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'juanespadi', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/juanespadi', 'OLDPWD': '/home/juanespadi/Documents/shalpy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '5526', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'juanespadi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juanespadi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juanespadi-VivoBook-ASUS-Laptop-X510UNO:@/tmp/.ICE-unix/1771,unix/juanespadi-VivoBook-ASUS-Laptop-X510UNO:/tmp/.ICE-unix/1771', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/26d918b7_ad8b_438a_bf29_026cf1acd723', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BPLP01', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/prefix_override:/home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.002827] (-) TimerEvent: {}
+[1.103103] (-) TimerEvent: {}
+[1.105227] (player_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.141276] (player_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.163900] (player_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.203239] (-) TimerEvent: {}
+[1.273781] (turtle_bot_14) StdoutLine: {'line': b'running egg_info\n'}
+[1.274495] (turtle_bot_14) StdoutLine: {'line': b'writing ../../build/turtle_bot_14/turtle_bot_14.egg-info/PKG-INFO\n'}
+[1.274682] (turtle_bot_14) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_bot_14/turtle_bot_14.egg-info/dependency_links.txt\n'}
+[1.274859] (turtle_bot_14) StdoutLine: {'line': b'writing entry points to ../../build/turtle_bot_14/turtle_bot_14.egg-info/entry_points.txt\n'}
+[1.275068] (turtle_bot_14) StdoutLine: {'line': b'writing requirements to ../../build/turtle_bot_14/turtle_bot_14.egg-info/requires.txt\n'}
+[1.275150] (turtle_bot_14) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_bot_14/turtle_bot_14.egg-info/top_level.txt\n'}
+[1.276800] (turtle_bot_14) StdoutLine: {'line': b"reading manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'\n"}
+[1.277673] (turtle_bot_14) StdoutLine: {'line': b"writing manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'\n"}
+[1.277850] (turtle_bot_14) StdoutLine: {'line': b'running build\n'}
+[1.278041] (turtle_bot_14) StdoutLine: {'line': b'running build_py\n'}
+[1.278217] (turtle_bot_14) StdoutLine: {'line': b'copying turtle_bot_14/turtle_bot_player.py -> /home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14\n'}
+[1.278294] (turtle_bot_14) StdoutLine: {'line': b'copying turtle_bot_14/turtle_bot_interface.py -> /home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14\n'}
+[1.278440] (turtle_bot_14) StdoutLine: {'line': b'running install\n'}
+[1.302382] (turtle_bot_14) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.302705] (turtle_bot_14) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.302928] (turtle_bot_14) StdoutLine: {'line': b'running install_lib\n'}
+[1.303304] (-) TimerEvent: {}
+[1.303824] (turtle_bot_14) StdoutLine: {'line': b'copying /home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_player.py -> /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14\n'}
+[1.304066] (turtle_bot_14) StdoutLine: {'line': b'copying /home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_interface.py -> /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14\n'}
+[1.304802] (turtle_bot_14) StdoutLine: {'line': b'byte-compiling /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_player.py to turtle_bot_player.cpython-310.pyc\n'}
+[1.305306] (turtle_bot_14) StdoutLine: {'line': b'byte-compiling /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_interface.py to turtle_bot_interface.cpython-310.pyc\n'}
+[1.307258] (turtle_bot_14) StdoutLine: {'line': b'running install_data\n'}
+[1.307829] (turtle_bot_14) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.309426] (turtle_bot_14) StdoutLine: {'line': b"removing '/home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.309738] (turtle_bot_14) StdoutLine: {'line': b'Copying ../../build/turtle_bot_14/turtle_bot_14.egg-info to /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info\n'}
+[1.310611] (turtle_bot_14) StdoutLine: {'line': b'running install_scripts\n'}
+[1.325630] (player_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.333365] (turtle_bot_14) StdoutLine: {'line': b'Installing turtle_bot_interface script to /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/turtle_bot_14\n'}
+[1.333611] (turtle_bot_14) StdoutLine: {'line': b'Installing turtle_bot_player script to /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/turtle_bot_14\n'}
+[1.333838] (turtle_bot_14) StdoutLine: {'line': b'Installing turtle_bot_teleop script to /home/juanespadi/Documents/shalpy/taller1_grupo14/install/turtle_bot_14/lib/turtle_bot_14\n'}
+[1.333994] (turtle_bot_14) StdoutLine: {'line': b"writing list of installed files to '/home/juanespadi/Documents/shalpy/taller1_grupo14/build/turtle_bot_14/install.log'\n"}
+[1.360670] (turtle_bot_14) CommandEnded: {'returncode': 0}
+[1.390749] (turtle_bot_14) JobEnded: {'identifier': 'turtle_bot_14', 'rc': 0}
+[1.403462] (-) TimerEvent: {}
+[1.503764] (-) TimerEvent: {}
+[1.604078] (-) TimerEvent: {}
+[1.704359] (-) TimerEvent: {}
+[1.721842] (player_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.804611] (-) TimerEvent: {}
+[1.904945] (-) TimerEvent: {}
+[1.943741] (player_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.005060] (-) TimerEvent: {}
+[2.105402] (-) TimerEvent: {}
+[2.205743] (-) TimerEvent: {}
+[2.306074] (-) TimerEvent: {}
+[2.356416] (player_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.381508] (player_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.406173] (-) TimerEvent: {}
+[2.441950] (player_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.442730] (player_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.443252] (player_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.488833] (player_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.506486] (-) TimerEvent: {}
+[2.601814] (player_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.606615] (-) TimerEvent: {}
+[2.607408] (player_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.612478] (player_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.693411] (player_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.698821] (player_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces\n'}
+[2.706743] (-) TimerEvent: {}
+[2.722849] (player_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.731752] (player_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.741069] (player_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_player_interfaces\n'}
+[2.806844] (-) TimerEvent: {}
+[2.907130] (-) TimerEvent: {}
+[3.007422] (-) TimerEvent: {}
+[3.008558] (player_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.010359] (player_interfaces) StdoutLine: {'line': b'writing player_interfaces.egg-info/PKG-INFO\n'}
+[3.010833] (player_interfaces) StdoutLine: {'line': b'writing dependency_links to player_interfaces.egg-info/dependency_links.txt\n'}
+[3.011122] (player_interfaces) StdoutLine: {'line': b'writing top-level names to player_interfaces.egg-info/top_level.txt\n'}
+[3.015243] (player_interfaces) StdoutLine: {'line': b"reading manifest file 'player_interfaces.egg-info/SOURCES.txt'\n"}
+[3.016045] (player_interfaces) StdoutLine: {'line': b"writing manifest file 'player_interfaces.egg-info/SOURCES.txt'\n"}
+[3.025246] (player_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.045669] (player_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_player_interfaces_egg\n'}
+[3.075306] (player_interfaces) StdoutLine: {'line': b'[  6%] Built target player_interfaces__cpp\n'}
+[3.083204] (player_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o\x1b[0m\n'}
+[3.086567] (player_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.086833] (player_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.087020] (player_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.107569] (-) TimerEvent: {}
+[3.207890] (-) TimerEvent: {}
+[3.308408] (-) TimerEvent: {}
+[3.326759] (player_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.370142] (player_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.384201] (player_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.h:19\x1b[m\x1b[K,\n'}
+[3.384446] (player_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c:4\x1b[m\x1b[K:\n'}
+[3.384536] (player_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__struct.h:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/detail/twist__struct.h: No such file or directory\n'}
+[3.384611] (player_interfaces) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/detail/twist__struct.h"\x1b[m\x1b[K\n'}
+[3.384683] (player_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.384752] (player_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[3.386940] (player_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_generator_c.dir/build.make:105: CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o] Error 1\n'}
+[3.387216] (player_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[3.387326] (player_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.387633] (player_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.408523] (-) TimerEvent: {}
+[3.488976] (player_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/player_interfaces/srv/detail/player__type_support.cpp.o\x1b[0m\n'}
+[3.489954] (player_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/player_interfaces/srv/player__type_support.cpp.o\x1b[0m\n'}
+[3.490842] (player_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/dds_fastrtps/player__type_support.cpp.o\x1b[0m\n'}
+[3.508787] (-) TimerEvent: {}
+[3.609724] (-) TimerEvent: {}
+[3.710819] (-) TimerEvent: {}
+[3.811676] (-) TimerEvent: {}
+[3.912482] (-) TimerEvent: {}
+[4.013402] (-) TimerEvent: {}
+[4.114206] (-) TimerEvent: {}
+[4.214629] (-) TimerEvent: {}
+[4.288461] (player_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[4.289011] (player_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/dds_fastrtps/player__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[4.289145] (player_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/detail/twist__struct.hpp: No such file or directory\n'}
+[4.289264] (player_interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/detail/twist__struct.hpp"\x1b[m\x1b[K\n'}
+[4.289373] (player_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.289478] (player_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[4.289581] (player_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_cpp/player_interfaces/srv/player__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[4.289703] (player_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/detail/twist__struct.hpp: No such file or directory\n'}
+[4.289810] (player_interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/detail/twist__struct.hpp"\x1b[m\x1b[K\n'}
+[4.289914] (player_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.290016] (player_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[4.291782] (player_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/player_interfaces/srv/player__type_support.cpp.o] Error 1\n'}
+[4.292129] (player_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[4.292461] (player_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/player_interfaces/srv/detail/dds_fastrtps/player__type_support.cpp.o] Error 1\n'}
+[4.292775] (player_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[4.314944] (-) TimerEvent: {}
+[4.353261] (player_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_introspection_cpp/player_interfaces/srv/detail/player__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[4.353464] (player_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/detail/twist__struct.hpp: No such file or directory\n'}
+[4.353563] (player_interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/detail/twist__struct.hpp"\x1b[m\x1b[K\n'}
+[4.353651] (player_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.353748] (player_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[4.355562] (player_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/player_interfaces/srv/detail/player__type_support.cpp.o] Error 1\n'}
+[4.355869] (player_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[4.356169] (player_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.359072] (player_interfaces) CommandEnded: {'returncode': 2}
+[4.415053] (-) TimerEvent: {}
+[4.461719] (player_interfaces) JobEnded: {'identifier': 'player_interfaces', 'rc': 2}
+[4.472792] (-) EventReactorShutdown: {}

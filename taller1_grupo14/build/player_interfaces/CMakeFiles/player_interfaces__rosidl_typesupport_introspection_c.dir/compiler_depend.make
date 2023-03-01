@@ -67,11 +67,33 @@ CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_type
   rosidl_generator_c/player_interfaces/srv/detail/player__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
   /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h
 
 
 /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h:
 
 rosidl_generator_c/player_interfaces/srv/detail/player__struct.h:
 
@@ -136,6 +158,8 @@ rosidl_typesupport_introspection_c/player_interfaces/srv/detail/player__rosidl_t
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 rosidl_typesupport_introspection_c/player_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 

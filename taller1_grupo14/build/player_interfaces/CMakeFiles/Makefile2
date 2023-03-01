@@ -66,9 +66,9 @@ CMAKE_BINARY_DIR = /home/juanespadi/Documents/shalpy/taller1_grupo14/build/playe
 all: CMakeFiles/player_interfaces.dir/all
 all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
 all: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/all
+all: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
 all: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
 all: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
-all: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
 all: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/all
 all: CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/all
 all: CMakeFiles/ament_cmake_python_build_player_interfaces_egg.dir/all
@@ -89,10 +89,10 @@ clean: CMakeFiles/player_interfaces_uninstall.dir/clean
 clean: CMakeFiles/player_interfaces.dir/clean
 clean: CMakeFiles/player_interfaces__rosidl_generator_c.dir/clean
 clean: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/clean
-clean: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean
-clean: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean
 clean: CMakeFiles/player_interfaces__cpp.dir/clean
 clean: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean
+clean: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean
+clean: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean
 clean: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/clean
 clean: CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/clean
 clean: CMakeFiles/ament_cmake_python_copy_player_interfaces.dir/clean
@@ -177,10 +177,10 @@ CMakeFiles/player_interfaces_uninstall.dir/clean:
 # All Build rule for target.
 CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/all
-CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
-CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__cpp.dir/all
 CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
+CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/player_interfaces.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces.dir/build.make CMakeFiles/player_interfaces.dir/depend
@@ -257,58 +257,6 @@ CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 .PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir
-
-# All Build rule for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=24,25,26 "Built target player_interfaces__rosidl_typesupport_introspection_c"
-.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 0
-.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/rule
-
-# Convenience name for target.
-player_interfaces__rosidl_typesupport_introspection_c: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/rule
-.PHONY : player_interfaces__rosidl_typesupport_introspection_c
-
-# clean rule for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean
-.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_c.dir
-
-# All Build rule for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=8,9,10 "Built target player_interfaces__rosidl_typesupport_c"
-.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 0
-.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rule
-
-# Convenience name for target.
-player_interfaces__rosidl_typesupport_c: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rule
-.PHONY : player_interfaces__rosidl_typesupport_c
-
-# clean rule for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean
-.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/player_interfaces__cpp.dir
 
 # All Build rule for target.
@@ -359,6 +307,58 @@ player_interfaces__rosidl_typesupport_fastrtps_cpp: CMakeFiles/player_interfaces
 CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean
 .PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir
+
+# All Build rule for target.
+CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=24,25,26 "Built target player_interfaces__rosidl_typesupport_introspection_c"
+.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 0
+.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/rule
+
+# Convenience name for target.
+player_interfaces__rosidl_typesupport_introspection_c: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/rule
+.PHONY : player_interfaces__rosidl_typesupport_introspection_c
+
+# clean rule for target.
+CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean
+.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_c.dir
+
+# All Build rule for target.
+CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=8,9,10 "Built target player_interfaces__rosidl_typesupport_c"
+.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles 0
+.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rule
+
+# Convenience name for target.
+player_interfaces__rosidl_typesupport_c: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/rule
+.PHONY : player_interfaces__rosidl_typesupport_c
+
+# clean rule for target.
+CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean
+.PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir
@@ -468,9 +468,9 @@ CMakeFiles/ament_cmake_python_build_player_interfaces_egg.dir/clean:
 # Target rules for target CMakeFiles/player_interfaces__rosidl_generator_py.dir
 
 # All Build rule for target.
-CMakeFiles/player_interfaces__rosidl_generator_py.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 CMakeFiles/player_interfaces__rosidl_generator_py.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/player_interfaces__rosidl_generator_py.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
+CMakeFiles/player_interfaces__rosidl_generator_py.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/player_interfaces__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/player_interfaces__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=6,7 "Built target player_interfaces__rosidl_generator_py"
@@ -496,11 +496,11 @@ CMakeFiles/player_interfaces__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=19,20 "Built target player_interfaces__rosidl_typesupport_fastrtps_c__pyext"
@@ -526,11 +526,11 @@ CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=27,28 "Built target player_interfaces__rosidl_typesupport_introspection_c__pyext"
@@ -556,10 +556,10 @@ CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/clea
 # Target rules for target CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/all
 CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/player_interfaces__rosidl_generator_py.dir/all
+CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/all: player_interfaces__py/CMakeFiles/player_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=11,12 "Built target player_interfaces__rosidl_typesupport_c__pyext"

@@ -20,11 +20,14 @@ extern "C"
 // Include directives for member types
 // Member 'nombre'
 #include "rosidl_runtime_c/string.h"
+// Member 'posiciones'
+#include "geometry_msgs/msg/detail/twist__struct.h"
 
 /// Struct defined in srv/Player in the package player_interfaces.
 typedef struct player_interfaces__srv__Player_Request
 {
   rosidl_runtime_c__String nombre;
+  geometry_msgs__msg__Twist__Sequence posiciones;
 } player_interfaces__srv__Player_Request;
 
 // Struct for a sequence of player_interfaces__srv__Player_Request.

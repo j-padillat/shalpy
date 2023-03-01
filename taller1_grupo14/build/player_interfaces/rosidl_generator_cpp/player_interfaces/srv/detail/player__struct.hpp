@@ -15,6 +15,10 @@
 #include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
+// Include directives for member types
+// Member 'posiciones'
+#include "geometry_msgs/msg/detail/twist__struct.hpp"
+
 #ifndef _WIN32
 # define DEPRECATED__player_interfaces__srv__Player_Request __attribute__((deprecated))
 #else
@@ -56,12 +60,21 @@ struct Player_Request_
   using _nombre_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _nombre_type nombre;
+  using _posiciones_type =
+    std::vector<geometry_msgs::msg::Twist_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<geometry_msgs::msg::Twist_<ContainerAllocator>>>;
+  _posiciones_type posiciones;
 
   // setters for named parameter idiom
   Type & set__nombre(
     const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->nombre = _arg;
+    return *this;
+  }
+  Type & set__posiciones(
+    const std::vector<geometry_msgs::msg::Twist_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<geometry_msgs::msg::Twist_<ContainerAllocator>>> & _arg)
+  {
+    this->posiciones = _arg;
     return *this;
   }
 
@@ -108,6 +121,9 @@ struct Player_Request_
   bool operator==(const Player_Request_ & other) const
   {
     if (this->nombre != other.nombre) {
+      return false;
+    }
+    if (this->posiciones != other.posiciones) {
       return false;
     }
     return true;

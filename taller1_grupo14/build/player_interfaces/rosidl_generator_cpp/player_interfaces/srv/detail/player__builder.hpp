@@ -21,16 +21,32 @@ namespace srv
 namespace builder
 {
 
+class Init_Player_Request_posiciones
+{
+public:
+  explicit Init_Player_Request_posiciones(::player_interfaces::srv::Player_Request & msg)
+  : msg_(msg)
+  {}
+  ::player_interfaces::srv::Player_Request posiciones(::player_interfaces::srv::Player_Request::_posiciones_type arg)
+  {
+    msg_.posiciones = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::player_interfaces::srv::Player_Request msg_;
+};
+
 class Init_Player_Request_nombre
 {
 public:
   Init_Player_Request_nombre()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::player_interfaces::srv::Player_Request nombre(::player_interfaces::srv::Player_Request::_nombre_type arg)
+  Init_Player_Request_posiciones nombre(::player_interfaces::srv::Player_Request::_nombre_type arg)
   {
     msg_.nombre = std::move(arg);
-    return std::move(msg_);
+    return Init_Player_Request_posiciones(msg_);
   }
 
 private:

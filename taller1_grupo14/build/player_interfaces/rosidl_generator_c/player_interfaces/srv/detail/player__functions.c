@@ -13,6 +13,8 @@
 // Include directives for member types
 // Member `nombre`
 #include "rosidl_runtime_c/string_functions.h"
+// Member `posiciones`
+#include "geometry_msgs/msg/detail/twist__functions.h"
 
 bool
 player_interfaces__srv__Player_Request__init(player_interfaces__srv__Player_Request * msg)
@@ -22,6 +24,11 @@ player_interfaces__srv__Player_Request__init(player_interfaces__srv__Player_Requ
   }
   // nombre
   if (!rosidl_runtime_c__String__init(&msg->nombre)) {
+    player_interfaces__srv__Player_Request__fini(msg);
+    return false;
+  }
+  // posiciones
+  if (!geometry_msgs__msg__Twist__Sequence__init(&msg->posiciones, 0)) {
     player_interfaces__srv__Player_Request__fini(msg);
     return false;
   }
@@ -36,6 +43,8 @@ player_interfaces__srv__Player_Request__fini(player_interfaces__srv__Player_Requ
   }
   // nombre
   rosidl_runtime_c__String__fini(&msg->nombre);
+  // posiciones
+  geometry_msgs__msg__Twist__Sequence__fini(&msg->posiciones);
 }
 
 bool
@@ -47,6 +56,12 @@ player_interfaces__srv__Player_Request__are_equal(const player_interfaces__srv__
   // nombre
   if (!rosidl_runtime_c__String__are_equal(
       &(lhs->nombre), &(rhs->nombre)))
+  {
+    return false;
+  }
+  // posiciones
+  if (!geometry_msgs__msg__Twist__Sequence__are_equal(
+      &(lhs->posiciones), &(rhs->posiciones)))
   {
     return false;
   }
@@ -64,6 +79,12 @@ player_interfaces__srv__Player_Request__copy(
   // nombre
   if (!rosidl_runtime_c__String__copy(
       &(input->nombre), &(output->nombre)))
+  {
+    return false;
+  }
+  // posiciones
+  if (!geometry_msgs__msg__Twist__Sequence__copy(
+      &(input->posiciones), &(output->posiciones)))
   {
     return false;
   }

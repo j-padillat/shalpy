@@ -19,6 +19,16 @@
 #include "rosidl_runtime_c/string.h"
 #include "rosidl_runtime_c/string_functions.h"
 
+#include "rosidl_runtime_c/primitives_sequence.h"
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
+// Nested array functions includes
+#include "geometry_msgs/msg/detail/twist__functions.h"
+// end nested array functions include
+ROSIDL_GENERATOR_C_IMPORT
+bool geometry_msgs__msg__twist__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * geometry_msgs__msg__twist__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool player_interfaces__srv__player__request__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -68,6 +78,39 @@ bool player_interfaces__srv__player__request__convert_from_py(PyObject * _pymsg,
     Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
+  {  // posiciones
+    PyObject * field = PyObject_GetAttrString(_pymsg, "posiciones");
+    if (!field) {
+      return false;
+    }
+    PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'posiciones'");
+    if (!seq_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_ssize_t size = PySequence_Size(field);
+    if (-1 == size) {
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    if (!geometry_msgs__msg__Twist__Sequence__init(&(ros_message->posiciones), size)) {
+      PyErr_SetString(PyExc_RuntimeError, "unable to create geometry_msgs__msg__Twist__Sequence ros_message");
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    geometry_msgs__msg__Twist * dest = ros_message->posiciones.data;
+    for (Py_ssize_t i = 0; i < size; ++i) {
+      if (!geometry_msgs__msg__twist__convert_from_py(PySequence_Fast_GET_ITEM(seq_field, i), &dest[i])) {
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+    }
+    Py_DECREF(seq_field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -101,6 +144,34 @@ PyObject * player_interfaces__srv__player__request__convert_to_py(void * raw_ros
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "nombre", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // posiciones
+    PyObject * field = NULL;
+    size_t size = ros_message->posiciones.size;
+    field = PyList_New(size);
+    if (!field) {
+      return NULL;
+    }
+    geometry_msgs__msg__Twist * item;
+    for (size_t i = 0; i < size; ++i) {
+      item = &(ros_message->posiciones.data[i]);
+      PyObject * pyitem = geometry_msgs__msg__twist__convert_to_py(item);
+      if (!pyitem) {
+        Py_DECREF(field);
+        return NULL;
+      }
+      int rc = PyList_SetItem(field, i, pyitem);
+      (void)rc;
+      assert(rc == 0);
+    }
+    assert(PySequence_Check(field));
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "posiciones", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

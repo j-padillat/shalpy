@@ -42,6 +42,10 @@ class Metaclass_Player_Request(type):
             cls._TYPE_SUPPORT = module.type_support_msg__srv__player__request
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__srv__player__request
 
+            from geometry_msgs.msg import Twist
+            if Twist.__class__._TYPE_SUPPORT is None:
+                Twist.__class__.__import_type_support__()
+
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -56,14 +60,17 @@ class Player_Request(metaclass=Metaclass_Player_Request):
 
     __slots__ = [
         '_nombre',
+        '_posiciones',
     ]
 
     _fields_and_field_types = {
         'nombre': 'string',
+        'posiciones': 'sequence<geometry_msgs/Twist>',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'Twist')),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -71,6 +78,7 @@ class Player_Request(metaclass=Metaclass_Player_Request):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.nombre = kwargs.get('nombre', str())
+        self.posiciones = kwargs.get('posiciones', [])
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -103,6 +111,8 @@ class Player_Request(metaclass=Metaclass_Player_Request):
             return False
         if self.nombre != other.nombre:
             return False
+        if self.posiciones != other.posiciones:
+            return False
         return True
 
     @classmethod
@@ -122,6 +132,30 @@ class Player_Request(metaclass=Metaclass_Player_Request):
                 isinstance(value, str), \
                 "The 'nombre' field must be of type 'str'"
         self._nombre = value
+
+    @builtins.property
+    def posiciones(self):
+        """Message field 'posiciones'."""
+        return self._posiciones
+
+    @posiciones.setter
+    def posiciones(self, value):
+        if __debug__:
+            from geometry_msgs.msg import Twist
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
+            assert \
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, Twist) for v in value) and
+                 True), \
+                "The 'posiciones' field must be a set or sequence and each value of type 'Twist'"
+        self._posiciones = value
 
 
 # Import statements for member types

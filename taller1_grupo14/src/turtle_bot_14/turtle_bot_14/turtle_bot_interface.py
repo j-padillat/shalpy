@@ -58,10 +58,8 @@ def guardar_imagen():
   file = asksaveasfilename()
   #image1 = Image.new("RGB", (642, 800), (255, 255, 255))
   #draw = ImageDraw.Draw(image1)
-  fig.update()
+  #fig.update()
   fig.savefig(file)
-
-  print('Entro a guardar')
   #plt.savefig(file)
 
   
@@ -72,18 +70,58 @@ def guardar_recorrido():
   
 def cargar_recorrido():
     peticion = input("Escriba el nombre (se llama el servicio): ")
-    nodoCliente.send_request(peticion)
+    file3 = askopenfilename()
+    ######
+    ######
+    ##AQUI QUEDA GUARDADO EL RECORRIDO QUE SE CARGUE
+    ######
+    ######
+    recorridoCargado = np.genfromtxt(file3)
+    
+    twistIndividual = Twist()
+    twistVector = []
+    print(len(recorridoCargado[0]))
+    for i in range(len(recorridoCargado[0])):
+        if not ((recorridoCargado[0][i] == 0 and recorridoCargado[1][i] == 0) and recorridoCargado[2][i] == 0):
+            twistIndividual = Twist()
+            twistIndividual.linear.x = recorridoCargado[0][i]
+            twistIndividual.linear.y = recorridoCargado[1][i]
+            twistIndividual.linear.z = 0.0
+            twistIndividual.angular.x = 0.0
+            twistIndividual.angular.y = 0.0
+            twistIndividual.angular.z = recorridoCargado[2][i]
+            
+            twistVector.append(twistIndividual)
+    
+    twistIndividual = Twist()
+    twistIndividual.linear.x = 0.0
+    twistIndividual.linear.y = 0.0
+    twistIndividual.linear.z = 0.0
+    twistIndividual.angular.x = 0.0
+    twistIndividual.angular.y = 0.0
+    twistIndividual.angular.z = 0.0
+    twistVector.append(twistIndividual)
+
+    print(len(twistVector))
+
+    #nodoCliente.play_trace(twistVector)
+    nodoCliente.send_request(peticion, twistVector)
+    
+    # for i in recorridoCargado:
+    #     if i == 0:
+    #         for j in i:
+    #             twistIndividual.x
+
+
     nodoCliente.get_logger().info('Llego al cliente después del servicio')
 
 
 def boton_si():
     BanderitaGuardarDatos = True
-    print(BanderitaGuardarDatos)
     top.destroy()
 
 def boton_no():
     BanderitaGuardarDatos = False
-    print(BanderitaGuardarDatos)
     top.destroy()
 ##### ----------------------------------------- #######
 
@@ -152,28 +190,17 @@ def restoreTerminalSettings(old_settings):
 ##### ----------------------------------------- #######
 
 
-<<<<<<< HEAD
-##### SUSCRIBER CALLBACK #####
-def listener_callback(msg):
-    #print('La posición es =  x: '+str(msg.linear.x)+'; y: ' + str(msg.linear.y))
-    graficar_datos(msg.linear.x,msg.linear.y)
-=======
->>>>>>> sergioDev
 ##### ----------------------------------------- #######
 
 
 ##### Definition of the plotting function #####
 def graficar_datos(x,y):
-<<<<<<< HEAD
-
-=======
->>>>>>> sergioDev
     if len(x_data) == 0:
         x_data.append(x)
         y_data.append(y)
         l, = ax.plot(x_data, y_data,'b.', linewidth=1)
         canvas.draw()
-        l.remove()
+        #l.remove()
         
 
     if (abs(x_data[-1]-x)>=0.01) or (abs(y_data[-1]-y)>=0.01):
@@ -181,22 +208,15 @@ def graficar_datos(x,y):
         y_data.append(y)
         l, = ax.plot(x_data, y_data,'b.', linewidth=1)
         canvas.draw()
-        print(len(x_data))
-        l.remove()
-        print('Cambió la figura')
-<<<<<<< HEAD
-=======
+        #l.remove()
 
-def guardat_datos(x,y,z):
-    print('No entro a guardar')
-    print(BanderitaGuardarDatos)
+
+def guardar_datos(x,y,z):
     if BanderitaGuardarDatos:
-        print('Entro a guardar')
-        print(BanderitaGuardarDatos)
         linear_x.append(x)
         linear_y.append(y)
         angular_z.append(z)
->>>>>>> sergioDev
+
 ##### ----------------------------------------- #######
 
 
@@ -206,15 +226,21 @@ class clientePlayer(Node):
     def __init__(self):
         super().__init__('cliente_player')
         self.cli = self.create_client(Player, 'turtle_bot_player_srv')
+        #self.publi = self.create_publisher(Twist, '/turtlebot_cmdVel', 10)
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
         self.req = Player.Request()
 
-    def send_request(self, nombrecito):
+    def send_request(self, nombrecito, vectorcito):
         self.req.nombre = nombrecito
+        self.req.posiciones = vectorcito
         self.future = self.cli.call_async(self.req)
         rclpy.spin_until_future_complete(self, self.future)
         return self.future.result()
+
+    # def play_trace(self, vectorcito):
+    #     for i in range(len(vectorcito)):
+    #         self.publi.publish(vectorcito[i])
 
 class nodoQueSeSuscribe(Node):
     def __init__(self):
@@ -227,7 +253,7 @@ class nodoQueSeSuscribe(Node):
         graficar_datos(msg.linear.x,msg.linear.y)
 
     def velocity_callback(self, msg):
-        guardat_datos(msg.linear.x, msg.linear.y, msg.angular.z)
+        guardar_datos(msg.linear.x, msg.linear.y, msg.angular.z)
 
 
 ############## ROS2 STUFF ###################################

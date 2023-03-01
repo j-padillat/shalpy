@@ -57,6 +57,8 @@ CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_i
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
   /usr/include/assert.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -77,12 +79,18 @@ CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_i
   /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
   /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
   /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
 
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -101,6 +109,8 @@ CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_i
 /usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -147,8 +157,6 @@ rosidl_generator_c/player_interfaces/srv/detail/player__functions.h:
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -214,9 +222,13 @@ rosidl_generator_c/player_interfaces/srv/detail/player__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 

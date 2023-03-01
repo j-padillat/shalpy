@@ -15,6 +15,10 @@
 // Include directives for member types
 // Member `nombre`
 #include "rosidl_runtime_c/string_functions.h"
+// Member `posiciones`
+#include "geometry_msgs/msg/twist.h"
+// Member `posiciones`
+#include "geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -35,7 +39,62 @@ void player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c_
   player_interfaces__srv__Player_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_message_member_array[1] = {
+size_t player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__size_function__Player_Request__posiciones(
+  const void * untyped_member)
+{
+  const geometry_msgs__msg__Twist__Sequence * member =
+    (const geometry_msgs__msg__Twist__Sequence *)(untyped_member);
+  return member->size;
+}
+
+const void * player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__get_const_function__Player_Request__posiciones(
+  const void * untyped_member, size_t index)
+{
+  const geometry_msgs__msg__Twist__Sequence * member =
+    (const geometry_msgs__msg__Twist__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void * player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__get_function__Player_Request__posiciones(
+  void * untyped_member, size_t index)
+{
+  geometry_msgs__msg__Twist__Sequence * member =
+    (geometry_msgs__msg__Twist__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__fetch_function__Player_Request__posiciones(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const geometry_msgs__msg__Twist * item =
+    ((const geometry_msgs__msg__Twist *)
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__get_const_function__Player_Request__posiciones(untyped_member, index));
+  geometry_msgs__msg__Twist * value =
+    (geometry_msgs__msg__Twist *)(untyped_value);
+  *value = *item;
+}
+
+void player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__assign_function__Player_Request__posiciones(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  geometry_msgs__msg__Twist * item =
+    ((geometry_msgs__msg__Twist *)
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__get_function__Player_Request__posiciones(untyped_member, index));
+  const geometry_msgs__msg__Twist * value =
+    (const geometry_msgs__msg__Twist *)(untyped_value);
+  *item = *value;
+}
+
+bool player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__resize_function__Player_Request__posiciones(
+  void * untyped_member, size_t size)
+{
+  geometry_msgs__msg__Twist__Sequence * member =
+    (geometry_msgs__msg__Twist__Sequence *)(untyped_member);
+  geometry_msgs__msg__Twist__Sequence__fini(member);
+  return geometry_msgs__msg__Twist__Sequence__init(member, size);
+}
+
+static rosidl_typesupport_introspection_c__MessageMember player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_message_member_array[2] = {
   {
     "nombre",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
@@ -52,13 +111,30 @@ static rosidl_typesupport_introspection_c__MessageMember player_interfaces__srv_
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "posiciones",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    true,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(player_interfaces__srv__Player_Request, posiciones),  // bytes offset in struct
+    NULL,  // default value
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__size_function__Player_Request__posiciones,  // size() function pointer
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__get_const_function__Player_Request__posiciones,  // get_const(index) function pointer
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__get_function__Player_Request__posiciones,  // get(index) function pointer
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__fetch_function__Player_Request__posiciones,  // fetch(index, &value) function pointer
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__assign_function__Player_Request__posiciones,  // assign(index, value) function pointer
+    player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__resize_function__Player_Request__posiciones  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_message_members = {
   "player_interfaces__srv",  // message namespace
   "Player_Request",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(player_interfaces__srv__Player_Request),
   player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_message_member_array,  // message members
   player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -76,6 +152,8 @@ static rosidl_message_type_support_t player_interfaces__srv__Player_Request__ros
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_player_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, player_interfaces, srv, Player_Request)() {
+  player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_message_member_array[1].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Twist)();
   if (!player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_message_type_support_handle.typesupport_identifier) {
     player_interfaces__srv__Player_Request__rosidl_typesupport_introspection_c__Player_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

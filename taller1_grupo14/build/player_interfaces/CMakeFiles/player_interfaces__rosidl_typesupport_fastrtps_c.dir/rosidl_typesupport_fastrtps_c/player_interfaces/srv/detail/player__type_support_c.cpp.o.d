@@ -185,9 +185,13 @@ CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
  /usr/include/c++/11/bits/istream.tcc /usr/include/malloc.h \
  /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
  /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.h \
  /usr/include/c++/11/stdlib.h \
  /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__functions.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h \
  /opt/ros/humble/include/rmw/rmw/types.h \
