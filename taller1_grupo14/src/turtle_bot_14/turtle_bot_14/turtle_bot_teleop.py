@@ -7,6 +7,8 @@ else:
     import termios
     import tty
 
+import serial, time
+
 ### Turtle Bot Teleop Node
 # This node publishes the commands to control the TurtleBot2 using the sys library for managing inputs.
 
@@ -74,40 +76,29 @@ def vels(speed, turn):
 
 
 def main():
+
+    arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 9600, timeout = 1)
+
+
     settings = saveTerminalSettings()
 
     rclpy.init()
     node = rclpy.create_node('turtle_bot_teleop')
     pub = node.create_publisher(Twist, '/turtlebot_cmdVel', 10)
 
-    speed = float(input("Please input the lineal speed: ")) # Init set 0.5
-    turn = float(input("Please input the angular speed: ")) # Init set 1.0
+    speed = float(input("Please input the lineal speed: ")) # Init set 0.5;; From [0,10]->inArduino
+    turn = float(input("Please input the angular speed: ")) # Init set 1.0;; From [0,10]->inArduino
+    time.sleep(0.1)
+    if arduino.isOpen():
 
-    try:
-        print(msg)
-        print(vels(speed, turn))
-        while True:
-            x = 0.0
-            y = 0.0
-            z = 0.0
-            th = 0.0
-            twist = Twist()
-            twist.linear.x = x * speed
-            twist.linear.y = y * speed
-            twist.linear.z = z * speed
-            twist.angular.x = 0.0
-            twist.angular.y = 0.0
-            twist.angular.z = th * turn
-            pub.publish(twist)
-            
-            key = getKey(settings)
-
-            if key in moveBindings.keys():
-                x = moveBindings[key][0]
-                y = moveBindings[key][1]
-                z = moveBindings[key][2]
-                th = moveBindings[key][3]
-
+        try:
+            print(msg)
+            print(vels(speed, turn))
+            while True:
+                x = 0.0
+                y = 0.0
+                z = 0.0
+                th = 0.0
                 twist = Twist()
                 twist.linear.x = x * speed
                 twist.linear.y = y * speed
@@ -116,29 +107,50 @@ def main():
                 twist.angular.y = 0.0
                 twist.angular.z = th * turn
                 pub.publish(twist)
+                
+                cmd = str(speed)+","+str(turn)
+                arduino.write(cmd.encode())
 
-            elif key in speedBindings.keys():
-                speed = speed * speedBindings[key][0]
-                turn = turn * speedBindings[key][1]
+                
+                key = getKey(settings)
 
-                print(vels(speed, turn))
+                if key in moveBindings.keys():
+                    x = moveBindings[key][0]
+                    y = moveBindings[key][1]
+                    z = moveBindings[key][2]
+                    th = moveBindings[key][3]
 
-                twist = Twist()
-                twist.linear.x = x * speed
-                twist.linear.y = y * speed
-                twist.linear.z = z * speed
-                twist.angular.x = 0.0
-                twist.angular.y = 0.0
-                twist.angular.z = th * turn
-                pub.publish(twist)
+                    twist = Twist()
+                    twist.linear.x = x * speed
+                    twist.linear.y = y * speed
+                    twist.linear.z = z * speed
+                    twist.angular.x = 0.0
+                    twist.angular.y = 0.0
+                    twist.angular.z = th * turn
+                    pub.publish(twist)
 
-            else:
+                elif key in speedBindings.keys():
+                    speed = speed * speedBindings[key][0]
+                    turn = turn * speedBindings[key][1]
 
-                if (key == '\x03'):
-                    break
+                    print(vels(speed, turn))
 
-    except Exception as e:
-        print(e)
+                    twist = Twist()
+                    twist.linear.x = x * speed
+                    twist.linear.y = y * speed
+                    twist.linear.z = z * speed
+                    twist.angular.x = 0.0
+                    twist.angular.y = 0.0
+                    twist.angular.z = th * turn
+                    pub.publish(twist)
+
+                else:
+
+                    if (key == '\x03'):
+                        break
+
+        except Exception as e:
+            print(e)
 
     restoreTerminalSettings(settings)
 
