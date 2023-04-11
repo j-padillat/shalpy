@@ -1,3 +1,0 @@
-string nombre
-geometry_msgs/Twist[] posiciones
-

@@ -1,4 +1,0 @@
-srv/Player.idl
-srv/Player.srv
-srv/Player_Request.msg
-srv/Player_Response.msg
