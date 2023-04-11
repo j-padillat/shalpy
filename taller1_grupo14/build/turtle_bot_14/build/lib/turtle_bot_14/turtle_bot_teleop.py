@@ -1,4 +1,5 @@
 import rclpy
+import serial, time
 from geometry_msgs.msg import Twist
 import sys
 if sys.platform == 'win32':
@@ -99,8 +100,18 @@ def main():
             twist.angular.y = 0.0
             twist.angular.z = th * turn
             pub.publish(twist)
-            
-            key = getKey(settings)
+            with serial.Serial("/dev/ttyACM0", 9600, timeout = 1) as arduino:
+
+                time.sleep(0.1)
+                if arduino.isOpen():
+                        i = True
+                        print("{} connected!".format(arduino.port))
+                        try:
+                                while i:
+                                        arduino.write(twist)
+                                        i = False
+                        except KeyboardInterrupt:
+                                print("KeyboardInterrupt has been caught.")
 
             if key in moveBindings.keys():
                 x = moveBindings[key][0]
@@ -116,6 +127,17 @@ def main():
                 twist.angular.y = 0.0
                 twist.angular.z = th * turn
                 pub.publish(twist)
+                with serial.Serial("/dev/ttyACM0", 9600, timeout = 1) as arduino:
+                        time.sleep(0.1)
+                        if arduino.isOpen():
+                                i = True
+                                print("{} connected!".format(arduino.port))
+                                try:
+                                        while i:
+                                                arduino.write(twist)
+                                                i = False
+                                except KeyboardInterrupt:
+                                        print("KeyboardInterrupt has been caught.")
 
             elif key in speedBindings.keys():
                 speed = speed * speedBindings[key][0]
@@ -131,6 +153,17 @@ def main():
                 twist.angular.y = 0.0
                 twist.angular.z = th * turn
                 pub.publish(twist)
+                with serial.Serial("/dev/ttyACM0", 9600, timeout = 1) as arduino:
+                        time.sleep(0.1)
+                        if arduino.isOpen():
+                                i = True
+                                print("{} connected!".format(arduino.port))
+                                try:
+                                        while i:
+                                                arduino.write(twist)
+                                                i = False
+                                except KeyboardInterrupt:
+                                        print("KeyboardInterrupt has been caught.")
 
             else:
 
@@ -145,3 +178,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+
+
+
+

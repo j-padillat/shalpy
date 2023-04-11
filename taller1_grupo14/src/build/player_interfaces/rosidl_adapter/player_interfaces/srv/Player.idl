@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from player_interfaces/srv/Player.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+
+module player_interfaces {
+  module srv {
+    struct Player_Request {
+      string nombre;
+
+      sequence<geometry_msgs::msg::Twist> posiciones;
+    };
+    struct Player_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};
