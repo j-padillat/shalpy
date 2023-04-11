@@ -107,11 +107,8 @@ def main():
                 twist.angular.y = 0.0
                 twist.angular.z = th * turn
                 pub.publish(twist)
-                
-                cmd = str(speed)+","+str(turn)
-                
+                cmd = str(x)+","+str(z)
                 arduino.write(cmd.encode())
-
                 
                 key = getKey(settings)
 
@@ -130,6 +127,9 @@ def main():
                     twist.angular.z = th * turn
                     pub.publish(twist)
 
+                    cmd = str(x)+","+str(z)
+                    arduino.write(cmd.encode())
+
                 elif key in speedBindings.keys():
                     speed = speed * speedBindings[key][0]
                     turn = turn * speedBindings[key][1]
@@ -144,6 +144,9 @@ def main():
                     twist.angular.y = 0.0
                     twist.angular.z = th * turn
                     pub.publish(twist)
+
+                    cmd = str(x)+","+str(z)
+                    arduino.write(cmd.encode())
 
                 else:
 
