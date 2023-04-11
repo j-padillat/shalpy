@@ -107,8 +107,9 @@ def main():
                 twist.angular.y = 0.0
                 twist.angular.z = th * turn
                 pub.publish(twist)
-                cmd = str(x)+","+str(z)
-                arduino.write(cmd.encode())
+                
+                # cmd = str(x)+","+str(z)
+                # arduino.write(cmd.encode())
                 
                 key = getKey(settings)
 
@@ -127,6 +128,8 @@ def main():
                     twist.angular.z = th * turn
                     pub.publish(twist)
 
+                    print("Lineal: "+str(x))
+                    print("Angular: "+str(z))
                     cmd = str(x)+","+str(z)
                     arduino.write(cmd.encode())
 
@@ -145,6 +148,8 @@ def main():
                     twist.angular.z = th * turn
                     pub.publish(twist)
 
+                    print("Lineal: "+str(x))
+                    print("Angular: "+str(z))
                     cmd = str(x)+","+str(z)
                     arduino.write(cmd.encode())
 
