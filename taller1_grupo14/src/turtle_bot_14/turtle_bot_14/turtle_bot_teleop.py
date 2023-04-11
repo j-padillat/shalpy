@@ -126,9 +126,10 @@ def main():
                     twist.angular.x = 0.0
                     twist.angular.y = 0.0
                     twist.angular.z = th * turn
-
-                    print("Lineal: "+str(twist.linear.x))
-                    print("Angular: "+str(twist.angular.z))
+                    
+                    print("Tecla: "+str(key))
+                    print("Lineal: "+str(abs(twist.linear.x)))
+                    print("Angular: "+str(abs(twist.angular.z)))
                     cmd = str(twist.linear.x)+","+str(twist.angular.z)
                     arduino.write(cmd.encode())
 
@@ -148,9 +149,10 @@ def main():
                     twist.angular.x = 0.0
                     twist.angular.y = 0.0
                     twist.angular.z = th * turn
-
-                    print("Lineal: "+str(twist.linear.x))
-                    print("Angular: "+str(twist.angular.z))
+                    
+                    print("Tecla: "+str(key))
+                    print("Lineal: "+str(abs(twist.linear.x)))
+                    print("Angular: "+str(abs(twist.angular.z)))
                     cmd = str(twist.linear.x)+","+str(twist.angular.z)
                     arduino.write(cmd.encode())
 
