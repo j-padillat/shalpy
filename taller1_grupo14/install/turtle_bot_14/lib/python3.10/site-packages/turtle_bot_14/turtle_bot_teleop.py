@@ -108,10 +108,8 @@ def main():
                 twist.angular.z = th * turn
                 pub.publish(twist)
                 
-                cmd = str(speed)+","+str(turn)
-                
-                arduino.write(cmd.encode())
-
+                # cmd = str(x)+","+str(z)
+                # arduino.write(cmd.encode())
                 
                 key = getKey(settings)
 
@@ -128,7 +126,15 @@ def main():
                     twist.angular.x = 0.0
                     twist.angular.y = 0.0
                     twist.angular.z = th * turn
+                    
+                    print("Tecla: "+str(key))
+                    print("Lineal: "+str(abs(twist.linear.x)))
+                    print("Angular: "+str(abs(twist.angular.z)))
+                    cmd = str(twist.linear.x)+","+str(twist.angular.z)
+                    arduino.write(cmd.encode())
+
                     pub.publish(twist)
+
 
                 elif key in speedBindings.keys():
                     speed = speed * speedBindings[key][0]
@@ -143,7 +149,15 @@ def main():
                     twist.angular.x = 0.0
                     twist.angular.y = 0.0
                     twist.angular.z = th * turn
+                    
+                    print("Tecla: "+str(key))
+                    print("Lineal: "+str(abs(twist.linear.x)))
+                    print("Angular: "+str(abs(twist.angular.z)))
+                    cmd = str(twist.linear.x)+","+str(twist.angular.z)
+                    arduino.write(cmd.encode())
+
                     pub.publish(twist)
+
 
                 else:
 
