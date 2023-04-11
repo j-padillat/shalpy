@@ -1,4 +1,5 @@
 import rclpy
+import serial, time
 from geometry_msgs.msg import Twist
 import sys
 if sys.platform == 'win32':
@@ -86,19 +87,111 @@ def main():
     node = rclpy.create_node('turtle_bot_teleop')
     pub = node.create_publisher(Twist, '/turtlebot_cmdVel', 10)
 
-    speed = float(input("Please input the lineal speed: ")) # Init set 0.5;; From [0,10]->inArduino
-    turn = float(input("Please input the angular speed: ")) # Init set 1.0;; From [0,10]->inArduino
-    time.sleep(0.1)
-    if arduino.isOpen():
+    speed = float(input("Please input the lineal speed: ")) # Init set 0.5
+    turn = float(input("Please input the angular speed: ")) # Init set 1.0
 
-        try:
-            print(msg)
-            print(vels(speed, turn))
-            while True:
-                x = 0.0
-                y = 0.0
-                z = 0.0
-                th = 0.0
+    try:
+        print(msg)
+        print(vels(speed, turn))
+        while True:
+            x = 0.0
+            y = 0.0
+            z = 0.0
+            th = 0.0
+            twist = Twist()
+            twist.linear.x = x * speed
+            twist.linear.y = y * speed
+            twist.linear.z = z * speed
+            twist.angular.x = 0.0
+            twist.angular.y = 0.0
+            twist.angular.z = th * turn
+            pub.publish(twist)
+            with serial.Serial("/dev/ttyACM0", 9600, timeout = 1) as arduino:
+
+                time.sleep(0.1)
+                if arduino.isOpen():
+                        i = True
+                        print("{} connected!".format(arduino.port))
+                        try:
+                                while i:
+                                        #arduino.write(twist)
+                                        arduino.write("twist xd")
+                                        i = False
+                        except KeyboardInterrupt:
+                                print("KeyboardInterrupt has been caught.")
+
+            if key in moveBindings.keys():
+                x = moveBindings[key][0]
+                y = moveBindings[key][1]
+                z = moveBindings[key][2]
+                th = moveBindings[key][3]
+
+    except Exception as e:
+        print(e)
+
+    try:
+        print(msg)
+        print(vels(speed, turn))
+        while True:
+            x = 0.0
+            y = 0.0
+            z = 0.0
+            th = 0.0
+            twist = Twist()
+            twist.linear.x = x * speed
+            twist.linear.y = y * speed
+            twist.linear.z = z * speed
+            twist.angular.x = 0.0
+            twist.angular.y = 0.0
+            twist.angular.z = th * turn
+            pub.publish(twist)
+            with serial.Serial("/dev/ttyACM0", 9600, timeout = 1) as arduino:
+                    time.sleep(0.1)
+                    if arduino.isOpen():
+                            i = True
+                            print("{} connected!".format(arduino.port))
+                            try:
+                                    while i:
+                                            arduino.write(twist)
+                                            i = False
+                            except KeyboardInterrupt:
+                                    print("KeyboardInterrupt has been caught.")
+
+            
+            key = getKey(settings)
+
+            if key in moveBindings.keys():
+                x = moveBindings[key][0]
+                y = moveBindings[key][1]
+                z = moveBindings[key][2]
+                th = moveBindings[key][3]
+
+            twist = Twist()
+            twist.linear.x = x * speed
+            twist.linear.y = y * speed
+            twist.linear.z = z * speed
+            twist.angular.x = 0.0
+            twist.angular.y = 0.0
+            twist.angular.z = th * turn
+            pub.publish(twist)
+            with serial.Serial("/dev/ttyACM0", 9600, timeout = 1) as arduino:
+                    time.sleep(0.1)
+                    if arduino.isOpen():
+                            i = True
+                            print("{} connected!".format(arduino.port))
+                            try:
+                                    while i:
+                                            arduino.write(twist)
+                                            i = False
+                            except KeyboardInterrupt:
+                                    print("KeyboardInterrupt has been caught.")
+
+            elif key in speedBindings.keys():
+                speed = speed * speedBindings[key][0]
+                turn = turn * speedBindings[key][1]
+
+                print(vels(speed, turn))
+
                 twist = Twist()
                 twist.linear.x = x * speed
                 twist.linear.y = y * speed
@@ -107,53 +200,24 @@ def main():
                 twist.angular.y = 0.0
                 twist.angular.z = th * turn
                 pub.publish(twist)
-                
-                cmd = str(speed)+","+str(turn)
-                arduino.write(cmd.encode())
 
-                
-                key = getKey(settings)
+            else:
 
-                if key in moveBindings.keys():
-                    x = moveBindings[key][0]
-                    y = moveBindings[key][1]
-                    z = moveBindings[key][2]
-                    th = moveBindings[key][3]
+                if (key == '\x03'):
+                    break
 
-                    twist = Twist()
-                    twist.linear.x = x * speed
-                    twist.linear.y = y * speed
-                    twist.linear.z = z * speed
-                    twist.angular.x = 0.0
-                    twist.angular.y = 0.0
-                    twist.angular.z = th * turn
-                    pub.publish(twist)
+    except Exception as e:
+        print(e)
 
-                elif key in speedBindings.keys():
-                    speed = speed * speedBindings[key][0]
-                    turn = turn * speedBindings[key][1]
-
-                    print(vels(speed, turn))
-
-                    twist = Twist()
-                    twist.linear.x = x * speed
-                    twist.linear.y = y * speed
-                    twist.linear.z = z * speed
-                    twist.angular.x = 0.0
-                    twist.angular.y = 0.0
-                    twist.angular.z = th * turn
-                    pub.publish(twist)
-
-                else:
-
-                    if (key == '\x03'):
-                        break
-
-        except Exception as e:
-            print(e)
-
-    restoreTerminalSettings(settings)
+restoreTerminalSettings(settings)
 
 
 if __name__ == '__main__':
     main()
+
+
+
+
+
+
+
