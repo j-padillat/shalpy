@@ -1,0 +1,8 @@
+setup.py
+player_interfaces/__init__.py
+player_interfaces.egg-info/PKG-INFO
+player_interfaces.egg-info/SOURCES.txt
+player_interfaces.egg-info/dependency_links.txt
+player_interfaces.egg-info/top_level.txt
+player_interfaces/srv/__init__.py
+player_interfaces/srv/_player.py
