@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/shalpy/taller1_grupo14/src/player_interfaces
+CMAKE_SOURCE_DIR = /home/juanespadi/Documents/shalpy/taller1_grupo14/src/player_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces
+CMAKE_BINARY_DIR = /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces
 
 # Utility rule file for player_interfaces__cpp.
 
@@ -146,8 +146,8 @@ rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/player_interfaces/srv/detail/player__builder.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/srv/detail/player__builder.hpp
@@ -175,6 +175,6 @@ CMakeFiles/player_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/player_interfaces__cpp.dir/clean
 
 CMakeFiles/player_interfaces__cpp.dir/depend:
-	cd /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanespadi/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/player_interfaces__cpp.dir/depend
 

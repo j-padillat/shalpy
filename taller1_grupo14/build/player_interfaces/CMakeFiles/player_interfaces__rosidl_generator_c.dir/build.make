@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/shalpy/taller1_grupo14/src/player_interfaces
+CMAKE_SOURCE_DIR = /home/juanespadi/Documents/shalpy/taller1_grupo14/src/player_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces
+CMAKE_BINARY_DIR = /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/player_interfaces__rosidl_generator_c.dir/depend.make
@@ -142,8 +142,8 @@ rosidl_generator_c/player_interfaces/srv/player.h: /opt/ros/humble/share/std_msg
 rosidl_generator_c/player_interfaces/srv/player.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_c/player_interfaces/srv/player.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_c/player_interfaces/srv/player.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/player_interfaces/srv/detail/player__functions.h: rosidl_generator_c/player_interfaces/srv/player.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/player_interfaces/srv/detail/player__functions.h
@@ -160,16 +160,16 @@ rosidl_generator_c/player_interfaces/srv/detail/player__functions.c: rosidl_gene
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o: CMakeFiles/player_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o: rosidl_generator_c/player_interfaces/srv/detail/player__functions.c
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o: CMakeFiles/player_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o -MF CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o.d -o CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o -c /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o -MF CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o.d -o CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o -c /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c
 
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c > CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c > CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.i
 
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c -o CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c -o CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.s
 
 # Object files for target player_interfaces__rosidl_generator_c
 player_interfaces__rosidl_generator_c_OBJECTS = \
@@ -186,7 +186,7 @@ libplayer_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_inte
 libplayer_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libplayer_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libplayer_interfaces__rosidl_generator_c.so: CMakeFiles/player_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libplayer_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libplayer_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/player_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +202,6 @@ CMakeFiles/player_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/player_interfaces/srv/detail/player__struct.h
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/player_interfaces/srv/detail/player__type_support.h
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/player_interfaces/srv/player.h
-	cd /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanespadi/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/player_interfaces__rosidl_generator_c.dir/depend
 

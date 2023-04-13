@@ -18,13 +18,17 @@ void setup() {
   pinMode(PinIN3, OUTPUT);
   pinMode(PinIN4, OUTPUT);
   pinMode(PinENB, OUTPUT);
+  Serial.println("LOLOLOL:");
 }
 
 void loop() {
 
   readSerialPort();
   varvel(msg,&tecla,&lineal,&angular);
-  
+  Serial.println("Entro:");
+  Serial.println(tecla);
+  Serial.println(lineal);
+  Serial.println(angular);
   if (tecla=="w") {
     MotorAdelante(lineal);
   }
@@ -79,23 +83,23 @@ void varvel(String x, String* tecla, float* lineal, float* angular) {
 
 void MotorAdelante(float vel)
 {
-  //Serial.println("Giro del Motor en sentido horario");
+  Serial.println("Giro del Motor en sentido horario");
   int new_vel = map(vel,0,10,0,255);
   analogWrite (PinENA, new_vel);
   digitalWrite (PinIN1, HIGH);
   digitalWrite (PinIN2, LOW);
 
   analogWrite (PinENB, new_vel);
-  digitalWrite (PinIN3, HIGH);
-  digitalWrite (PinIN4, LOW);
+  digitalWrite (PinIN3, LOW);
+  digitalWrite (PinIN4, HIGH);
 }
 void MotorAtras(float vel)
 {
   //Serial.println("Giro del Motor en sentido antihorario");
   int new_vel = map(vel,0,10,0,255);
   analogWrite (PinENA, new_vel);
-  digitalWrite (PinIN1, LOW);
-  digitalWrite (PinIN2, HIGH);
+  digitalWrite (PinIN1, HGIH);
+  digitalWrite (PinIN2, LOW);
 
   analogWrite (PinENB, new_vel);
   digitalWrite (PinIN3, LOW);

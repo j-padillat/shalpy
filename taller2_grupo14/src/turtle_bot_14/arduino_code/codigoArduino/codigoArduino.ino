@@ -41,6 +41,9 @@ void loop() {
   if (tecla=="d") {
     MotorDerecha(angular);
   }
+  if (tecla=="stop") {
+    MotorStop(lineal);
+  }
 
   
 }

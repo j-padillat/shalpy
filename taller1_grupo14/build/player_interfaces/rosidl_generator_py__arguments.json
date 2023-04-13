@@ -1,9 +1,9 @@
 {
   "package_name": "player_interfaces",
-  "output_dir": "/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces",
+  "output_dir": "/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:srv/Player.idl"
+    "/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:srv/Player.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -80,7 +80,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/srv/Player.idl",
+    "/home/juanespadi/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/srv/Player.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",
