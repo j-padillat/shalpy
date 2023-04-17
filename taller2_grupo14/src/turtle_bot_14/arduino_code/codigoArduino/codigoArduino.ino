@@ -25,10 +25,8 @@ void loop() {
 
   readSerialPort();
   varvel(msg,&tecla,&lineal,&angular);
-  Serial.println("Entro:");
-  Serial.println(tecla);
-  Serial.println(lineal);
-  Serial.println(angular);
+  Serial.println(msg);
+  
   if (tecla=="w") {
     MotorAdelante(lineal);
   }

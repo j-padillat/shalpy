@@ -1,5 +1,5 @@
 CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o: \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/aarch64-linux-gnu/python3.10/pyconfig.h \
@@ -201,11 +201,11 @@ CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_ge
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__type_support.h \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__struct.h \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__type_support.h \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.h
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.h

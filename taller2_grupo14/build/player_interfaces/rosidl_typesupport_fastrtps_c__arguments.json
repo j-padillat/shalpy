@@ -1,9 +1,9 @@
 {
   "package_name": "player_interfaces",
-  "output_dir": "/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_c/player_interfaces",
+  "output_dir": "/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_c/player_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:srv/Player.idl"
+    "/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:srv/Player.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -75,7 +75,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/srv/Player.idl",
+    "/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/srv/Player.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

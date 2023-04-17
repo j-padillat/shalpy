@@ -129,7 +129,7 @@ def main():
     
     if arduino.isOpen():
 
-        listen_keyboard(on_press=press,on_release=release,delay_second_char=0.75,delay_other_chars=0.05)
+        listen_keyboard(on_press=press,on_release=release,delay_second_char=0.5,delay_other_chars=0.2)
         print(type(listen_keyboard))
 
 

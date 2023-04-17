@@ -1,0 +1,281 @@
+[0.000000] (-) TimerEvent: {}
+[0.001768] (player_interfaces) JobQueued: {'identifier': 'player_interfaces', 'dependencies': OrderedDict()}
+[0.002356] (turtle_bot_14) JobQueued: {'identifier': 'turtle_bot_14', 'dependencies': OrderedDict()}
+[0.002459] (player_interfaces) JobStarted: {'identifier': 'player_interfaces'}
+[0.063985] (turtle_bot_14) JobStarted: {'identifier': 'turtle_bot_14'}
+[0.100369] (-) TimerEvent: {}
+[0.120031] (player_interfaces) JobProgress: {'identifier': 'player_interfaces', 'progress': 'cmake'}
+[0.127326] (player_interfaces) JobProgress: {'identifier': 'player_interfaces', 'progress': 'build'}
+[0.130421] (player_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.2.100 51175 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/shalpy/taller2_grupo14/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces'), ('SSH_CONNECTION', '192.168.2.100 51175 192.168.2.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.200644] (-) TimerEvent: {}
+[0.301548] (-) TimerEvent: {}
+[0.402277] (-) TimerEvent: {}
+[0.503018] (-) TimerEvent: {}
+[0.603710] (-) TimerEvent: {}
+[0.704589] (-) TimerEvent: {}
+[0.719672] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_generator_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[0.779430] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.790898] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_generator_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[0.804838] (-) TimerEvent: {}
+[0.834041] (player_interfaces) StdoutLine: {'line': b'[  3%] Built target player_interfaces__cpp\n'}
+[0.844736] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.860288] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[0.864015] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[0.898112] (player_interfaces) StdoutLine: {'line': b'[ 12%] Built target player_interfaces__rosidl_generator_c\n'}
+[0.903676] (player_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_player_interfaces\n'}
+[0.904964] (-) TimerEvent: {}
+[0.930318] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[0.936364] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.937843] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.952152] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[0.964988] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_cpp.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[0.990894] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.004233] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.005192] (-) TimerEvent: {}
+[1.006547] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.011048] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.016788] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.055561] (player_interfaces) StdoutLine: {'line': b'[ 22%] Built target player_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.067840] (player_interfaces) StdoutLine: {'line': b'[ 32%] Built target player_interfaces__rosidl_typesupport_cpp\n'}
+[1.082116] (player_interfaces) StdoutLine: {'line': b'[ 41%] Built target player_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.084146] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.101689] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.105396] (-) TimerEvent: {}
+[1.111024] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.146926] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.168209] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.170276] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.182238] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.192699] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.197129] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.204501] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.205939] (-) TimerEvent: {}
+[1.217984] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_c.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.232948] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.236364] (player_interfaces) StdoutLine: {'line': b'[ 51%] Built target player_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.257856] (player_interfaces) StdoutLine: {'line': b'[ 61%] Built target player_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.280837] (player_interfaces) StdoutLine: {'line': b'[ 70%] Built target player_interfaces__rosidl_typesupport_c\n'}
+[1.306168] (-) TimerEvent: {}
+[1.389563] (player_interfaces) StdoutLine: {'line': b'[ 70%] Built target player_interfaces\n'}
+[1.406382] (-) TimerEvent: {}
+[1.501255] (player_interfaces) StdoutLine: {'line': b'[ 74%] Built target player_interfaces__py\n'}
+[1.506602] (-) TimerEvent: {}
+[1.527053] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_generator_py.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.591608] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.605735] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_generator_py.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.606619] (-) TimerEvent: {}
+[1.637206] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.668185] (player_interfaces) StdoutLine: {'line': b'[ 80%] Built target player_interfaces__rosidl_generator_py\n'}
+[1.690943] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.699891] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.701958] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.706805] (-) TimerEvent: {}
+[1.752276] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.767032] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.772509] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.777152] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.790901] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.797706] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.798383] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.804112] (player_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/player_interfaces__rosidl_typesupport_c__pyext.dir/compiler_depend.make' has modification time 165 s in the future\n"}
+[1.807015] (-) TimerEvent: {}
+[1.814841] (player_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[1.843914] (player_interfaces) StdoutLine: {'line': b'[ 87%] Built target player_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.850621] (player_interfaces) StdoutLine: {'line': b'[ 93%] Built target player_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.883609] (player_interfaces) StdoutLine: {'line': b'[100%] Built target player_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.907214] (-) TimerEvent: {}
+[2.008345] (-) TimerEvent: {}
+[2.109362] (-) TimerEvent: {}
+[2.210189] (-) TimerEvent: {}
+[2.310962] (-) TimerEvent: {}
+[2.334722] (player_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.337783] (player_interfaces) StdoutLine: {'line': b'writing player_interfaces.egg-info/PKG-INFO\n'}
+[2.339073] (player_interfaces) StdoutLine: {'line': b'writing dependency_links to player_interfaces.egg-info/dependency_links.txt\n'}
+[2.340558] (player_interfaces) StdoutLine: {'line': b'writing top-level names to player_interfaces.egg-info/top_level.txt\n'}
+[2.354125] (player_interfaces) StdoutLine: {'line': b"reading manifest file 'player_interfaces.egg-info/SOURCES.txt'\n"}
+[2.357797] (player_interfaces) StdoutLine: {'line': b"writing manifest file 'player_interfaces.egg-info/SOURCES.txt'\n"}
+[2.411162] (-) TimerEvent: {}
+[2.494896] (player_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_player_interfaces_egg\n'}
+[2.511385] (-) TimerEvent: {}
+[2.539135] (player_interfaces) CommandEnded: {'returncode': 0}
+[2.611547] (-) TimerEvent: {}
+[2.712457] (-) TimerEvent: {}
+[2.813184] (-) TimerEvent: {}
+[2.853907] (player_interfaces) JobProgress: {'identifier': 'player_interfaces', 'progress': 'install'}
+[2.891033] (player_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces'], 'cwd': '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.2.100 51175 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/shalpy/taller2_grupo14/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces'), ('SSH_CONNECTION', '192.168.2.100 51175 192.168.2.101 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.913376] (-) TimerEvent: {}
+[2.929198] (player_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.933542] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/rosidl_interfaces/player_interfaces\n'}
+[2.935386] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces\n'}
+[2.936826] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg\n'}
+[2.938216] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.939145] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv\n'}
+[2.940031] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail\n'}
+[2.942798] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.h\n'}
+[2.943645] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__functions.c\n'}
+[2.944337] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__struct.h\n'}
+[2.945035] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__functions.h\n'}
+[2.945482] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player.h\n'}
+[2.947031] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/library_path.sh\n'}
+[2.947797] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/library_path.dsv\n'}
+[2.952288] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_generator_c.so\n'}
+[2.954592] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces\n'}
+[2.955235] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg\n'}
+[2.955720] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.956183] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv\n'}
+[2.956717] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail\n'}
+[2.957325] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_c.h\n'}
+[2.961117] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.962965] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces\n'}
+[2.963705] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv\n'}
+[2.964437] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player.hpp\n'}
+[2.964908] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail\n'}
+[2.965637] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__traits.hpp\n'}
+[2.966461] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__struct.hpp\n'}
+[2.967372] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__builder.hpp\n'}
+[2.967924] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces\n'}
+[2.968563] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg\n'}
+[2.969069] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.969557] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv\n'}
+[2.969976] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail\n'}
+[2.970476] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/dds_fastrtps\n'}
+[2.970891] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.974991] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.976868] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces\n'}
+[2.977622] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg\n'}
+[2.978463] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.979132] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv\n'}
+[2.980026] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail\n'}
+[2.980940] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_introspection_c.h\n'}
+[2.981470] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.c\n'}
+[2.983929] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.987593] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_c.so\n'}
+[2.989064] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces\n'}
+[2.989855] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv\n'}
+[2.990544] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail\n'}
+[2.991273] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.cpp\n'}
+[2.992013] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.996299] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.999932] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.001496] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/pythonpath.sh\n'}
+[3.002272] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/pythonpath.dsv\n'}
+[3.004853] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.006164] (player_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.008137] (player_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.009962] (player_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.011694] (player_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.013606] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces\n'}
+[3.014207] (-) TimerEvent: {}
+[3.017185] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.018127] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.018998] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/__init__.py\n'}
+[3.019682] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.020286] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/libplayer_interfaces__rosidl_generator_py.so\n'}
+[3.020761] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.021225] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv\n'}
+[3.021930] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player.py\n'}
+[3.022512] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/__init__.py\n'}
+[3.023184] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player_s.c\n'}
+[3.023760] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.024256] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.114479] (-) TimerEvent: {}
+[3.186931] (player_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces'...\n"}
+[3.188157] (player_interfaces) StdoutLine: {'line': b"Listing '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv'...\n"}
+[3.214671] (-) TimerEvent: {}
+[3.216077] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.220380] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.224889] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.229314] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_generator_py.so\n'}
+[3.231736] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player.idl\n'}
+[3.232417] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player.srv\n'}
+[3.233075] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player_Request.msg\n'}
+[3.233990] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player_Response.msg\n'}
+[3.234912] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/package_run_dependencies/player_interfaces\n'}
+[3.236280] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/parent_prefix_path/player_interfaces\n'}
+[3.236974] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/ament_prefix_path.sh\n'}
+[3.237740] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.238393] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/path.sh\n'}
+[3.239064] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/path.dsv\n'}
+[3.239731] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.bash\n'}
+[3.240331] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.sh\n'}
+[3.240923] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.zsh\n'}
+[3.241534] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.dsv\n'}
+[3.242242] (player_interfaces) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.dsv\n'}
+[3.245371] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/packages/player_interfaces\n'}
+[3.250160] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.250902] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.254211] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.254967] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.257101] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.260586] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.261317] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.264146] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.264907] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.267429] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.268208] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.270835] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.271633] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.274224] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.274939] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.277679] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.278523] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.279192] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.279772] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.280388] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.280984] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.281656] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.282289] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.282847] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.283517] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfacesConfig.cmake\n'}
+[3.284254] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfacesConfig-version.cmake\n'}
+[3.284857] (player_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.xml\n'}
+[3.293880] (player_interfaces) CommandEnded: {'returncode': 0}
+[3.314851] (-) TimerEvent: {}
+[3.415756] (-) TimerEvent: {}
+[3.516433] (-) TimerEvent: {}
+[3.617278] (-) TimerEvent: {}
+[3.718709] (-) TimerEvent: {}
+[3.734214] (turtle_bot_14) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_bot_14', 'build', '--build-base', '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build', 'install', '--record', '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.2.100 51175 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/shalpy/taller2_grupo14/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14', 'SSH_CONNECTION': '192.168.2.100 51175 192.168.2.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/prefix_override:/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.818854] (-) TimerEvent: {}
+[3.877839] (player_interfaces) JobEnded: {'identifier': 'player_interfaces', 'rc': 0}
+[3.919011] (-) TimerEvent: {}
+[4.019670] (-) TimerEvent: {}
+[4.120359] (-) TimerEvent: {}
+[4.221011] (-) TimerEvent: {}
+[4.321700] (-) TimerEvent: {}
+[4.422327] (-) TimerEvent: {}
+[4.522930] (-) TimerEvent: {}
+[4.623822] (-) TimerEvent: {}
+[4.724506] (-) TimerEvent: {}
+[4.749765] (turtle_bot_14) StdoutLine: {'line': b'running egg_info\n'}
+[4.752649] (turtle_bot_14) StdoutLine: {'line': b'writing ../../build/turtle_bot_14/turtle_bot_14.egg-info/PKG-INFO\n'}
+[4.756542] (turtle_bot_14) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_bot_14/turtle_bot_14.egg-info/dependency_links.txt\n'}
+[4.757762] (turtle_bot_14) StdoutLine: {'line': b'writing entry points to ../../build/turtle_bot_14/turtle_bot_14.egg-info/entry_points.txt\n'}
+[4.758771] (turtle_bot_14) StdoutLine: {'line': b'writing requirements to ../../build/turtle_bot_14/turtle_bot_14.egg-info/requires.txt\n'}
+[4.759512] (turtle_bot_14) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_bot_14/turtle_bot_14.egg-info/top_level.txt\n'}
+[4.770354] (turtle_bot_14) StdoutLine: {'line': b"reading manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'\n"}
+[4.775825] (turtle_bot_14) StdoutLine: {'line': b"writing manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'\n"}
+[4.776522] (turtle_bot_14) StdoutLine: {'line': b'running build\n'}
+[4.777047] (turtle_bot_14) StdoutLine: {'line': b'running build_py\n'}
+[4.780584] (turtle_bot_14) StdoutLine: {'line': b'copying turtle_bot_14/turtle_bot_teleop.py -> /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14\n'}
+[4.782703] (turtle_bot_14) StdoutLine: {'line': b'running install\n'}
+[4.784456] (turtle_bot_14) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.785039] (turtle_bot_14) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.785845] (turtle_bot_14) StdoutLine: {'line': b'running install_lib\n'}
+[4.791157] (turtle_bot_14) StdoutLine: {'line': b'copying /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_teleop.py -> /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14\n'}
+[4.795308] (turtle_bot_14) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc\n'}
+[4.800534] (turtle_bot_14) StdoutLine: {'line': b'running install_data\n'}
+[4.804626] (turtle_bot_14) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.811802] (turtle_bot_14) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.813902] (turtle_bot_14) StdoutLine: {'line': b'Copying ../../build/turtle_bot_14/turtle_bot_14.egg-info to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info\n'}
+[4.823292] (turtle_bot_14) StdoutLine: {'line': b'running install_scripts\n'}
+[4.824642] (-) TimerEvent: {}
+[4.909748] (turtle_bot_14) StdoutLine: {'line': b'Installing turtle_bot_interface script to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14\n'}
+[4.913373] (turtle_bot_14) StdoutLine: {'line': b'Installing turtle_bot_player script to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14\n'}
+[4.914331] (turtle_bot_14) StdoutLine: {'line': b'Installing turtle_bot_teleop script to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14\n'}
+[4.916264] (turtle_bot_14) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log'\n"}
+[4.924928] (-) TimerEvent: {}
+[5.026036] (-) TimerEvent: {}
+[5.035993] (turtle_bot_14) CommandEnded: {'returncode': 0}
+[5.086627] (turtle_bot_14) JobEnded: {'identifier': 'turtle_bot_14', 'rc': 0}
+[5.089821] (-) EventReactorShutdown: {}

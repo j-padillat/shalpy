@@ -1,0 +1,159 @@
+[0.128s] Invoking command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces -- -j4 -l4
+[0.764s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_generator_c[0m
+[0.797s] [  3%] Built target player_interfaces__cpp
+[0.874s] [  3%] Built target ament_cmake_python_copy_player_interfaces
+[0.891s] [ 12%] Built target player_interfaces__rosidl_generator_c
+[0.905s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_cpp[0m
+[0.908s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.963s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.041s] [ 22%] Built target player_interfaces__rosidl_typesupport_cpp
+[1.044s] [ 32%] Built target player_interfaces__rosidl_typesupport_introspection_cpp
+[1.065s] [ 41%] Built target player_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.124s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.151s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_introspection_c[0m
+[1.157s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_c[0m
+[1.232s] [ 51%] Built target player_interfaces__rosidl_typesupport_introspection_c
+[1.241s] [ 61%] Built target player_interfaces__rosidl_typesupport_c
+[1.242s] [ 70%] Built target player_interfaces__rosidl_typesupport_fastrtps_c
+[1.351s] [ 70%] Built target player_interfaces
+[1.461s] [ 74%] Built target player_interfaces__py
+[1.543s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_generator_py[0m
+[1.637s] [ 80%] Built target player_interfaces__rosidl_generator_py
+[1.710s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.731s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_c__pyext[0m
+[1.757s] [35m[1mConsolidate compiler generated dependencies of target player_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.783s] [ 87%] Built target player_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.812s] [ 93%] Built target player_interfaces__rosidl_typesupport_c__pyext
+[1.848s] [100%] Built target player_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.324s] running egg_info
+[2.327s] writing player_interfaces.egg-info/PKG-INFO
+[2.328s] writing dependency_links to player_interfaces.egg-info/dependency_links.txt
+[2.330s] writing top-level names to player_interfaces.egg-info/top_level.txt
+[2.343s] reading manifest file 'player_interfaces.egg-info/SOURCES.txt'
+[2.347s] writing manifest file 'player_interfaces.egg-info/SOURCES.txt'
+[2.484s] [100%] Built target ament_cmake_python_build_player_interfaces_egg
+[2.529s] Invoked command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces -- -j4 -l4
+[2.884s] Invoking command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces
+[2.916s] -- Install configuration: ""
+[2.918s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/rosidl_interfaces/player_interfaces
+[2.922s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces
+[2.923s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[2.925s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.926s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[2.927s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[2.929s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.h
+[2.929s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__functions.c
+[2.930s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__struct.h
+[2.931s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__functions.h
+[2.932s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player.h
+[2.933s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/library_path.sh
+[2.933s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/library_path.dsv
+[2.937s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_generator_c.so
+[2.939s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces
+[2.939s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[2.940s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.941s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[2.941s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[2.942s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_c.h
+[2.945s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.947s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces
+[2.948s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[2.948s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player.hpp
+[2.949s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[2.950s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__traits.hpp
+[2.950s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__struct.hpp
+[2.951s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__builder.hpp
+[2.951s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces
+[2.952s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[2.953s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.953s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[2.954s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[2.955s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/dds_fastrtps
+[2.956s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_cpp.hpp
+[2.959s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.960s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces
+[2.961s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[2.962s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.962s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[2.963s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[2.964s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_introspection_c.h
+[2.964s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.c
+[2.968s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_introspection_c.so
+[2.972s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_c.so
+[2.973s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces
+[2.974s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[2.974s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[2.975s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.cpp
+[2.976s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_introspection_cpp.hpp
+[2.980s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.984s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_cpp.so
+[2.985s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/pythonpath.sh
+[2.986s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/pythonpath.dsv
+[2.987s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info
+[2.987s] -- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.989s] -- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.991s] -- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.993s] -- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.995s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces
+[2.998s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.999s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.999s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/__init__.py
+[3.000s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.001s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/libplayer_interfaces__rosidl_generator_py.so
+[3.001s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.002s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv
+[3.002s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player.py
+[3.003s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/__init__.py
+[3.004s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player_s.c
+[3.005s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_c.c
+[3.005s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.170s] Listing '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces'...
+[3.171s] Listing '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv'...
+[3.197s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.201s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.205s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.210s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/libplayer_interfaces__rosidl_generator_py.so
+[3.213s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player.idl
+[3.215s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player.srv
+[3.216s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player_Request.msg
+[3.216s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/srv/Player_Response.msg
+[3.217s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/package_run_dependencies/player_interfaces
+[3.218s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/parent_prefix_path/player_interfaces
+[3.218s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/ament_prefix_path.sh
+[3.219s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/ament_prefix_path.dsv
+[3.220s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/path.sh
+[3.220s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/environment/path.dsv
+[3.221s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.bash
+[3.221s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.sh
+[3.222s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.zsh
+[3.223s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/local_setup.dsv
+[3.223s] -- Installing: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.dsv
+[3.226s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/ament_index/resource_index/packages/player_interfaces
+[3.231s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cExport.cmake
+[3.232s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.235s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.236s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.238s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cppExport.cmake
+[3.241s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.242s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.244s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.245s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.248s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cExport.cmake
+[3.248s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.251s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.252s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.255s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cppExport.cmake
+[3.255s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.258s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_pyExport.cmake
+[3.259s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.260s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.260s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.261s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.262s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.262s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.263s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.264s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.264s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfacesConfig.cmake
+[3.265s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/cmake/player_interfacesConfig-version.cmake
+[3.265s] -- Up-to-date: /home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.xml
+[3.280s] Invoked command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces

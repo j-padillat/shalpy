@@ -1,7 +1,7 @@
 CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c.o: \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.c \
  /usr/include/stdc-predef.h \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.h \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__functions.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/include/stdlib.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
@@ -44,8 +44,8 @@ CMakeFiles/player_interfaces__rosidl_generator_c.dir/rosidl_generator_c/player_i
  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/ubuntu/Documents/shalpy/taller1_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__struct.h \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_c/player_interfaces/srv/detail/player__struct.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
