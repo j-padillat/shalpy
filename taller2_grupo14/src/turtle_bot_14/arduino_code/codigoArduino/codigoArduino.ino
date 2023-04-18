@@ -8,6 +8,26 @@ String tecla;
 String msg;
 float lineal, angular;
 
+// Motor Izquierda
+
+const byte Encoder_C1 = 18; // Cable amarillo pin 3 digital
+const byte Encoder_C2 = 14; // Cable verde al pin 4 digital
+byte Encoder_C1Last;
+int paso1 = 0;
+boolean direccion1;
+float rpm1 = 0;
+unsigned long timeold1 = 0;
+
+//Motor Derecha
+
+const byte Encoder_C3 = 19; // Cable amarillo pin 3 digital
+const byte Encoder_C4 = 15; // Cable verde al pin 4 digital
+byte Encoder_C3Last;
+int paso2 = 0;
+boolean direccion2;
+float rpm2 = 0;
+unsigned long timeold2 = 0;
+
 void setup() {
   // inicializar la comunicación serial a 9600 bits por segundo:
   Serial.begin(9600);
@@ -18,14 +38,19 @@ void setup() {
   pinMode(PinIN3, OUTPUT);
   pinMode(PinIN4, OUTPUT);
   pinMode(PinENB, OUTPUT);
-  Serial.println("LOLOLOL:");
+  pinMode(Encoder_C2, INPUT);
+  pinMode(Encoder_C1, INPUT);
+  pinMode(Encoder_C4, INPUT);
+  pinMode(Encoder_C3, INPUT);
+  attachInterrupt(digitalPinToInterrupt(18), calculapulso1, CHANGE);  
+  attachInterrupt(digitalPinToInterrupt(19), calculapulso2, CHANGE);  
 }
 
-void loop() {
-
+void loop()
+{
+  
   readSerialPort();
   varvel(msg,&tecla,&lineal,&angular);
-  Serial.println(msg);
   
   if (tecla=="w") {
     MotorAdelante(lineal);
@@ -42,10 +67,127 @@ void loop() {
   if (tecla=="stop") {
     MotorStop(lineal);
   }
+ 
+  if (millis() - timeold1 >= 200) {
+    rpm1 = -paso1* (0.481283422459893/(millis() - timeold1)) * (5.1*60000/360);
+    timeold1 = millis();
+    paso1 = 0;
+    }
+  if (millis() - timeold2 >= 200) {
+    rpm2 = paso2* (0.481283422459893/(millis() - timeold2)) * (5.1*60000/360);
+    timeold2 = millis();
+    paso2 = 0;
+    }
+  Serial.print(rpm1);
+  Serial.print(",");
+  Serial.println(rpm2);
+}
 
+void calculapulso1()
+{
+  int L1state = digitalRead(Encoder_C1);
+  if ((Encoder_C1Last == LOW) && L1state == HIGH)
+  {
+    int val1 = digitalRead(Encoder_C2);
+    if (val1 == LOW && direccion1)
+    {
+      direccion1 = false; //Reverse
+    }
+    else if (val1 == HIGH && !direccion1)
+    {
+      direccion1 = true;  //Forward
+    }
+  }
+  Encoder_C1Last = L1state;
+  if (!direccion1)  paso1++;
+  else  paso1--;
+  }
+
+void calculapulso2()
+{
+  int L2state = digitalRead(Encoder_C3);
+  if ((Encoder_C3Last == LOW) && L2state == HIGH)
+  {
+    int val2 = digitalRead(Encoder_C4);
+    if (val2 == LOW && direccion2)
+    {
+      direccion2 = false; //Reverse
+    }
+    else if (val2 == HIGH && !direccion2)
+    {
+      direccion2 = true;  //Forward
+    }
+  }
+  Encoder_C3Last = L2state;
+  if (!direccion2)  paso2++;
+  else  paso2--;
+  }
+
+void MotorAdelante(float vel)
+{
+  //Serial.println("Giro del Motor en sentido horario");
+  int new_vel = map(vel,0,10,0,255);
+  analogWrite (PinENA, new_vel);
+  digitalWrite (PinIN1, LOW);
+  digitalWrite (PinIN2, HIGH);
+
+  analogWrite (PinENB, new_vel);
+  digitalWrite (PinIN3, HIGH);
+  digitalWrite (PinIN4, LOW);
+  
+}
+void MotorAtras(float vel)
+{
+  //Serial.println("Giro del Motor en sentido antihorario");
+  int new_vel = map(vel,0,10,0,255);
+  analogWrite (PinENA, new_vel);
+  digitalWrite (PinIN1, HIGH);
+  digitalWrite (PinIN2, LOW);
+
+  analogWrite (PinENB, new_vel);
+  digitalWrite (PinIN3, LOW);
+  digitalWrite (PinIN4, HIGH);
   
 }
 
+void MotorIzquierda(float vel)
+{
+  //Serial.println("Giro del Motor en sentido horario");
+  int new_vel = map(vel,0,10,0,255);
+  analogWrite (PinENA, new_vel);
+  digitalWrite (PinIN1, HIGH);
+  digitalWrite (PinIN2, LOW);
+
+  analogWrite (PinENB, new_vel);
+  digitalWrite (PinIN3, HIGH);
+  digitalWrite (PinIN4, LOW);
+}
+void MotorDerecha(float vel)
+{
+  //Serial.println("Giro del Motor en sentido antihorario");
+  int new_vel = map(vel,0,10,0,255);
+  analogWrite (PinENA, new_vel);
+  digitalWrite (PinIN1, LOW);
+  digitalWrite (PinIN2, HIGH);
+
+  analogWrite (PinENB, new_vel);
+  digitalWrite (PinIN3, LOW);
+  digitalWrite (PinIN4, HIGH);
+}
+
+void MotorStop(float vel)
+{
+  //Serial.println("Motor Detenido");
+  int new_vel = map(vel,0,10,0,255);
+  analogWrite (PinENA, new_vel);
+  digitalWrite (PinIN1, LOW);
+  digitalWrite (PinIN2, LOW);
+
+  analogWrite (PinENB, new_vel);
+  digitalWrite (PinIN3, LOW);
+  digitalWrite (PinIN4, LOW);  
+}
+ 
 void readSerialPort() {
   msg="";
   if (Serial.available()) {
@@ -79,68 +221,4 @@ void varvel(String x, String* tecla, float* lineal, float* angular) {
   *tecla = values[0];
   *lineal = values[1].toFloat();
   *angular = values[2].toFloat();
-}
-
-
-void MotorAdelante(float vel)
-{
-  Serial.println("Giro del Motor en sentido horario");
-  int new_vel = map(vel,0,10,0,255);
-  analogWrite (PinENA, new_vel);
-  digitalWrite (PinIN1, HIGH);
-  digitalWrite (PinIN2, LOW);
-
-  analogWrite (PinENB, new_vel);
-  digitalWrite (PinIN3, LOW);
-  digitalWrite (PinIN4, HIGH);
-}
-void MotorAtras(float vel)
-{
-  //Serial.println("Giro del Motor en sentido antihorario");
-  int new_vel = map(vel,0,10,0,255);
-  analogWrite (PinENA, new_vel);
-  digitalWrite (PinIN1, LOW);
-  digitalWrite (PinIN2, HIGH);
-
-  analogWrite (PinENB, new_vel);
-  digitalWrite (PinIN3, LOW);
-  digitalWrite (PinIN4, HIGH);
-}
-
-void MotorIzquierda(float vel)
-{
-  //Serial.println("Giro del Motor en sentido horario");
-  int new_vel = map(vel,0,10,0,255);
-  analogWrite (PinENA, new_vel);
-  digitalWrite (PinIN1, LOW);
-  digitalWrite (PinIN2, LOW);
-
-  analogWrite (PinENB, new_vel);
-  digitalWrite (PinIN3, HIGH);
-  digitalWrite (PinIN4, LOW);
-}
-void MotorDerecha(float vel)
-{
-  //Serial.println("Giro del Motor en sentido antihorario");
-  int new_vel = map(vel,0,10,0,255);
-  analogWrite (PinENA, new_vel);
-  digitalWrite (PinIN1, LOW);
-  digitalWrite (PinIN2, HIGH);
-
-  analogWrite (PinENB, new_vel);
-  digitalWrite (PinIN3, LOW);
-  digitalWrite (PinIN4, LOW);
-}
-
-void MotorStop(float vel)
-{
-  //Serial.println("Motor Detenido");
-  int new_vel = map(vel,0,10,0,255);
-  analogWrite (PinENA, new_vel);
-  digitalWrite (PinIN1, LOW);
-  digitalWrite (PinIN2, LOW);
-
-  analogWrite (PinENB, new_vel);
-  digitalWrite (PinIN3, LOW);
-  digitalWrite (PinIN4, LOW);  
 }
