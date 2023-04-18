@@ -30,7 +30,7 @@ unsigned long timeold2 = 0;
 
 void setup() {
   // inicializar la comunicación serial a 9600 bits por segundo:
-  Serial.begin(9600);
+  Serial.begin(115200);
   // configuramos los pines como salida
   pinMode(PinIN1, OUTPUT);
   pinMode(PinIN2, OUTPUT);

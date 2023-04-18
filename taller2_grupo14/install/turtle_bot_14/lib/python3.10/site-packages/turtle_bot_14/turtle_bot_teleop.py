@@ -1,12 +1,11 @@
 import rclpy
 from geometry_msgs.msg import Twist
-#from player_interfaces.srv import PlayerHardware
 from player_interfaces.msg import Trace
 
 import time
 from sshkeyboard import listen_keyboard
 import threading
-#import serial
+import serial
 
 global pub, turn, speed, node, arduino, start_time, end_time, elapsed_time, pub2, trace
 
@@ -46,7 +45,7 @@ def vels(speed, turn):
     return 'currently:\tspeed %s\tturn %s ' % (speed, turn)
 
 
-#arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 9600, timeout = 1)
+arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 9600, timeout = 1)
 
 rclpy.init()
 node = rclpy.create_node('turtle_bot_teleop')
@@ -89,8 +88,9 @@ def press(key):
         print("Tecla: "+ str(key))
         print("Lineal: "+ str(abs(twist.linear.x)))
         print("Angular: "+ str(abs(twist.angular.z)))
+        print("---")
         cmd = str(key)+ "," + str(twist.linear.x) + "," + str(twist.angular.z)
-        #arduino.write(cmd.encode())
+        arduino.write(cmd.encode())
 
         pub.publish(twist)
 
@@ -132,8 +132,9 @@ def release(key):
         print("Tecla: "+ str(key))
         print("Lineal: "+ str(abs(twist.linear.x)))
         print("Angular: "+ str(abs(twist.angular.z)))
+        print("---")
         cmd = str(key)+ "," + str(twist.linear.x) + "," + str(twist.angular.z)
-        #arduino.write(cmd.encode())
+        arduino.write(cmd.encode())
 
         pub.publish(twist)
         pub2.publish(trace)
@@ -148,10 +149,10 @@ def release(key):
 def main():
     global arduino
     
-    #if arduino.isOpen():
+    if arduino.isOpen():
 
-    listen_keyboard(on_press=press,on_release=release,delay_second_char=0.5,delay_other_chars=0.2)
-    print(type(listen_keyboard))
+        listen_keyboard(on_press=press,on_release=release,delay_second_char=0.5,delay_other_chars=0.2)
+        print(type(listen_keyboard))
 
 
 if __name__ == '__main__':
