@@ -1,11 +1,13 @@
 import rclpy
 from geometry_msgs.msg import Twist
+from player_interfaces.msg import Trace
+
 import time
 from sshkeyboard import listen_keyboard
 import threading
 import serial
 
-global pub, turn, speed, node, arduino
+global pub, turn, speed, node, arduino, start_time, end_time, elapsed_time, pub2, trace
 
 msg = "--- turtle_bot_teleop succesfully initialized ---"
 
@@ -48,6 +50,7 @@ arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_557
 rclpy.init()
 node = rclpy.create_node('turtle_bot_teleop')
 pub = node.create_publisher(Twist, '/turtlebot_cmdVel', 10)
+pub2 = node.create_publisher(Trace, '/turtlebot_Trace', 10)
 
 speed = float(input("Please input the lineal speed: ")) # Init set 0.5;; From [0,10]->inArduino
 turn = float(input("Please input the angular speed: ")) # Init set 1.0;; From [0,10]->inArduino
@@ -58,10 +61,12 @@ time.sleep(0.1)
 
 def press(key):
 
-    global turn, speed, pub, arduino
+    global pub, turn, speed, node, arduino, start_time, end_time, elapsed_time, pub2, trace
 
     if key in moveBindings.keys():
         
+        start_time = time.time()
+
         x = moveBindings[key][0]
         y = moveBindings[key][1]
         z = moveBindings[key][2]
@@ -73,10 +78,17 @@ def press(key):
         twist.angular.x = 0.0
         twist.angular.y = 0.0
         twist.angular.z = th * turn
+
+        trace = Trace()
+        trace.x = x * speed
+        trace.y = y * speed
+        trace.th = th * turn
+
         
         print("Tecla: "+ str(key))
         print("Lineal: "+ str(abs(twist.linear.x)))
         print("Angular: "+ str(abs(twist.angular.z)))
+        print("---")
         cmd = str(key)+ "," + str(twist.linear.x) + "," + str(twist.angular.z)
         arduino.write(cmd.encode())
 
@@ -93,9 +105,17 @@ def press(key):
 
 
 def release(key):
-    global speed, turn, pub, arduino
+    
+    global pub, turn, speed, node, arduino, start_time, end_time, elapsed_time, pub2, trace
         
     try:
+        
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+
+        trace.key = str(key)
+        trace.time = elapsed_time
+
         x = 0.0
         y = 0.0
         z = 0.0
@@ -112,10 +132,12 @@ def release(key):
         print("Tecla: "+ str(key))
         print("Lineal: "+ str(abs(twist.linear.x)))
         print("Angular: "+ str(abs(twist.angular.z)))
+        print("---")
         cmd = str(key)+ "," + str(twist.linear.x) + "," + str(twist.angular.z)
         arduino.write(cmd.encode())
 
         pub.publish(twist)
+        pub2.publish(trace)
 
     except Exception as e:
         print(e)

@@ -1,0 +1,28 @@
+[1.106s] Invoking command in '/home/juanespadi/Documents/shalpy/taller2_grupo14/src/turtle_bot_14': PYTHONPATH=/home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/prefix_override:/home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_14 build --build-base /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build install --record /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log --single-version-externally-managed
+[1.415s] running egg_info
+[1.417s] writing ../../build/turtle_bot_14/turtle_bot_14.egg-info/PKG-INFO
+[1.417s] writing dependency_links to ../../build/turtle_bot_14/turtle_bot_14.egg-info/dependency_links.txt
+[1.417s] writing entry points to ../../build/turtle_bot_14/turtle_bot_14.egg-info/entry_points.txt
+[1.417s] writing requirements to ../../build/turtle_bot_14/turtle_bot_14.egg-info/requires.txt
+[1.418s] writing top-level names to ../../build/turtle_bot_14/turtle_bot_14.egg-info/top_level.txt
+[1.420s] reading manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+[1.421s] writing manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+[1.421s] running build
+[1.421s] running build_py
+[1.421s] copying turtle_bot_14/turtle_bot_interface.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14
+[1.422s] running install
+[1.422s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.422s]   warnings.warn(
+[1.422s] running install_lib
+[1.423s] copying /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_interface.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+[1.424s] byte-compiling /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_interface.py to turtle_bot_interface.cpython-310.pyc
+[1.427s] running install_data
+[1.427s] running install_egg_info
+[1.429s] removing '/home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info' (and everything under it)
+[1.429s] Copying ../../build/turtle_bot_14/turtle_bot_14.egg-info to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info
+[1.431s] running install_scripts
+[1.454s] Installing turtle_bot_interface script to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+[1.455s] Installing turtle_bot_player script to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+[1.455s] Installing turtle_bot_teleop script to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+[1.455s] writing list of installed files to '/home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log'
+[1.492s] Invoked command in '/home/juanespadi/Documents/shalpy/taller2_grupo14/src/turtle_bot_14' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/prefix_override:/home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_14 build --build-base /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build install --record /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log --single-version-externally-managed

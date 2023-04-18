@@ -1,9 +1,11 @@
 {
   "package_name": "player_interfaces",
-  "output_dir": "/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_cpp/player_interfaces",
+  "output_dir": "/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_typesupport_fastrtps_cpp/player_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:srv/Player.idl"
+    "/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:srv/Player.idl",
+    "/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:srv/PlayerHardware.idl",
+    "/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces:msg/Trace.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -64,7 +66,9 @@
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt64.idl",
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl",
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt8.idl",
-    "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl"
+    "std_msgs:/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -75,7 +79,9 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/srv/Player.idl",
+    "/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/srv/Player.idl",
+    "/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/srv/PlayerHardware.idl",
+    "/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_adapter/player_interfaces/msg/Trace.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -134,6 +140,8 @@
     "/opt/ros/humble/share/std_msgs/msg/UInt64.idl",
     "/opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl",
     "/opt/ros/humble/share/std_msgs/msg/UInt8.idl",
-    "/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl"
+    "/opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]
 }

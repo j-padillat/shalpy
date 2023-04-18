@@ -1,7 +1,9 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-from player_interfaces.srv import Player
+from player_interfaces.srv import PlayerHardware
+from player_interfaces.msg import Trace
+
 import sys
 from tkinter import *
 from tkinter.filedialog import asksaveasfilename, askopenfilename
@@ -39,7 +41,7 @@ colors='black',
 grid_color='r', grid_alpha=0.5)
 # ----- Initialize the data -----
 x_data, y_data = [], []
-linear_x, linear_y, angular_z = [],[],[]
+keys, linear_x, linear_y, angular_z, times= [],[],[],[],[]
 line, = ax.plot(x_data, y_data, 'b.', linewidth=1)
 DatosPos = np.array([[1, 2, 3, 4, 5, 6, 7, 8, 9, 10],[11, 12, 13, 14, 15, 16, 17, 18, 19, 20]])
 ##### ------------------------------------------ ######
@@ -62,29 +64,51 @@ def guardar_imagen():
     file = asksaveasfilename()
     fig.savefig(file)
 
-  
+
 def guardar_recorrido():
     file2 = asksaveasfilename(defaultextension='.txt')
-    DatosVel = np.array([linear_x,linear_y,angular_z])
-    np.savetxt(file2, DatosVel)
+    print(str(keys))
+    DatosKeys = np.array(keys)
+    DatosX = np.array(linear_x)
+    DatosY = np.array(linear_y)
+    DatosTH = np.array(angular_z)
+    DatosTimes = np.array(times)
+    
+    print(type(DatosKeys))
+    np.savetxt(file2, (DatosKeys, DatosX, DatosY, DatosTH, DatosTimes), delimiter=',',fmt='%s')
+
+    #Datos = np.array([linear_x,linear_y,angular_z, times])
+    #np.savetxt(file2, Datos)
+    
+    
   
 def cargar_recorrido():
     peticion = input("Escriba el nombre del recorrido: ")
     file3 = askopenfilename()
-    recorridoCargado = np.genfromtxt(file3)
-    
+    recorridoCargado = np.loadtxt(file3, delimiter=',', dtype=np.str)
+    print(recorridoCargado)
+    print(recorridoCargado[1].astype(np.float))
+    linealx = recorridoCargado[1].astype(np.float)
+    linealy = recorridoCargado[2].astype(np.float)
+    anguloth = recorridoCargado[3].astype(np.float)
+    tiempillos = recorridoCargado[4].astype(np.float)
+    print(linealx)
+    keysVector=[]
+    timesVector=[]
     twistIndividual = Twist()
     twistVector = []
-    print(len(recorridoCargado[0]))
-    for i in range(len(recorridoCargado[0])):
-        if not ((recorridoCargado[0][i] == 0 and recorridoCargado[1][i] == 0) and recorridoCargado[2][i] == 0):
+    print(len(linealx))
+    for i in range(len(linealx)):
+        keysVector.append(recorridoCargado[0][i])
+        timesVector.append(tiempillos[i])
+        if not ((linealx[i] == 0 and linealy[i] == 0) and anguloth[i] == 0):
             twistIndividual = Twist()
-            twistIndividual.linear.x = recorridoCargado[0][i]
-            twistIndividual.linear.y = recorridoCargado[1][i]
+            twistIndividual.linear.x = linealx[i]
+            twistIndividual.linear.y = linealy[i]
             twistIndividual.linear.z = 0.0
             twistIndividual.angular.x = 0.0
             twistIndividual.angular.y = 0.0
-            twistIndividual.angular.z = recorridoCargado[2][i]
+            twistIndividual.angular.z = anguloth[i]
             
             twistVector.append(twistIndividual)
     
@@ -99,7 +123,7 @@ def cargar_recorrido():
 
     print(len(twistVector))
 
-    nodoCliente.send_request(peticion, twistVector)
+    nodoCliente.send_request(peticion, twistVector, keysVector, timesVector)
     
     nodoCliente.get_logger().info('Llego al cliente después del servicio')
 
@@ -169,10 +193,18 @@ def graficar_datos(x,y):
         canvas.draw()
 
 
-def guardar_datos(x,y,z):
+def guardar_datos(key,x,y,th,time):
+    # letra = 0
+    # print(key)
+    # if key == 'w':
+    #     letra = 1
+    # elif key == 'a':
+
+    keys.append(key)
     linear_x.append(x)
     linear_y.append(y)
-    angular_z.append(z)
+    angular_z.append(th)
+    times.append(time)
 
 ##### ----------------------------------------- #######
 
@@ -182,14 +214,16 @@ def guardar_datos(x,y,z):
 class clientePlayer(Node):
     def __init__(self):
         super().__init__('cliente_player')
-        self.cli = self.create_client(Player, 'turtle_bot_player_srv')
+        self.cli = self.create_client(PlayerHardware, 'turtle_bot_player_srv')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
-        self.req = Player.Request()
+        self.req = PlayerHardware.Request()
 
-    def send_request(self, nombrecito, vectorcito):
+    def send_request(self, nombrecito, vectorcito, teclitas, tiempitos):
         self.req.nombre = nombrecito
         self.req.posiciones = vectorcito
+        self.req.keys = teclitas
+        self.req.times = tiempitos
         self.future = self.cli.call_async(self.req)
         rclpy.spin_until_future_complete(self, self.future)
         return self.future.result()
@@ -198,14 +232,14 @@ class nodoQueSeSuscribe(Node):
     def __init__(self):
         super().__init__('turtle_bot_interface')
         self.nodoParaPosicion = self.create_subscription(Twist, '/turtlebot_position',self.listener_callback,10)
-        self.nodoParaVelocidad = self.create_subscription(Twist, '/turtlebot_cmdVel', self.velocity_callback ,10)
+        self.nodoParaVelocidad = self.create_subscription(Trace, '/turtlebot_Trace', self.velocity_callback ,10)
     ##### SUSCRIBER CALLBACK #####
     def listener_callback(self, msg):
         #print('La posición es =  x: '+str(msg.linear.x)+'; y: ' + str(msg.linear.y)+'; Angular: ' + str(msg.angular.z))
         graficar_datos(msg.linear.x,msg.linear.y)
 
     def velocity_callback(self, msg):
-        guardar_datos(msg.linear.x, msg.linear.y, msg.angular.z)
+        guardar_datos(msg.key, msg.x, msg.y, msg.th, msg.time)
 
 
 ############## ROS2 STUFF ###################################

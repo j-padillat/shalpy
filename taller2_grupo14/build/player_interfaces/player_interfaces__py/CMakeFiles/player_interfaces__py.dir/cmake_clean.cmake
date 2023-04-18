@@ -2,8 +2,13 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_c.c"
   "../rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/player_interfaces/msg/__init__.py"
+  "../rosidl_generator_py/player_interfaces/msg/_trace.py"
+  "../rosidl_generator_py/player_interfaces/msg/_trace_s.c"
   "../rosidl_generator_py/player_interfaces/srv/__init__.py"
   "../rosidl_generator_py/player_interfaces/srv/_player.py"
+  "../rosidl_generator_py/player_interfaces/srv/_player_hardware.py"
+  "../rosidl_generator_py/player_interfaces/srv/_player_hardware_s.c"
   "../rosidl_generator_py/player_interfaces/srv/_player_s.c"
   "CMakeFiles/player_interfaces__py"
 )

@@ -4,5 +4,8 @@ player_interfaces.egg-info/PKG-INFO
 player_interfaces.egg-info/SOURCES.txt
 player_interfaces.egg-info/dependency_links.txt
 player_interfaces.egg-info/top_level.txt
+player_interfaces/msg/__init__.py
+player_interfaces/msg/_trace.py
 player_interfaces/srv/__init__.py
 player_interfaces/srv/_player.py
+player_interfaces/srv/_player_hardware.py

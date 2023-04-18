@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/player_interfaces__py
+# Install script for directory: /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/player_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/juanespadi/Documents/shalpy/taller2_grupo14/install/player_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

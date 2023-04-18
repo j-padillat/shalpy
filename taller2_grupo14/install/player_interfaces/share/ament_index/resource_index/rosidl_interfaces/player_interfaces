@@ -1,4 +1,10 @@
+msg/Trace.idl
+msg/Trace.msg
 srv/Player.idl
 srv/Player.srv
+srv/PlayerHardware.idl
+srv/PlayerHardware.srv
+srv/PlayerHardware_Request.msg
+srv/PlayerHardware_Response.msg
 srv/Player_Request.msg
 srv/Player_Response.msg

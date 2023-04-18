@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces
+CMAKE_SOURCE_DIR = /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces
+CMAKE_BINARY_DIR = /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces
 
 # Utility rule file for player_interfaces.
 
@@ -66,9 +66,13 @@ include CMakeFiles/player_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/player_interfaces.dir/progress.make
 
-CMakeFiles/player_interfaces: /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces/srv/Player.srv
+CMakeFiles/player_interfaces: /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces/srv/Player.srv
 CMakeFiles/player_interfaces: rosidl_cmake/srv/Player_Request.msg
 CMakeFiles/player_interfaces: rosidl_cmake/srv/Player_Response.msg
+CMakeFiles/player_interfaces: /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces/srv/PlayerHardware.srv
+CMakeFiles/player_interfaces: rosidl_cmake/srv/PlayerHardware_Request.msg
+CMakeFiles/player_interfaces: rosidl_cmake/srv/PlayerHardware_Response.msg
+CMakeFiles/player_interfaces: /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces/msg/Trace.msg
 CMakeFiles/player_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/player_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/player_interfaces: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -98,6 +102,8 @@ CMakeFiles/player_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3.id
 CMakeFiles/player_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/player_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/player_interfaces: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
+CMakeFiles/player_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+CMakeFiles/player_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 
 player_interfaces: CMakeFiles/player_interfaces
 player_interfaces: CMakeFiles/player_interfaces.dir/build.make
@@ -112,6 +118,6 @@ CMakeFiles/player_interfaces.dir/clean:
 .PHONY : CMakeFiles/player_interfaces.dir/clean
 
 CMakeFiles/player_interfaces.dir/depend:
-	cd /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles/player_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles/player_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/player_interfaces.dir/depend
 

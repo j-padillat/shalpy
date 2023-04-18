@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces
+CMAKE_SOURCE_DIR = /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces
+CMAKE_BINARY_DIR = /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/flags.make
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o: rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o -MF CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o.d -o CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o -c /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o -MF CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o.d -o CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o -c /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c > CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.i
 
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c -o CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.s
 
 # Object files for target player_interfaces__rosidl_typesupport_introspection_c__pyext
 player_interfaces__rosidl_typesupport_introspection_c__pyext_OBJECTS = \
@@ -90,54 +90,54 @@ player_interfaces__rosidl_typesupport_introspection_c__pyext_OBJECTS = \
 # External object files for target player_interfaces__rosidl_typesupport_introspection_c__pyext
 player_interfaces__rosidl_typesupport_introspection_c__pyext_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: rosidl_generator_py/player_interfaces/libplayer_interfaces__rosidl_generator_py.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: libplayer_interfaces__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: libplayer_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: libplayer_interfaces__rosidl_generator_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
-rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so"
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: rosidl_generator_py/player_interfaces/libplayer_interfaces__rosidl_generator_py.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: libplayer_interfaces__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: libplayer_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: libplayer_interfaces__rosidl_generator_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librmw.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librosidl_runtime_c.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: /opt/ros/humble/lib/librcutils.so
+rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so: CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build: rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build: rosidl_generator_py/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
 .PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build
 
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/clean:
@@ -145,6 +145,6 @@ CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/clea
 .PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/clean
 
 CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend:
-	cd /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/player_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces
+CMAKE_SOURCE_DIR = /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces
+CMAKE_BINARY_DIR = /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces
 
 # Utility rule file for player_interfaces__cpp.
 
@@ -70,6 +70,14 @@ CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/pl
 CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player__builder.hpp
 CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp
 CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player__traits.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/player_hardware.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__builder.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__struct.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__traits.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/trace.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/detail/trace__builder.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/detail/trace__struct.hpp
+CMakeFiles/player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/detail/trace__traits.hpp
 
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +95,8 @@ rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/ros
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: rosidl_adapter/player_interfaces/srv/Player.idl
+rosidl_generator_cpp/player_interfaces/srv/player.hpp: rosidl_adapter/player_interfaces/srv/PlayerHardware.idl
+rosidl_generator_cpp/player_interfaces/srv/player.hpp: rosidl_adapter/player_interfaces/msg/Trace.idl
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -146,8 +156,10 @@ rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_cpp__arguments.json
+rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/player_interfaces/srv/player.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/player_interfaces/srv/detail/player__builder.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/srv/detail/player__builder.hpp
@@ -158,11 +170,43 @@ rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp: rosidl_gen
 rosidl_generator_cpp/player_interfaces/srv/detail/player__traits.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/srv/detail/player__traits.hpp
 
+rosidl_generator_cpp/player_interfaces/srv/player_hardware.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/srv/player_hardware.hpp
+
+rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__builder.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__builder.hpp
+
+rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__struct.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__struct.hpp
+
+rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__traits.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__traits.hpp
+
+rosidl_generator_cpp/player_interfaces/msg/trace.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/msg/trace.hpp
+
+rosidl_generator_cpp/player_interfaces/msg/detail/trace__builder.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/msg/detail/trace__builder.hpp
+
+rosidl_generator_cpp/player_interfaces/msg/detail/trace__struct.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/msg/detail/trace__struct.hpp
+
+rosidl_generator_cpp/player_interfaces/msg/detail/trace__traits.hpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/player_interfaces/msg/detail/trace__traits.hpp
+
 player_interfaces__cpp: CMakeFiles/player_interfaces__cpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/detail/trace__builder.hpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/detail/trace__struct.hpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/detail/trace__traits.hpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/msg/trace.hpp
 player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player__builder.hpp
 player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player__struct.hpp
 player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player__traits.hpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__builder.hpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__struct.hpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/detail/player_hardware__traits.hpp
 player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/player.hpp
+player_interfaces__cpp: rosidl_generator_cpp/player_interfaces/srv/player_hardware.hpp
 player_interfaces__cpp: CMakeFiles/player_interfaces__cpp.dir/build.make
 .PHONY : player_interfaces__cpp
 
@@ -175,6 +219,6 @@ CMakeFiles/player_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/player_interfaces__cpp.dir/clean
 
 CMakeFiles/player_interfaces__cpp.dir/depend:
-	cd /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/src/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces /home/juanespadi/Documents/shalpy/taller2_grupo14/build/player_interfaces/CMakeFiles/player_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/player_interfaces__cpp.dir/depend
 

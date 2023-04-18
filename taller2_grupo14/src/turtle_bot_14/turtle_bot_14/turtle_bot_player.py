@@ -1,4 +1,4 @@
-from player_interfaces.srv import Player
+from player_interfaces.srv import PlayerHardware
 from geometry_msgs.msg import Twist
 import rclpy
 from rclpy.node import Node
@@ -10,19 +10,19 @@ import time
 class servicioPlayer(Node):
     def __init__(self):
         super().__init__('turtle_bot_player')
-        self.srv = self.create_service(Player, 'turtle_bot_player_srv', self.player_callback)   # Creates service
+        self.srv = self.create_service(PlayerHardware, 'turtle_bot_player_srv', self.player_callback)   # Creates service
         self.pub = self.create_publisher(Twist, '/turtlebot_cmdVel', 10)    # Creates publisher
         print('---- Player Service succesfully initialized ----')
     
     def player_callback(self, request, response):
-        print(len(request.posiciones))
-        tiempo = len(request.posiciones)/12600 # 315/0.025  # An experimental factor for the sleep time
-        for i in range(len(request.posiciones)):
+        
+        for i in range(len(request.posiciones)-1):
             self.pub.publish(request.posiciones[i])
             print(i)
             print(request.posiciones[i])
-            time.sleep(tiempo)
-        self.get_logger().info('El nombre del recorrido es: '+request.nombre)
+            time.sleep(request.times[i])
+        
+        self.get_logger().info('El nombre del recorrido es: ' + request.nombre)
         return response
 
 

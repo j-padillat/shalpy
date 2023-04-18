@@ -12,11 +12,16 @@ find_package(geometry_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(builtin_interfaces REQUIRED)
+
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Player.srv"
+  "srv/PlayerHardware.srv"
+  "msg/Trace.msg"
   DEPENDENCIES geometry_msgs
+  DEPENDENCIES builtin_interfaces
 )
 
 if(BUILD_TESTING)
