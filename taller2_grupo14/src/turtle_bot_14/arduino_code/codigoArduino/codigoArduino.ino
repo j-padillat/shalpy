@@ -44,6 +44,7 @@ void setup() {
   pinMode(Encoder_C3, INPUT);
   attachInterrupt(digitalPinToInterrupt(18), calculapulso1, CHANGE);  
   attachInterrupt(digitalPinToInterrupt(19), calculapulso2, CHANGE);  
+  Serial.println("Empieza")
 }
 
 void loop()

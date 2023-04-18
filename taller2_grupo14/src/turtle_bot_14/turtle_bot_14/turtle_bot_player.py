@@ -32,8 +32,8 @@ class servicioPlayer(Node):
             print(request.posiciones[i])
             time.sleep(request.times[i])
 
-            cmd = str("stop")+ "," + str(abs(0)) + "," + str(abs(0))
-            arduino.write(cmd.encode())
+        cmd = str("stop")+ "," + str(abs(0)) + "," + str(abs(0))
+        arduino.write(cmd.encode())
 
 
         
