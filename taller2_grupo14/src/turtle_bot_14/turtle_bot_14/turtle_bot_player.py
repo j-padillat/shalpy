@@ -24,12 +24,12 @@ class servicioPlayer(Node):
             print("Tecla: "+ str(request.keys[i]))
             print("Lineal: "+ str(abs(request.posiciones[i].linear.x)))
             print("Angular: "+ str(abs(request.posiciones[i].angular.z)))
-            print("---")
             cmd = str(request.keys[i])+ "," + str(abs(request.posiciones[i].linear.x)) + "," + str(abs(request.posiciones[i].angular.z))
             arduino.write(cmd.encode())
 
             self.pub.publish(request.posiciones[i])
             print(request.posiciones[i])
+            print("---")
             time.sleep(request.times[i])
 
         cmd = str("stop")+ "," + str(abs(0)) + "," + str(abs(0))
