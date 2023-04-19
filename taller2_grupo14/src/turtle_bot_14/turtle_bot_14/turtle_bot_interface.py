@@ -26,7 +26,7 @@ from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationTool
 ### CREATION OF A FIGURE AND THE AXES PLOT OBJECT ####
 BanderitaGuardarDatos = True
 fig, ax = plt.subplots(dpi=90, figsize=(7,5),facecolor='white')
-ax.set_title("Pocision de Turtlebot",color='black',size=16, family="Arial")
+ax.set_title("Posicion de Turtlebot",color='black',size=16)
 ax.set_facecolor('white')
 ax.axhline(linewidth=1, color='black')
 ax.axvline(linewidth=1, color='black')
@@ -34,8 +34,8 @@ ax.set_xlabel("Eje  X", color='black')
 ax.set_ylabel("Eje  Y", color='black')
 ax.grid(b=True, which='minor', color='k', linestyle='-.', linewidth=0.5)
 ax.minorticks_on()
-ax.set_xlim([-2.5, 2.5])
-ax.set_ylim([-2.5, 2.5])
+ax.set_xlim([-100, 100])
+ax.set_ylim([-100, 100])
 ax.tick_params(direction='out', length=6, width=2, 
 colors='black',
 grid_color='r', grid_alpha=0.5)
@@ -182,14 +182,14 @@ def graficar_datos(x,y):
     if len(x_data) == 0:
         x_data.append(x)
         y_data.append(y)
-        l, = ax.plot(x_data, y_data,'b.', linewidth=1)
+        l, = ax.plot(x_data, y_data,'g.', linewidth=1)
         canvas.draw()
         l.set_ydata(y_data)
 
     if (abs(x_data[-1]-x)>=0.01) or (abs(y_data[-1]-y)>=0.01):
         x_data.append(x)
         y_data.append(y)
-        l, = ax.plot(x_data, y_data,'b.', linewidth=1)
+        l, = ax.plot(x_data, y_data,'g.', linewidth=1)
         canvas.draw()
 
 
