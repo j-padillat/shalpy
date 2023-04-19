@@ -79,11 +79,11 @@ void loop()
     timeold2 = millis();
     paso2 = 0;
     }
-  Serial.print("Mensaje: ,");
+  Serial.print("Mensaje,");
   Serial.print(rpm1);
   Serial.print(",");
   Serial.println(rpm2);
-  delay(500);
+  delay(10);
 }
 
 void calculapulso1()
