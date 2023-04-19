@@ -45,7 +45,7 @@ def vels(speed, turn):
     return 'currently:\tspeed %s\tturn %s ' % (speed, turn)
 
 
-arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 115200, timeout = 1)
+arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 9600, timeout = 1)
 
 rclpy.init()
 node = rclpy.create_node('turtle_bot_teleop')

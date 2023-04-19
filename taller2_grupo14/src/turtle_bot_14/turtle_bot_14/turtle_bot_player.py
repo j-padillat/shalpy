@@ -8,7 +8,7 @@ import serial
 ### Turtle Bot Player Node
 # This node receives the request of custom type Player that includes the name of the circuit to play and an Array of the Twist messages to publish.
 
-arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 115200, timeout = 1)
+arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 9600, timeout = 1)
 
 class servicioPlayer(Node):
     def __init__(self):

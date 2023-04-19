@@ -2,10 +2,12 @@
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_interface.py
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_teleop.py
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/__init__.py
+/home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_position.py
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/__pycache__/turtle_bot_player.cpython-310.pyc
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/__pycache__/turtle_bot_interface.cpython-310.pyc
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/__pycache__/turtle_bot_teleop.cpython-310.pyc
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/__pycache__/__init__.cpython-310.pyc
+/home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/__pycache__/turtle_bot_position.cpython-310.pyc
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/ament_index/resource_index/packages/turtle_bot_14
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/package.xml
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -17,4 +19,5 @@
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info/zip-safe
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14/turtle_bot_interface
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14/turtle_bot_player
+/home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14/turtle_bot_position
 /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14/turtle_bot_teleop

@@ -16,4 +16,5 @@ test/test_pep257.py
 turtle_bot_14/__init__.py
 turtle_bot_14/turtle_bot_interface.py
 turtle_bot_14/turtle_bot_player.py
+turtle_bot_14/turtle_bot_position.py
 turtle_bot_14/turtle_bot_teleop.py

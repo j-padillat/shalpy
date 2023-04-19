@@ -30,7 +30,7 @@ unsigned long timeold2 = 0;
 
 void setup() {
   // inicializar la comunicación serial a 9600 bits por segundo:
-  Serial.begin(115200);
+  Serial.begin(9600);
   // configuramos los pines como salida
   pinMode(PinIN1, OUTPUT);
   pinMode(PinIN2, OUTPUT);
@@ -44,7 +44,7 @@ void setup() {
   pinMode(Encoder_C3, INPUT);
   attachInterrupt(digitalPinToInterrupt(18), calculapulso1, CHANGE);  
   attachInterrupt(digitalPinToInterrupt(19), calculapulso2, CHANGE);  
-  Serial.println("Empieza")
+  Serial.println("Empieza");
 }
 
 void loop()
@@ -79,9 +79,11 @@ void loop()
     timeold2 = millis();
     paso2 = 0;
     }
+  Serial.print("Mensaje: ,");
   Serial.print(rpm1);
   Serial.print(",");
   Serial.println(rpm2);
+  delay(500);
 }
 
 void calculapulso1()
