@@ -154,6 +154,11 @@ def main():
         listen_keyboard(on_press=press,on_release=release,delay_second_char=0.5,delay_other_chars=0.2)
         print(type(listen_keyboard))
 
+    
+        answer=arduino.readline()
+        print(answer)
+        arduino.flushInput() #remove data after reading
+
 
 if __name__ == '__main__':
     main()

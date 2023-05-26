@@ -34,8 +34,8 @@ ax.set_xlabel("Eje  X", color='black')
 ax.set_ylabel("Eje  Y", color='black')
 ax.grid(b=True, which='minor', color='k', linestyle='-.', linewidth=0.5)
 ax.minorticks_on()
-ax.set_xlim([-100, 100])
-ax.set_ylim([-100, 100])
+ax.set_xlim([-5000, 5000])
+ax.set_ylim([-5000, 5000])
 ax.tick_params(direction='out', length=6, width=2, 
 colors='black',
 grid_color='r', grid_alpha=0.5)
