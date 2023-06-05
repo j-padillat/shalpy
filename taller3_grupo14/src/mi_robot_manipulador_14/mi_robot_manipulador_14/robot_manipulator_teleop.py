@@ -152,7 +152,7 @@ def press(key):
 def release(key):
     
     global msg, moveBindings, speedBindings, link, speed0, speed1, speed2, speed3, pub, sub, sub2, start_time
-        
+    
     try:
         
         end_time = time.time()
@@ -176,12 +176,26 @@ def release(key):
         else:
             vel = mov * speed3
 
+        vel = 0;
+
         keyServo = key
-        key="stop"
+        punto="stoppp"
         print("Tecla: "+ str(key))
         print("Velocidad: "+ str(abs(vel)))
         print("Servo: "+ str(moveBindings[keyServo][1]))
         print("---")
+
+
+        testStruct = structForTransmition
+        sendSize = 0
+        testStruct.tecla = key
+        testStruct.th0_vel = vel
+        sendSize = link.tx_obj(testStruct.tecla, start_pos=sendSize)
+        sendSize = link.tx_obj(testStruct.th0_vel, start_pos=sendSize)
+        sendSize = link.tx_obj(testStruct.th1, start_pos=sendSize)
+        sendSize = link.tx_obj(testStruct.th2, start_pos=sendSize)
+        sendSize = link.tx_obj(punto, start_pos=sendSize)
+        link.send(sendSize)
 
         # arr = "stop"
         # testStruct = structEnviar

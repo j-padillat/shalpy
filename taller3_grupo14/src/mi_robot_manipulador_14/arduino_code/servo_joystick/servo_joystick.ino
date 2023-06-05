@@ -25,7 +25,7 @@ int servo4_pin = 5;    // Servo 0, Base
 int initial_position1 = 90;  // Servo 3
 int initial_position2 = 90;  // Servo 2
 int initial_position3 = 90;  // Servo 1
-int initial_position4 = 0;   // Servo 0
+int initial_position4 = 90;   // Servo 0
 
 int ang_vel = 20;   // Velocidad
 
@@ -94,16 +94,17 @@ void loop() {
     Serial.println(String(int(num3)));
     Serial.println(punto_string);
     //Serial.println(charRecibidoEnString);
-
-    //myTransfer.reset();
   }
   if (strcmp(punto_string, "punto1")==0) {
     punto1(tecla, entero1);
-    strcpy(punto_string, "lolxdd");
+    //strcpy(punto_string, "lolxdd");
   } else if (strcmp(punto_string, "punto3")==0){
     punto3(entero1, entero2, entero3);
     strcpy(punto_string, "lolxdd");
+  } else if (strcmp(punto_string, "stoppp")==0){
+    punto1(tecla,entero1);
   }
+
 
   float ang_Joint0 = initial_position4;
   float ang_Joint1 = initial_position1;
@@ -126,7 +127,8 @@ void loop() {
   Serial.println(pos_Z)
   */
 
-  delay(200);
+  delay(10);
+  //myTransfer.reset();
 }
 
 
@@ -138,48 +140,64 @@ void punto1(char key, int ang_vel) {
       initial_position1 += ang_vel;
       servo1.write(initial_position1);
       delay(100);
+    } else{
+      initial_position3 = 179;
     }
   } else if (key == 'f') {
     if (initial_position1 > 0) {
-      initial_position1 -= ang_vel;
+      initial_position1 += ang_vel;
       servo1.write(initial_position1);
       delay(100);
+    } else{
+      initial_position1 = 2;
     }
   } else if (key == 'e') {
     if (initial_position2 < 180) {
       initial_position2 += ang_vel;
       servo2.write(initial_position2);
       delay(100);
+    } else{
+      initial_position2 = 179;
     }
   } else if (key == 'd') {
     if (initial_position2 > 0) {
-      initial_position2 -= ang_vel;
+      initial_position2 += ang_vel;
       servo2.write(initial_position2);
       delay(100);
+    } else{
+      initial_position2 = 2;
     }
   } else if (key == 'w') {
     if (initial_position3 < 180) {
       initial_position3 += ang_vel;
       servo3.write(initial_position3);
       delay(100);
+    } else{
+      initial_position3 = 179;
     }
   } else if (key == 's') {
     if (initial_position3 > 0) {
-      initial_position3 -= ang_vel;
+      initial_position3 += ang_vel;
       servo3.write(initial_position3);
       delay(100);
+    } else{
+      initial_position3 = 2;
     }
   } else if (key == 'a') {
     if (initial_position4 < 180) {
       initial_position4 += ang_vel;
       servo4.write(initial_position4);
       delay(100);
+    } else{
+      initial_position4 = 179;
     }
   } else if (key == 'q') {
-    if (initial_position4 > 0) {
-      initial_position4 -= ang_vel;
+    if (initial_position4 > 1) {
+      initial_position4 += ang_vel;
       servo4.write(initial_position4);
       delay(100);
+    } else{
+      initial_position4 = 2;
     }
   }
 }
