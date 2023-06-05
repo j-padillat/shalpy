@@ -152,7 +152,7 @@ def press(key):
 def release(key):
     
     global msg, moveBindings, speedBindings, link, speed0, speed1, speed2, speed3, pub, sub, sub2, start_time
-        
+    
     try:
         
         end_time = time.time()

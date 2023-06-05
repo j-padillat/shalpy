@@ -1,7 +1,13 @@
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/robot_manipulator_planner.py
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/robot_manipulator_teleop.py
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/__init__.py
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/robot_manipulator_goto.py
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/robot_manipulator_interface.py
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/__pycache__/robot_manipulator_planner.cpython-310.pyc
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/__pycache__/robot_manipulator_teleop.cpython-310.pyc
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/__pycache__/__init__.cpython-310.pyc
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/__pycache__/robot_manipulator_goto.cpython-310.pyc
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/__pycache__/robot_manipulator_interface.cpython-310.pyc
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/share/ament_index/resource_index/packages/mi_robot_manipulador_14
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/share/mi_robot_manipulador_14/package.xml
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info/SOURCES.txt
@@ -11,4 +17,7 @@
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info/top_level.txt
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info/PKG-INFO
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info/zip-safe
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14/robot_manipulator_goto
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14/robot_manipulator_interface
+/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14/robot_manipulator_planner
 /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14/robot_manipulator_teleop

@@ -9,6 +9,9 @@ setup.py
 ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/top_level.txt
 ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/zip-safe
 mi_robot_manipulador_14/__init__.py
+mi_robot_manipulador_14/robot_manipulator_goto.py
+mi_robot_manipulador_14/robot_manipulator_interface.py
+mi_robot_manipulador_14/robot_manipulator_planner.py
 mi_robot_manipulador_14/robot_manipulator_teleop.py
 resource/mi_robot_manipulador_14
 test/test_copyright.py

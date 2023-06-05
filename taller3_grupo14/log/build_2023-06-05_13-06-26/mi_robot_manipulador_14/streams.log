@@ -1,0 +1,28 @@
+[1.245s] Invoking command in '/home/juanespadi/Documents/shalpy/taller3_grupo14/src/mi_robot_manipulador_14': PYTHONPATH=/home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/prefix_override:/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_manipulador_14 build --build-base /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build install --record /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/install.log --single-version-externally-managed
+[1.556s] running egg_info
+[1.557s] writing ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/PKG-INFO
+[1.557s] writing dependency_links to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/dependency_links.txt
+[1.558s] writing entry points to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/entry_points.txt
+[1.558s] writing requirements to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/requires.txt
+[1.558s] writing top-level names to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/top_level.txt
+[1.561s] reading manifest file '../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/SOURCES.txt'
+[1.563s] writing manifest file '../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/SOURCES.txt'
+[1.563s] running build
+[1.563s] running build_py
+[1.564s] copying mi_robot_manipulador_14/robot_manipulator_planner.py -> /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build/lib/mi_robot_manipulador_14
+[1.564s] running install
+[1.564s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.564s]   warnings.warn(
+[1.565s] running install_lib
+[1.566s] copying /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build/lib/mi_robot_manipulador_14/robot_manipulator_planner.py -> /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14
+[1.566s] byte-compiling /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/robot_manipulator_planner.py to robot_manipulator_planner.cpython-310.pyc
+[1.568s] running install_data
+[1.569s] running install_egg_info
+[1.571s] removing '/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info' (and everything under it)
+[1.572s] Copying ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info to /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info
+[1.573s] running install_scripts
+[1.596s] Installing robot_manipulator_interface script to /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14
+[1.597s] Installing robot_manipulator_planner script to /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14
+[1.597s] Installing robot_manipulator_teleop script to /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14
+[1.597s] writing list of installed files to '/home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/install.log'
+[1.631s] Invoked command in '/home/juanespadi/Documents/shalpy/taller3_grupo14/src/mi_robot_manipulador_14' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/prefix_override:/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_manipulador_14 build --build-base /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build install --record /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/install.log --single-version-externally-managed
