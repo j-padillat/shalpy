@@ -1,0 +1,3 @@
+[console_scripts]
+robot_manipulator_teleop = mi_robot_manipulador_14.robot_manipulator_teleop:main
+

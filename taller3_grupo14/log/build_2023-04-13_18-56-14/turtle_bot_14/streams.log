@@ -1,0 +1,28 @@
+[3.678s] Invoking command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14': PYTHONPATH=/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/prefix_override:/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_14 build --build-base /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build install --record /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log --single-version-externally-managed
+[4.686s] running egg_info
+[4.688s] writing ../../build/turtle_bot_14/turtle_bot_14.egg-info/PKG-INFO
+[4.692s] writing dependency_links to ../../build/turtle_bot_14/turtle_bot_14.egg-info/dependency_links.txt
+[4.693s] writing entry points to ../../build/turtle_bot_14/turtle_bot_14.egg-info/entry_points.txt
+[4.695s] writing requirements to ../../build/turtle_bot_14/turtle_bot_14.egg-info/requires.txt
+[4.695s] writing top-level names to ../../build/turtle_bot_14/turtle_bot_14.egg-info/top_level.txt
+[4.706s] reading manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+[4.712s] writing manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+[4.712s] running build
+[4.713s] running build_py
+[4.716s] copying turtle_bot_14/turtle_bot_teleop.py -> /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14
+[4.718s] running install
+[4.720s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.721s]   warnings.warn(
+[4.722s] running install_lib
+[4.727s] copying /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_teleop.py -> /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+[4.731s] byte-compiling /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+[4.736s] running install_data
+[4.740s] running install_egg_info
+[4.748s] removing '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info' (and everything under it)
+[4.750s] Copying ../../build/turtle_bot_14/turtle_bot_14.egg-info to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info
+[4.759s] running install_scripts
+[4.845s] Installing turtle_bot_interface script to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+[4.849s] Installing turtle_bot_player script to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+[4.850s] Installing turtle_bot_teleop script to /home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+[4.852s] writing list of installed files to '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log'
+[4.977s] Invoked command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14' returned '0': PYTHONPATH=/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/prefix_override:/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_14 build --build-base /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build install --record /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log --single-version-externally-managed

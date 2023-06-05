@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from player_interfaces/msg/Trace.msg
+// generated code does not contain a copyright notice
+
+
+module player_interfaces {
+  module msg {
+    struct Trace {
+      string key;
+
+      double x;
+
+      double y;
+
+      double th;
+
+      double time;
+    };
+  };
+};

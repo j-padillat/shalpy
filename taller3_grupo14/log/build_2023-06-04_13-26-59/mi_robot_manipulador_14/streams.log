@@ -1,0 +1,26 @@
+[3.126s] Invoking command in '/home/juanespadi/Documents/shalpy/taller3_grupo14/src/mi_robot_manipulador_14': PYTHONPATH=/home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/prefix_override:/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_manipulador_14 build --build-base /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build install --record /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/install.log --single-version-externally-managed
+[3.425s] running egg_info
+[3.426s] writing ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/PKG-INFO
+[3.426s] writing dependency_links to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/dependency_links.txt
+[3.426s] writing entry points to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/entry_points.txt
+[3.426s] writing requirements to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/requires.txt
+[3.426s] writing top-level names to ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/top_level.txt
+[3.428s] reading manifest file '../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/SOURCES.txt'
+[3.440s] writing manifest file '../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info/SOURCES.txt'
+[3.440s] running build
+[3.440s] running build_py
+[3.440s] copying mi_robot_manipulador_14/robot_manipulator_teleop.py -> /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build/lib/mi_robot_manipulador_14
+[3.440s] running install
+[3.468s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.469s]   warnings.warn(
+[3.469s] running install_lib
+[3.469s] copying /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build/lib/mi_robot_manipulador_14/robot_manipulator_teleop.py -> /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14
+[3.470s] byte-compiling /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14/robot_manipulator_teleop.py to robot_manipulator_teleop.cpython-310.pyc
+[3.472s] running install_data
+[3.472s] running install_egg_info
+[3.474s] removing '/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info' (and everything under it)
+[3.474s] Copying ../../build/mi_robot_manipulador_14/mi_robot_manipulador_14.egg-info to /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages/mi_robot_manipulador_14-0.0.0-py3.10.egg-info
+[3.494s] running install_scripts
+[3.518s] Installing robot_manipulator_teleop script to /home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/mi_robot_manipulador_14
+[3.518s] writing list of installed files to '/home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/install.log'
+[3.666s] Invoked command in '/home/juanespadi/Documents/shalpy/taller3_grupo14/src/mi_robot_manipulador_14' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/prefix_override:/home/juanespadi/Documents/shalpy/taller3_grupo14/install/mi_robot_manipulador_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mi_robot_manipulador_14 build --build-base /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/build install --record /home/juanespadi/Documents/shalpy/taller3_grupo14/build/mi_robot_manipulador_14/install.log --single-version-externally-managed

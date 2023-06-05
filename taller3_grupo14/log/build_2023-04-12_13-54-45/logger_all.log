@@ -1,0 +1,200 @@
+[2.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.285s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff81671660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff81ef8d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff81ef8d90>>)
+[2.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.532s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Documents/shalpy/taller2_grupo14'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.618s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.619s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.620s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.621s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.622s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.623s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'ignore'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'ignore_ament_install'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['colcon_pkg']
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'colcon_pkg'
+[2.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['colcon_meta']
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'colcon_meta'
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['ros']
+[2.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'ros'
+[2.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/player_interfaces' with type 'ros.ament_cmake' and name 'player_interfaces'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extensions ['ignore', 'ignore_ament_install']
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extension 'ignore'
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extension 'ignore_ament_install'
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extensions ['colcon_pkg']
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extension 'colcon_pkg'
+[2.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extensions ['colcon_meta']
+[2.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extension 'colcon_meta'
+[2.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extensions ['ros']
+[2.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_bot_14) by extension 'ros'
+[2.647s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_bot_14' with type 'ros.ament_python' and name 'turtle_bot_14'
+[2.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.647s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.834s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 180 installed packages in /opt/ros/humble
+[2.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.039s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.040s] DEBUG:colcon.colcon_core.verb:Building package 'player_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces', 'merge_install': False, 'path': '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.044s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'cmake_args' from command line to 'None'
+[3.044s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'cmake_target' from command line to 'None'
+[3.044s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.044s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'cmake_clean_cache' from command line to 'False'
+[3.044s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'cmake_clean_first' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'cmake_force_configure' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'ament_cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'catkin_cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'turtle_bot_14' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.045s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_bot_14' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14', 'merge_install': False, 'path': '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14', 'symlink_install': False, 'test_result_base': None}
+[3.048s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.061s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.062s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces' with build type 'ament_cmake'
+[3.063s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/player_interfaces'
+[3.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.123s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14' with build type 'ament_python'
+[3.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_bot_14', 'ament_prefix_path')
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/hook/ament_prefix_path.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/hook/ament_prefix_path.dsv'
+[3.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/hook/ament_prefix_path.sh'
+[3.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces -- -j4 -l4
+[4.476s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14'
+[4.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14': PYTHONPATH=/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/prefix_override:/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_14 build --build-base /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build install --record /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log --single-version-externally-managed
+[7.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/src/turtle_bot_14' returned '0': PYTHONPATH=/home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/prefix_override:/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_bot_14 build --build-base /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build install --record /home/ubuntu/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log --single-version-externally-managed
+[7.953s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14' for CMake module files
+[7.957s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14' for CMake config files
+[7.962s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib'
+[7.963s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/bin'
+[7.963s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/pkgconfig/turtle_bot_14.pc'
+[7.964s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages'
+[7.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_bot_14', 'pythonpath')
+[7.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/hook/pythonpath.ps1'
+[7.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/hook/pythonpath.dsv'
+[7.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/hook/pythonpath.sh'
+[7.977s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/bin'
+[7.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_bot_14)
+[7.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/package.ps1'
+[7.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/package.dsv'
+[7.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/package.sh'
+[8.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/package.bash'
+[8.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/turtle_bot_14/package.zsh'
+[8.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/share/colcon-core/packages/turtle_bot_14)
+[19.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces -- -j4 -l4
+[20.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces
+[20.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(player_interfaces)
+[20.592s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces' for CMake module files
+[20.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/shalpy/taller2_grupo14/build/player_interfaces
+[20.599s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces' for CMake config files
+[20.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'cmake_prefix_path')
+[20.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.ps1'
+[20.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.dsv'
+[20.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.sh'
+[20.617s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib'
+[20.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'ld_library_path_lib')
+[20.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.ps1'
+[20.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.dsv'
+[20.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.sh'
+[20.629s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/bin'
+[20.629s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/pkgconfig/player_interfaces.pc'
+[20.630s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/python3.10/site-packages'
+[20.631s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/bin'
+[20.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.ps1'
+[20.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.dsv'
+[20.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.sh'
+[20.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.bash'
+[20.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.zsh'
+[20.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/colcon-core/packages/player_interfaces)
+[21.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(player_interfaces)
+[21.063s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces' for CMake module files
+[21.068s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces' for CMake config files
+[21.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'cmake_prefix_path')
+[21.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.ps1'
+[21.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.dsv'
+[21.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.sh'
+[21.085s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib'
+[21.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'ld_library_path_lib')
+[21.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.ps1'
+[21.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.dsv'
+[21.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.sh'
+[21.097s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/bin'
+[21.097s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/pkgconfig/player_interfaces.pc'
+[21.098s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/lib/python3.10/site-packages'
+[21.100s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/bin'
+[21.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.ps1'
+[21.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.dsv'
+[21.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.sh'
+[21.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.bash'
+[21.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/player_interfaces/package.zsh'
+[21.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/shalpy/taller2_grupo14/install/player_interfaces/share/colcon-core/packages/player_interfaces)
+[21.119s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.121s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.150s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.213s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[21.214s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/local_setup.ps1'
+[21.226s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/_local_setup_util_ps1.py'
+[21.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/setup.ps1'
+[21.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/local_setup.sh'
+[21.246s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/_local_setup_util_sh.py'
+[21.249s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/setup.sh'
+[21.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/local_setup.bash'
+[21.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/setup.bash'
+[21.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/local_setup.zsh'
+[21.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/shalpy/taller2_grupo14/install/setup.zsh'

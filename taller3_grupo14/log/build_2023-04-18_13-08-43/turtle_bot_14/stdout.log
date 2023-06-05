@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/turtle_bot_14/turtle_bot_14.egg-info
+writing ../../build/turtle_bot_14/turtle_bot_14.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_bot_14/turtle_bot_14.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_bot_14/turtle_bot_14.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_bot_14/turtle_bot_14.egg-info/requires.txt
+writing top-level names to ../../build/turtle_bot_14/turtle_bot_14.egg-info/top_level.txt
+writing manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_bot_14/turtle_bot_14.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build
+creating /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib
+creating /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14
+copying turtle_bot_14/turtle_bot_player.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14
+copying turtle_bot_14/turtle_bot_interface.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14
+copying turtle_bot_14/turtle_bot_teleop.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14
+copying turtle_bot_14/__init__.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14
+running install
+running install_lib
+copying /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_player.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+copying /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_interface.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+copying /home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/build/lib/turtle_bot_14/turtle_bot_teleop.py -> /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14
+byte-compiling /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_player.py to turtle_bot_player.cpython-310.pyc
+byte-compiling /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_interface.py to turtle_bot_interface.cpython-310.pyc
+byte-compiling /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14/turtle_bot_teleop.py to turtle_bot_teleop.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtle_bot_14/turtle_bot_14.egg-info to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/python3.10/site-packages/turtle_bot_14-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_bot_interface script to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+Installing turtle_bot_player script to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+Installing turtle_bot_teleop script to /home/juanespadi/Documents/shalpy/taller2_grupo14/install/turtle_bot_14/lib/turtle_bot_14
+writing list of installed files to '/home/juanespadi/Documents/shalpy/taller2_grupo14/build/turtle_bot_14/install.log'

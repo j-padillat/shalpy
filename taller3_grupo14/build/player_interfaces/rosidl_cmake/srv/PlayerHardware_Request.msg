@@ -1,0 +1,5 @@
+string nombre
+geometry_msgs/Twist[] posiciones
+string[] keys
+float64[] times
+
