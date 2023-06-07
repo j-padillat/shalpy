@@ -1,0 +1,8 @@
+{
+  "package_name": "player_interfaces",
+  "non_idl_tuples": [
+    "/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/player_interfaces:srv/Player.srv",
+    "/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/player_interfaces:srv/PlayerHardware.srv",
+    "/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/player_interfaces:msg/Trace.msg"
+  ]
+}

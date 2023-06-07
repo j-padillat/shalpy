@@ -18,11 +18,6 @@ class structForTransmition(object):
 
 punto = 'punto1'
 
-class struct2(object):
-    x = 0.0
-    y = 0.0
-    arr2 = ''
-
 global msg, moveBindings, speedBindings, link, speed0, speed1, speed2, speed3, pub, sub, sub2
 
 #arduino = serial.Serial("/dev/serial/by-id/usb-Arduino__www.arduino.cc__0042_55736313737351818241-if00", 9600, timeout = 1)

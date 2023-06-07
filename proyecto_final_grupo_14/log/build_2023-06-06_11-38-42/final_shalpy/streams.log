@@ -1,0 +1,39 @@
+[0.846s] Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/final_shalpy': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/final_shalpy build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/install.log --single-version-externally-managed
+[1.132s] running egg_info
+[1.133s] creating ../../build/final_shalpy/final_shalpy.egg-info
+[1.133s] writing ../../build/final_shalpy/final_shalpy.egg-info/PKG-INFO
+[1.133s] writing dependency_links to ../../build/final_shalpy/final_shalpy.egg-info/dependency_links.txt
+[1.133s] writing entry points to ../../build/final_shalpy/final_shalpy.egg-info/entry_points.txt
+[1.133s] writing requirements to ../../build/final_shalpy/final_shalpy.egg-info/requires.txt
+[1.133s] writing top-level names to ../../build/final_shalpy/final_shalpy.egg-info/top_level.txt
+[1.134s] writing manifest file '../../build/final_shalpy/final_shalpy.egg-info/SOURCES.txt'
+[1.135s] reading manifest file '../../build/final_shalpy/final_shalpy.egg-info/SOURCES.txt'
+[1.136s] writing manifest file '../../build/final_shalpy/final_shalpy.egg-info/SOURCES.txt'
+[1.136s] running build
+[1.136s] running build_py
+[1.136s] creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build
+[1.136s] creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib
+[1.136s] creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib/final_shalpy
+[1.136s] copying final_shalpy/__init__.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib/final_shalpy
+[1.136s] copying final_shalpy/shalpy_teleop.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib/final_shalpy
+[1.137s] running install
+[1.137s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.137s]   warnings.warn(
+[1.137s] running install_lib
+[1.138s] creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy
+[1.138s] copying /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib/final_shalpy/__init__.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy
+[1.138s] copying /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib/final_shalpy/shalpy_teleop.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy
+[1.139s] byte-compiling /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy/__init__.py to __init__.cpython-310.pyc
+[1.139s] byte-compiling /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy/shalpy_teleop.py to shalpy_teleop.cpython-310.pyc
+[1.139s] running install_data
+[1.140s] creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/ament_index
+[1.140s] creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/ament_index/resource_index
+[1.140s] creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/ament_index/resource_index/packages
+[1.140s] copying resource/final_shalpy -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/ament_index/resource_index/packages
+[1.140s] copying package.xml -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy
+[1.140s] running install_egg_info
+[1.141s] Copying ../../build/final_shalpy/final_shalpy.egg-info to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy-0.0.0-py3.10.egg-info
+[1.142s] running install_scripts
+[1.163s] Installing shalpy_teleop script to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/final_shalpy
+[1.163s] writing list of installed files to '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/install.log'
+[1.189s] Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/final_shalpy' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/final_shalpy build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/install.log --single-version-externally-managed

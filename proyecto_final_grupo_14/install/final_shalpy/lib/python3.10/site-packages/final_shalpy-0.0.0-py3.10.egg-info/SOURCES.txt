@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/final_shalpy/final_shalpy.egg-info/PKG-INFO
+../../build/final_shalpy/final_shalpy.egg-info/SOURCES.txt
+../../build/final_shalpy/final_shalpy.egg-info/dependency_links.txt
+../../build/final_shalpy/final_shalpy.egg-info/entry_points.txt
+../../build/final_shalpy/final_shalpy.egg-info/requires.txt
+../../build/final_shalpy/final_shalpy.egg-info/top_level.txt
+../../build/final_shalpy/final_shalpy.egg-info/zip-safe
+final_shalpy/__init__.py
+final_shalpy/shalpy_teleop.py
+resource/final_shalpy
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

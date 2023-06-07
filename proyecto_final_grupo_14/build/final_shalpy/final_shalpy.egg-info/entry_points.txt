@@ -1,0 +1,3 @@
+[console_scripts]
+shalpy_teleop = final_shalpy.shalpy_teleop:main
+

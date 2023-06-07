@@ -4,6 +4,9 @@
 
 SerialTransfer myTransfer;
 
+// #################################################
+// Estructura del mensaje de llegada/recepcion
+// #################################################
 struct __attribute__((packed)) STRUCT_RECEPTION {
   char tecla;
   double numero1;
@@ -11,12 +14,20 @@ struct __attribute__((packed)) STRUCT_RECEPTION {
   double numero3;
 } structReception;
 char arrayForReception[7];
+// #################################################
+// #################################################
+
+// #################################################
+// Estructura del mensaje de salida/transmision
+// #################################################
 
 struct __attribute__((packed)) STRUCT_POSITION {
   double x;
   double y;
 } structPosition;
 char arrayForTransmition[] = "hello";
+// #################################################
+// #################################################
 
 Servo servo1;
 Servo servo2;
@@ -40,17 +51,23 @@ int link2 = 10;        // Tamaño link 2
 
 bool punto1Mode = false; 
 
-char tecla;
-double num1;
-double num2;
-double num3;
-char punto_string[7];
-
 int entero1;
 int entero2;
 int entero3;
 
 char key;
+
+// #################################################
+// Variables para leer el buffer de recepcion
+// #################################################
+char tecla;
+double num1;
+double num2;
+double num3;
+char punto_string[7];
+// #################################################
+// #################################################
+
 
 
 void setup() {
@@ -71,6 +88,9 @@ void setup() {
 
 
 void loop() {
+  // #################################################
+  // Se lee la estructura de entrada del SerialTransfer
+  // #################################################
   if(myTransfer.available())
   {
     // use this variable to keep track of how many
@@ -113,7 +133,8 @@ void loop() {
     punto4(tecla, entero1, entero2, entero3);
     strcpy(punto_string, "lolxdd");
   }
-
+  // #################################################
+  // #################################################
 
   float ang_Joint0 = initial_position4;
   float ang_Joint1 = initial_position3-180;
@@ -141,7 +162,8 @@ void loop() {
   
 
   delay(10);
-  //myTransfer.reset();
+  //myTransfer.reset(); // No sirve despues de usarlo
+
   // use this variable to keep track of how many
   // bytes we're stuffing in the transmit buffer
   structPosition.x = pos_X;
@@ -160,9 +182,7 @@ void loop() {
 
 }
 
-
-int c = 0;
-
+// Punto 1 teleop teclas predefinidas
 void punto1(char key, int ang_vel) {
 
   if (key == 'r') {
@@ -234,72 +254,18 @@ void punto1(char key, int ang_vel) {
 
 void punto3(int angle4, int angle2, int angle3) {
 
-    /*
-    String angles = input.substring(7);
-    int comma1 = angles.indexOf(',');
-    int comma2 = angles.lastIndexOf(',');
-
-    int angle4 = angles.substring(0, comma1).toInt();
-    int angle2 = angles.substring(comma1 + 1, comma2).toInt();
-    int angle3 = angles.substring(comma2 + 1).toInt();
-    */
-    
-  
-  //Serial.println("---");
-  //Serial.println(String(int(angle4)));
-  //Serial.println(String(angle2));
-  //Serial.println(String(angle3));
-
   servo4.write(angle4);
   servo2.write(angle2);
   servo3.write(angle3);
-  
-  
-  
-  /*
-  if (Serial.available()) {
-    String input = Serial.readStringUntil('\n');
-    input.trim();
 
-    if (input == "punto1") {
-      punto1Mode = true;  
-    } else if (input.startsWith("punto3,")) {
-      punto1Mode = false; 
-
-      String angles = input.substring(7);
-      int comma1 = angles.indexOf(',');
-      int comma2 = angles.lastIndexOf(',');
-
-      int angle4 = angles.substring(0, comma1).toInt();
-      int angle2 = angles.substring(comma1 + 1, comma2).toInt();
-      int angle3 = angles.substring(comma2 + 1).toInt();
-
-      servo4.write(angle4);
-      servo2.write(angle2);
-      servo3.write(angle3);
-    }
-  }
-  */
 }
 
 
+int c = 0;
 void punto4(char key, int angle4, int angle2, int angle3) {
-
-    /*
-    String angles = input.substring(7);
-    int comma1 = angles.indexOf(',');
-    int comma2 = angles.lastIndexOf(',');
-
-    int angle4 = angles.substring(0, comma1).toInt();
-    int angle2 = angles.substring(comma1 + 1, comma2).toInt();
-    int angle3 = angles.substring(comma2 + 1).toInt();
-    */
     
   if (c<1){
-    Serial.println("---xdxddd");
-  //Serial.println(String(int(angle4)));
-  //Serial.println(String(angle2));
-  //Serial.println(String(angle3));
+  Serial.println("Entro punto 4");
   servo1.write(40);
 
   servo4.write(angle4);
@@ -320,35 +286,7 @@ void punto4(char key, int angle4, int angle2, int angle3) {
     Serial.println(String(i));
     delay(700);
   }
-  
-
   }
-  
-  
   c+=1;
   
-  /*
-  if (Serial.available()) {
-    String input = Serial.readStringUntil('\n');
-    input.trim();
-
-    if (input == "punto1") {
-      punto1Mode = true;  
-    } else if (input.startsWith("punto3,")) {
-      punto1Mode = false; 
-
-      String angles = input.substring(7);
-      int comma1 = angles.indexOf(',');
-      int comma2 = angles.lastIndexOf(',');
-
-      int angle4 = angles.substring(0, comma1).toInt();
-      int angle2 = angles.substring(comma1 + 1, comma2).toInt();
-      int angle3 = angles.substring(comma2 + 1).toInt();
-
-      servo4.write(angle4);
-      servo2.write(angle2);
-      servo3.write(angle3);
-    }
-  }
-  */
 }

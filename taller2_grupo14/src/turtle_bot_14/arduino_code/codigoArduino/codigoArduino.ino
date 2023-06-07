@@ -49,9 +49,11 @@ void setup() {
 
 void loop()
 {
-  
   readSerialPort();
   varvel(msg,&tecla,&lineal,&angular);
+
+  Serial.println(msg);
+  Serial.println(tecla);
   
   if (tecla=="w") {
     MotorAdelante(lineal);
