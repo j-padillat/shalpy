@@ -1,0 +1,43 @@
+[0.910s] Invoking command in '/home/juanespadi/Documents/shalpy/camera_ws/src/cameraraspy': PYTHONPATH=/home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/prefix_override:/home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraraspy build --build-base /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build install --record /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/install.log --single-version-externally-managed
+[1.219s] running egg_info
+[1.219s] creating ../../build/cameraraspy/cameraraspy.egg-info
+[1.220s] writing ../../build/cameraraspy/cameraraspy.egg-info/PKG-INFO
+[1.220s] writing dependency_links to ../../build/cameraraspy/cameraraspy.egg-info/dependency_links.txt
+[1.220s] writing entry points to ../../build/cameraraspy/cameraraspy.egg-info/entry_points.txt
+[1.220s] writing requirements to ../../build/cameraraspy/cameraraspy.egg-info/requires.txt
+[1.220s] writing top-level names to ../../build/cameraraspy/cameraraspy.egg-info/top_level.txt
+[1.221s] writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[1.222s] reading manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[1.223s] writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[1.223s] running build
+[1.224s] running build_py
+[1.224s] creating /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build
+[1.224s] creating /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib
+[1.224s] creating /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+[1.224s] copying cameraraspy/rec_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+[1.224s] copying cameraraspy/__init__.py -> /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+[1.225s] copying cameraraspy/sent_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+[1.225s] running install
+[1.225s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.225s]   warnings.warn(
+[1.225s] running install_lib
+[1.226s] creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+[1.226s] copying /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy/rec_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+[1.227s] copying /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy/__init__.py -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+[1.227s] copying /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy/sent_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+[1.227s] byte-compiling /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/rec_image.py to rec_image.cpython-310.pyc
+[1.228s] byte-compiling /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/__init__.py to __init__.cpython-310.pyc
+[1.228s] byte-compiling /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/sent_image.py to sent_image.cpython-310.pyc
+[1.229s] running install_data
+[1.230s] creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index
+[1.230s] creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index/resource_index
+[1.230s] creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index/resource_index/packages
+[1.230s] copying resource/cameraraspy -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index/resource_index/packages
+[1.230s] copying package.xml -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/cameraraspy
+[1.230s] running install_egg_info
+[1.232s] Copying ../../build/cameraraspy/cameraraspy.egg-info to /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info
+[1.233s] running install_scripts
+[1.254s] Installing rec_image script to /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy
+[1.254s] Installing sent_image script to /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy
+[1.254s] writing list of installed files to '/home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/install.log'
+[1.280s] Invoked command in '/home/juanespadi/Documents/shalpy/camera_ws/src/cameraraspy' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/prefix_override:/home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraraspy build --build-base /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build install --record /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/install.log --single-version-externally-managed

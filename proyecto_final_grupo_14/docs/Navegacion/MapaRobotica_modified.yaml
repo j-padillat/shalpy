@@ -1,0 +1,9 @@
+free_thresh: 0.196
+image: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/docs/Navegacion/MapaRobotica_thicker.pgm
+negate: 0
+occupied_thresh: 0.65
+origin:
+- 0.0
+- 0.0
+- 0.0
+resolution: 0.0025

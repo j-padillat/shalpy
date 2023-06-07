@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/cameraraspy/cameraraspy.egg-info
+writing ../../build/cameraraspy/cameraraspy.egg-info/PKG-INFO
+writing dependency_links to ../../build/cameraraspy/cameraraspy.egg-info/dependency_links.txt
+writing entry points to ../../build/cameraraspy/cameraraspy.egg-info/entry_points.txt
+writing requirements to ../../build/cameraraspy/cameraraspy.egg-info/requires.txt
+writing top-level names to ../../build/cameraraspy/cameraraspy.egg-info/top_level.txt
+writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+reading manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build
+creating /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib
+creating /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+copying cameraraspy/rec_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+copying cameraraspy/__init__.py -> /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+copying cameraraspy/sent_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy
+running install
+running install_lib
+creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+copying /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy/rec_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+copying /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy/__init__.py -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+copying /home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy/sent_image.py -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+byte-compiling /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/rec_image.py to rec_image.cpython-310.pyc
+byte-compiling /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/sent_image.py to sent_image.cpython-310.pyc
+running install_data
+creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index
+creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index/resource_index
+creating /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index/resource_index/packages
+copying resource/cameraraspy -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/ament_index/resource_index/packages
+copying package.xml -> /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/share/cameraraspy
+running install_egg_info
+Copying ../../build/cameraraspy/cameraraspy.egg-info to /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rec_image script to /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy
+Installing sent_image script to /home/juanespadi/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy
+writing list of installed files to '/home/juanespadi/Documents/shalpy/camera_ws/build/cameraraspy/install.log'

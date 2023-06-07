@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/cameraraspy/cameraraspy.egg-info/PKG-INFO
+../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt
+../../build/cameraraspy/cameraraspy.egg-info/dependency_links.txt
+../../build/cameraraspy/cameraraspy.egg-info/entry_points.txt
+../../build/cameraraspy/cameraraspy.egg-info/requires.txt
+../../build/cameraraspy/cameraraspy.egg-info/top_level.txt
+../../build/cameraraspy/cameraraspy.egg-info/zip-safe
+cameraraspy/__init__.py
+cameraraspy/rec_image.py
+cameraraspy/sent_image.py
+resource/cameraraspy
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

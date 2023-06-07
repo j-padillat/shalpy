@@ -1,0 +1,24 @@
+[3.610s] Invoking command in '/home/ubuntu/Documents/shalpy/camera_ws/src/cameraraspy': PYTHONPATH=/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/prefix_override:/home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraraspy build --build-base /home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/build install --record /home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/install.log --single-version-externally-managed
+[4.629s] running egg_info
+[4.632s] writing ../../build/cameraraspy/cameraraspy.egg-info/PKG-INFO
+[4.635s] writing dependency_links to ../../build/cameraraspy/cameraraspy.egg-info/dependency_links.txt
+[4.636s] writing entry points to ../../build/cameraraspy/cameraraspy.egg-info/entry_points.txt
+[4.637s] writing requirements to ../../build/cameraraspy/cameraraspy.egg-info/requires.txt
+[4.638s] writing top-level names to ../../build/cameraraspy/cameraraspy.egg-info/top_level.txt
+[4.648s] reading manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[4.654s] writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[4.655s] running build
+[4.655s] running build_py
+[4.659s] running install
+[4.660s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.660s]   warnings.warn(
+[4.661s] running install_lib
+[4.670s] running install_data
+[4.674s] running install_egg_info
+[4.681s] removing '/home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info' (and everything under it)
+[4.683s] Copying ../../build/cameraraspy/cameraraspy.egg-info to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info
+[4.692s] running install_scripts
+[4.778s] Installing rec_image script to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy
+[4.782s] Installing sent_image script to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy
+[4.784s] writing list of installed files to '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/install.log'
+[4.901s] Invoked command in '/home/ubuntu/Documents/shalpy/camera_ws/src/cameraraspy' returned '0': PYTHONPATH=/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/prefix_override:/home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraraspy build --build-base /home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/build install --record /home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/install.log --single-version-externally-managed

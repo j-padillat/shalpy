@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'shalpy_teleop = final_shalpy.shalpy_teleop:main'
+            'shalpy_teleop = final_shalpy.shalpy_teleop:main',
+            'turtle_bot_interface = final_shalpy.turtle_bot_interface:main',
+            'turtle_bot_player = final_shalpy.turtle_bot_player:main'
         ],
     },
 )

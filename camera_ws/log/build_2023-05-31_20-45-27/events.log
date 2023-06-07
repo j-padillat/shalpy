@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.002406] (cameraraspy) JobQueued: {'identifier': 'cameraraspy', 'dependencies': OrderedDict()}
+[0.002797] (cameraraspy) JobStarted: {'identifier': 'cameraraspy'}
+[0.097506] (-) TimerEvent: {}
+[0.198260] (-) TimerEvent: {}
+[0.298911] (-) TimerEvent: {}
+[0.399677] (-) TimerEvent: {}
+[0.500356] (-) TimerEvent: {}
+[0.600970] (-) TimerEvent: {}
+[0.701607] (-) TimerEvent: {}
+[0.802243] (-) TimerEvent: {}
+[0.902916] (-) TimerEvent: {}
+[1.003544] (-) TimerEvent: {}
+[1.104300] (-) TimerEvent: {}
+[1.205197] (-) TimerEvent: {}
+[1.306009] (-) TimerEvent: {}
+[1.406656] (-) TimerEvent: {}
+[1.507303] (-) TimerEvent: {}
+[1.607938] (-) TimerEvent: {}
+[1.708548] (-) TimerEvent: {}
+[1.809142] (-) TimerEvent: {}
+[1.909766] (-) TimerEvent: {}
+[2.010370] (-) TimerEvent: {}
+[2.110966] (-) TimerEvent: {}
+[2.211564] (-) TimerEvent: {}
+[2.312229] (-) TimerEvent: {}
+[2.412892] (-) TimerEvent: {}
+[2.513550] (-) TimerEvent: {}
+[2.614422] (-) TimerEvent: {}
+[2.699162] (cameraraspy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/cameraraspy', 'build', '--build-base', '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/build', 'install', '--record', '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/shalpy/camera_ws/src/cameraraspy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.2.103 58078 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/shalpy/camera_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy', 'SSH_CONNECTION': '192.168.2.103 58078 192.168.2.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/prefix_override:/home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.714568] (-) TimerEvent: {}
+[2.815315] (-) TimerEvent: {}
+[2.915964] (-) TimerEvent: {}
+[3.016614] (-) TimerEvent: {}
+[3.117246] (-) TimerEvent: {}
+[3.217904] (-) TimerEvent: {}
+[3.318513] (-) TimerEvent: {}
+[3.419115] (-) TimerEvent: {}
+[3.519728] (-) TimerEvent: {}
+[3.620344] (-) TimerEvent: {}
+[3.709470] (cameraraspy) StdoutLine: {'line': b'running egg_info\n'}
+[3.712137] (cameraraspy) StdoutLine: {'line': b'writing ../../build/cameraraspy/cameraraspy.egg-info/PKG-INFO\n'}
+[3.713218] (cameraraspy) StdoutLine: {'line': b'writing dependency_links to ../../build/cameraraspy/cameraraspy.egg-info/dependency_links.txt\n'}
+[3.714187] (cameraraspy) StdoutLine: {'line': b'writing entry points to ../../build/cameraraspy/cameraraspy.egg-info/entry_points.txt\n'}
+[3.714896] (cameraraspy) StdoutLine: {'line': b'writing requirements to ../../build/cameraraspy/cameraraspy.egg-info/requires.txt\n'}
+[3.715500] (cameraraspy) StdoutLine: {'line': b'writing top-level names to ../../build/cameraraspy/cameraraspy.egg-info/top_level.txt\n'}
+[3.720535] (-) TimerEvent: {}
+[3.723650] (cameraraspy) StdoutLine: {'line': b"reading manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'\n"}
+[3.727946] (cameraraspy) StdoutLine: {'line': b"writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'\n"}
+[3.728647] (cameraraspy) StdoutLine: {'line': b'running build\n'}
+[3.729138] (cameraraspy) StdoutLine: {'line': b'running build_py\n'}
+[3.730100] (cameraraspy) StdoutLine: {'line': b'copying cameraraspy/rec_image.py -> /home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy\n'}
+[3.731537] (cameraraspy) StdoutLine: {'line': b'running install\n'}
+[3.732180] (cameraraspy) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.732696] (cameraraspy) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.733458] (cameraraspy) StdoutLine: {'line': b'running install_lib\n'}
+[3.738156] (cameraraspy) StdoutLine: {'line': b'copying /home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/build/lib/cameraraspy/rec_image.py -> /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy\n'}
+[3.741396] (cameraraspy) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/rec_image.py to rec_image.cpython-310.pyc\n'}
+[3.743855] (cameraraspy) StdoutLine: {'line': b'running install_data\n'}
+[3.746381] (cameraraspy) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.752375] (cameraraspy) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.754277] (cameraraspy) StdoutLine: {'line': b'Copying ../../build/cameraraspy/cameraraspy.egg-info to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info\n'}
+[3.760062] (cameraraspy) StdoutLine: {'line': b'running install_scripts\n'}
+[3.820696] (-) TimerEvent: {}
+[3.845253] (cameraraspy) StdoutLine: {'line': b'Installing rec_image script to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy\n'}
+[3.846189] (cameraraspy) StdoutLine: {'line': b'Installing sent_image script to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy\n'}
+[3.847874] (cameraraspy) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/install.log'\n"}
+[3.921012] (-) TimerEvent: {}
+[3.963524] (cameraraspy) CommandEnded: {'returncode': 0}
+[4.023547] (-) TimerEvent: {}
+[4.033221] (cameraraspy) JobEnded: {'identifier': 'cameraraspy', 'rc': 0}
+[4.036149] (-) EventReactorShutdown: {}

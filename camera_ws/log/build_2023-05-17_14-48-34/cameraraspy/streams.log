@@ -1,0 +1,39 @@
+[1.003s] Invoking command in '/home/jp/camera_ws/src/cameraraspy': PYTHONPATH=/home/jp/camera_ws/build/cameraraspy/prefix_override:/home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraraspy build --build-base /home/jp/camera_ws/build/cameraraspy/build install --record /home/jp/camera_ws/build/cameraraspy/install.log --single-version-externally-managed
+[1.367s] running egg_info
+[1.368s] creating ../../build/cameraraspy/cameraraspy.egg-info
+[1.369s] writing ../../build/cameraraspy/cameraraspy.egg-info/PKG-INFO
+[1.369s] writing dependency_links to ../../build/cameraraspy/cameraraspy.egg-info/dependency_links.txt
+[1.369s] writing entry points to ../../build/cameraraspy/cameraraspy.egg-info/entry_points.txt
+[1.370s] writing requirements to ../../build/cameraraspy/cameraraspy.egg-info/requires.txt
+[1.370s] writing top-level names to ../../build/cameraraspy/cameraraspy.egg-info/top_level.txt
+[1.370s] writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[1.373s] reading manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[1.374s] writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'
+[1.374s] running build
+[1.374s] running build_py
+[1.375s] creating /home/jp/camera_ws/build/cameraraspy/build
+[1.375s] creating /home/jp/camera_ws/build/cameraraspy/build/lib
+[1.375s] creating /home/jp/camera_ws/build/cameraraspy/build/lib/cameraraspy
+[1.375s] copying cameraraspy/__init__.py -> /home/jp/camera_ws/build/cameraraspy/build/lib/cameraraspy
+[1.375s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.376s]   warnings.warn(
+[1.376s] copying cameraraspy/sent_image.py -> /home/jp/camera_ws/build/cameraraspy/build/lib/cameraraspy
+[1.376s] running install
+[1.376s] running install_lib
+[1.377s] creating /home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+[1.378s] copying /home/jp/camera_ws/build/cameraraspy/build/lib/cameraraspy/__init__.py -> /home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+[1.378s] copying /home/jp/camera_ws/build/cameraraspy/build/lib/cameraraspy/sent_image.py -> /home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy
+[1.379s] byte-compiling /home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/__init__.py to __init__.cpython-310.pyc
+[1.379s] byte-compiling /home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy/sent_image.py to sent_image.cpython-310.pyc
+[1.380s] running install_data
+[1.381s] creating /home/jp/camera_ws/install/cameraraspy/share/ament_index
+[1.381s] creating /home/jp/camera_ws/install/cameraraspy/share/ament_index/resource_index
+[1.381s] creating /home/jp/camera_ws/install/cameraraspy/share/ament_index/resource_index/packages
+[1.382s] copying resource/cameraraspy -> /home/jp/camera_ws/install/cameraraspy/share/ament_index/resource_index/packages
+[1.382s] copying package.xml -> /home/jp/camera_ws/install/cameraraspy/share/cameraraspy
+[1.382s] running install_egg_info
+[1.385s] Copying ../../build/cameraraspy/cameraraspy.egg-info to /home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info
+[1.386s] running install_scripts
+[1.420s] Installing sent_image script to /home/jp/camera_ws/install/cameraraspy/lib/cameraraspy
+[1.420s] writing list of installed files to '/home/jp/camera_ws/build/cameraraspy/install.log'
+[1.470s] Invoked command in '/home/jp/camera_ws/src/cameraraspy' returned '0': PYTHONPATH=/home/jp/camera_ws/build/cameraraspy/prefix_override:/home/jp/camera_ws/install/cameraraspy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cameraraspy build --build-base /home/jp/camera_ws/build/cameraraspy/build install --record /home/jp/camera_ws/build/cameraraspy/install.log --single-version-externally-managed

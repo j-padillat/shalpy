@@ -132,6 +132,8 @@ def press(key):
     elif key in moveManipulatorBindings.keys():
         start_time = time.time()
         mov = moveManipulatorBindings[key][0]
+
+
         if (moveManipulatorBindings[key][1]==0):
             vel = mov * speed0
             print("Tecla: "+ str(key))
@@ -156,6 +158,12 @@ def press(key):
             print("Velocidad: "+ str(abs(vel)))
             print("Servo: "+ str(moveManipulatorBindings[key][1]))
             print("---")
+
+
+        trace = Trace()
+        trace.x = vel
+        trace.y = 0.0
+        trace.th = 0.0
         
         punto = "punto1"
         testStruct = structForTransmition
@@ -249,6 +257,8 @@ def release(key):
             sendSize = link.tx_obj(testStruct.th2, start_pos=sendSize)
             sendSize = link.tx_obj(punto, start_pos=sendSize)
             link.send(sendSize)
+
+            pub2.publish(trace)
 
     except Exception as e:
         print(e)

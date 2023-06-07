@@ -1,0 +1,4 @@
+[console_scripts]
+rec_image = cameraraspy.rec_image:main
+sent_image = cameraraspy.sent_image:main
+

@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.001692] (cameraraspy) JobQueued: {'identifier': 'cameraraspy', 'dependencies': OrderedDict()}
+[0.004368] (cameraraspy) JobStarted: {'identifier': 'cameraraspy'}
+[0.099061] (-) TimerEvent: {}
+[0.199849] (-) TimerEvent: {}
+[0.300553] (-) TimerEvent: {}
+[0.401307] (-) TimerEvent: {}
+[0.501969] (-) TimerEvent: {}
+[0.602591] (-) TimerEvent: {}
+[0.703184] (-) TimerEvent: {}
+[0.803790] (-) TimerEvent: {}
+[0.904405] (-) TimerEvent: {}
+[1.005033] (-) TimerEvent: {}
+[1.105770] (-) TimerEvent: {}
+[1.210196] (-) TimerEvent: {}
+[1.313036] (-) TimerEvent: {}
+[1.413716] (-) TimerEvent: {}
+[1.514359] (-) TimerEvent: {}
+[1.615141] (-) TimerEvent: {}
+[1.715754] (-) TimerEvent: {}
+[1.816365] (-) TimerEvent: {}
+[1.916980] (-) TimerEvent: {}
+[2.017585] (-) TimerEvent: {}
+[2.118246] (-) TimerEvent: {}
+[2.218899] (-) TimerEvent: {}
+[2.319535] (-) TimerEvent: {}
+[2.420282] (-) TimerEvent: {}
+[2.520959] (-) TimerEvent: {}
+[2.621787] (-) TimerEvent: {}
+[2.722655] (-) TimerEvent: {}
+[2.823553] (-) TimerEvent: {}
+[2.924456] (-) TimerEvent: {}
+[3.025319] (-) TimerEvent: {}
+[3.126125] (-) TimerEvent: {}
+[3.226984] (-) TimerEvent: {}
+[3.327874] (-) TimerEvent: {}
+[3.379630] (cameraraspy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/cameraraspy', 'build', '--build-base', '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/build', 'install', '--record', '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/shalpy/camera_ws/src/cameraraspy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.2.103 45386 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/shalpy', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy', 'SSH_CONNECTION': '192.168.2.103 45386 192.168.2.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/prefix_override:/home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.428012] (-) TimerEvent: {}
+[3.528695] (-) TimerEvent: {}
+[3.629394] (-) TimerEvent: {}
+[3.730089] (-) TimerEvent: {}
+[3.830743] (-) TimerEvent: {}
+[3.931343] (-) TimerEvent: {}
+[4.031954] (-) TimerEvent: {}
+[4.132563] (-) TimerEvent: {}
+[4.233185] (-) TimerEvent: {}
+[4.333795] (-) TimerEvent: {}
+[4.395489] (cameraraspy) StdoutLine: {'line': b'running egg_info\n'}
+[4.398110] (cameraraspy) StdoutLine: {'line': b'writing ../../build/cameraraspy/cameraraspy.egg-info/PKG-INFO\n'}
+[4.402076] (cameraraspy) StdoutLine: {'line': b'writing dependency_links to ../../build/cameraraspy/cameraraspy.egg-info/dependency_links.txt\n'}
+[4.403273] (cameraraspy) StdoutLine: {'line': b'writing entry points to ../../build/cameraraspy/cameraraspy.egg-info/entry_points.txt\n'}
+[4.403967] (cameraraspy) StdoutLine: {'line': b'writing requirements to ../../build/cameraraspy/cameraraspy.egg-info/requires.txt\n'}
+[4.404613] (cameraraspy) StdoutLine: {'line': b'writing top-level names to ../../build/cameraraspy/cameraraspy.egg-info/top_level.txt\n'}
+[4.414984] (cameraraspy) StdoutLine: {'line': b"reading manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'\n"}
+[4.420619] (cameraraspy) StdoutLine: {'line': b"writing manifest file '../../build/cameraraspy/cameraraspy.egg-info/SOURCES.txt'\n"}
+[4.421312] (cameraraspy) StdoutLine: {'line': b'running build\n'}
+[4.421760] (cameraraspy) StdoutLine: {'line': b'running build_py\n'}
+[4.425197] (cameraraspy) StdoutLine: {'line': b'running install\n'}
+[4.426612] (cameraraspy) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.427238] (cameraraspy) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.427987] (cameraraspy) StdoutLine: {'line': b'running install_lib\n'}
+[4.433931] (-) TimerEvent: {}
+[4.437015] (cameraraspy) StdoutLine: {'line': b'running install_data\n'}
+[4.441240] (cameraraspy) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.448022] (cameraraspy) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.450198] (cameraraspy) StdoutLine: {'line': b'Copying ../../build/cameraraspy/cameraraspy.egg-info to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/python3.10/site-packages/cameraraspy-0.0.0-py3.10.egg-info\n'}
+[4.459044] (cameraraspy) StdoutLine: {'line': b'running install_scripts\n'}
+[4.534106] (-) TimerEvent: {}
+[4.545744] (cameraraspy) StdoutLine: {'line': b'Installing rec_image script to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy\n'}
+[4.549340] (cameraraspy) StdoutLine: {'line': b'Installing sent_image script to /home/ubuntu/Documents/shalpy/camera_ws/install/cameraraspy/lib/cameraraspy\n'}
+[4.551235] (cameraraspy) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/shalpy/camera_ws/build/cameraraspy/install.log'\n"}
+[4.634501] (-) TimerEvent: {}
+[4.667966] (cameraraspy) CommandEnded: {'returncode': 0}
+[4.734609] (-) TimerEvent: {}
+[4.768507] (cameraraspy) JobEnded: {'identifier': 'cameraraspy', 'rc': 0}
+[4.771743] (-) EventReactorShutdown: {}

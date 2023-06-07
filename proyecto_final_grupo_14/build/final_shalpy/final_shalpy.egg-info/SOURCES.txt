@@ -10,6 +10,8 @@ setup.py
 ../../build/final_shalpy/final_shalpy.egg-info/zip-safe
 final_shalpy/__init__.py
 final_shalpy/shalpy_teleop.py
+final_shalpy/turtle_bot_interface.py
+final_shalpy/turtle_bot_player.py
 resource/final_shalpy
 test/test_copyright.py
 test/test_flake8.py

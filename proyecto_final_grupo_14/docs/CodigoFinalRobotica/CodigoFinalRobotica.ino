@@ -162,7 +162,7 @@ void loop() {
     double num1 = structReception.numero1;
     double num2 = structReception.numero2;
     double num3 = structReception.numero3;
-    Serial.println(tecla);
+    // Serial.println(tecla);
     //valor.concat(" -- ");
     //Serial.println("\n");
     //Serial.print(valor);
@@ -172,10 +172,10 @@ void loop() {
     entero1 = int(num1);
     entero2 = int(num2);
     entero3 = int(num3);
-    Serial.println(String(int(num1)));
-    Serial.println(String(int(num2)));
-    Serial.println(String(int(num3)));
-    Serial.println(punto_string);
+    //Serial.println(String(int(num1)));
+    //Serial.println(String(int(num2)));
+    //Serial.println(String(int(num3)));
+    //Serial.println(punto_string);
     //Serial.println(charRecibidoEnString);
   }
   if (strcmp(punto_string, "punto1")==0) {
@@ -324,7 +324,7 @@ int c = 0;
 void punto4(char key, int angle4, int angle2, int angle3) {
 
   if (c<1){
-    Serial.println("---xdxddd");
+  //  Serial.println("---xdxddd");
   //Serial.println(String(int(angle4)));
   //Serial.println(String(angle2));
   //Serial.println(String(angle3));
@@ -344,8 +344,8 @@ void punto4(char key, int angle4, int angle2, int angle3) {
   for(int i = 0; i<10; i++){
     angulos+=i;
     servo4.write(angulos);
-    Serial.println("lolxd");
-    Serial.println(String(i));
+    // Serial.println("lolxd");
+    // Serial.println(String(i));
     delay(700);
   }
   }
@@ -356,14 +356,14 @@ void punto4(char key, int angle4, int angle2, int angle3) {
 }
 
 void punto5(char teclas, int lineal, int angular){
-  Serial.println("Entro punto 5");
-  Serial.println(teclas);
-  Serial.println(String(lineal));
-  Serial.println(String(angular));
+  // Serial.println("Entro punto 5");
+  // Serial.println(teclas);
+  // Serial.println(String(lineal));
+  // Serial.println(String(angular));
 
   if (teclas=='w') {
     MotorAdelante(lineal);
-    Serial.println("--- Entro w");
+    //Serial.println("--- Entro w");
   }
   if (teclas=='s') {
     MotorAtras(lineal);
