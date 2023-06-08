@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from example_interfaces/srv/Comimagen.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module example_interfaces {
+  module srv {
+    struct Comimagen_Request {
+      sensor_msgs::msg::Image imagen;
+
+      int32 banner;
+    };
+    struct Comimagen_Response {
+      string finalizo;
+    };
+  };
+};

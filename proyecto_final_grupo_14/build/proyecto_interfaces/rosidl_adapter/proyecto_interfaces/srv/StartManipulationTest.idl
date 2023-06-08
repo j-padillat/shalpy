@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from proyecto_interfaces/srv/StartManipulationTest.srv
+// generated code does not contain a copyright notice
+
+
+module proyecto_interfaces {
+  module srv {
+    struct StartManipulationTest_Request {
+      string platform;
+
+      int32 x;
+    };
+    struct StartManipulationTest_Response {
+      string answer;
+    };
+  };
+};

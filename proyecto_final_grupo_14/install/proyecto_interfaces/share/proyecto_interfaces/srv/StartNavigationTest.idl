@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from proyecto_interfaces/srv/StartNavigationTest.srv
+// generated code does not contain a copyright notice
+
+
+module proyecto_interfaces {
+  module srv {
+    struct StartNavigationTest_Request {
+      double x;
+
+      double y;
+    };
+    struct StartNavigationTest_Response {
+      string answer;
+    };
+  };
+};

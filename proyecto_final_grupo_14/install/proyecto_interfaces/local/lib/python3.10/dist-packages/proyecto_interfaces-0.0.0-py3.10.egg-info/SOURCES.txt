@@ -1,0 +1,12 @@
+setup.py
+proyecto_interfaces/__init__.py
+proyecto_interfaces.egg-info/PKG-INFO
+proyecto_interfaces.egg-info/SOURCES.txt
+proyecto_interfaces.egg-info/dependency_links.txt
+proyecto_interfaces.egg-info/top_level.txt
+proyecto_interfaces/msg/__init__.py
+proyecto_interfaces/msg/_banner.py
+proyecto_interfaces/srv/__init__.py
+proyecto_interfaces/srv/_start_manipulation_test.py
+proyecto_interfaces/srv/_start_navigation_test.py
+proyecto_interfaces/srv/_start_perception_test.py

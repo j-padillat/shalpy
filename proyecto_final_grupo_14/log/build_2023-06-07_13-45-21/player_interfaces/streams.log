@@ -1,0 +1,200 @@
+[0.399s] Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces -- -j8 -l8
+[0.467s] [ 10%] Built target player_interfaces__rosidl_generator_c
+[0.468s] [ 12%] Built target player_interfaces__cpp
+[0.476s] [ 12%] Built target ament_cmake_python_copy_player_interfaces
+[0.517s] [ 23%] Built target player_interfaces__rosidl_typesupport_fastrtps_c
+[0.548s] [ 34%] Built target player_interfaces__rosidl_typesupport_cpp
+[0.549s] [ 44%] Built target player_interfaces__rosidl_typesupport_introspection_cpp
+[0.550s] [ 55%] Built target player_interfaces__rosidl_typesupport_introspection_c
+[0.551s] [ 65%] Built target player_interfaces__rosidl_typesupport_c
+[0.559s] [ 76%] Built target player_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.590s] [ 76%] Built target player_interfaces
+[0.624s] [ 78%] Built target player_interfaces__py
+[0.658s] [ 87%] Built target player_interfaces__rosidl_generator_py
+[0.690s] [ 91%] Built target player_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.693s] [ 95%] Built target player_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.694s] [100%] Built target player_interfaces__rosidl_typesupport_c__pyext
+[0.979s] running egg_info
+[0.981s] writing player_interfaces.egg-info/PKG-INFO
+[0.981s] writing dependency_links to player_interfaces.egg-info/dependency_links.txt
+[0.981s] writing top-level names to player_interfaces.egg-info/top_level.txt
+[0.985s] reading manifest file 'player_interfaces.egg-info/SOURCES.txt'
+[0.986s] writing manifest file 'player_interfaces.egg-info/SOURCES.txt'
+[1.045s] [100%] Built target ament_cmake_python_build_player_interfaces_egg
+[1.065s] Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces -- -j8 -l8
+[1.192s] Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces
+[1.202s] -- Install configuration: ""
+[1.202s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/ament_index/resource_index/rosidl_interfaces/player_interfaces
+[1.203s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces
+[1.203s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[1.203s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/trace.h
+[1.203s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.204s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail
+[1.204s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__functions.h
+[1.206s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__type_support.h
+[1.207s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__functions.c
+[1.207s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__struct.h
+[1.207s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player.h
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player_hardware.h
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__functions.h
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__type_support.h
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__functions.h
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__functions.c
+[1.208s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__struct.h
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__functions.c
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__struct.h
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.h
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/library_path.sh
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/library_path.dsv
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_generator_c.so
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[1.209s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail
+[1.210s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__rosidl_typesupport_fastrtps_c.h
+[1.210s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.210s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[1.210s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[1.210s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_c.h
+[1.210s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__rosidl_typesupport_fastrtps_c.h
+[1.211s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.211s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces
+[1.211s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[1.213s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/trace.hpp
+[1.213s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail
+[1.213s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__builder.hpp
+[1.213s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__struct.hpp
+[1.213s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__traits.hpp
+[1.213s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[1.213s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player_hardware.hpp
+[1.214s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/player.hpp
+[1.214s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[1.214s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__traits.hpp
+[1.214s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__struct.hpp
+[1.214s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__builder.hpp
+[1.214s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__traits.hpp
+[1.214s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__struct.hpp
+[1.215s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__builder.hpp
+[1.215s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces
+[1.215s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[1.215s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.215s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail
+[1.215s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__rosidl_typesupport_fastrtps_cpp.hpp
+[1.215s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/dds_fastrtps
+[1.216s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[1.216s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[1.216s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__rosidl_typesupport_fastrtps_cpp.hpp
+[1.216s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/dds_fastrtps
+[1.216s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_fastrtps_cpp.hpp
+[1.216s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.216s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces
+[1.217s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[1.217s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail
+[1.217s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__type_support.c
+[1.217s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__rosidl_typesupport_introspection_c.h
+[1.217s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.217s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[1.218s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[1.218s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__type_support.c
+[1.218s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_introspection_c.h
+[1.219s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.c
+[1.219s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__rosidl_typesupport_introspection_c.h
+[1.219s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_introspection_c.so
+[1.220s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_c.so
+[1.220s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces
+[1.220s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg
+[1.220s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail
+[1.220s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__type_support.cpp
+[1.220s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/msg/detail/trace__rosidl_typesupport_introspection_cpp.hpp
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__type_support.cpp
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player__rosidl_typesupport_introspection_cpp.hpp
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__rosidl_typesupport_introspection_cpp.hpp
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/include/player_interfaces/player_interfaces/srv/detail/player_hardware__type_support.cpp
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_typesupport_cpp.so
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/pythonpath.sh
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/pythonpath.dsv
+[1.223s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info
+[1.223s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.223s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.223s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.223s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/msg
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/msg/_trace.py
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/msg/__init__.py
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/msg/_trace_s.c
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/libplayer_interfaces__rosidl_generator_py.so
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/__init__.py
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/_player_interfaces_s.ep.rosidl_typesupport_c.c
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player_s.c
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/__init__.py
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player_hardware.py
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player.py
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv/_player_hardware_s.c
+[1.275s] Listing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces'...
+[1.275s] Listing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/msg'...
+[1.276s] Listing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/srv'...
+[1.283s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.283s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.284s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/local/lib/python3.10/dist-packages/player_interfaces/player_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.284s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/libplayer_interfaces__rosidl_generator_py.so
+[1.285s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/Player.idl
+[1.285s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/PlayerHardware.idl
+[1.285s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/msg/Trace.idl
+[1.285s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/Player.srv
+[1.285s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/Player_Request.msg
+[1.286s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/Player_Response.msg
+[1.286s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/PlayerHardware.srv
+[1.286s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/PlayerHardware_Request.msg
+[1.286s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/srv/PlayerHardware_Response.msg
+[1.286s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/msg/Trace.msg
+[1.286s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/ament_index/resource_index/package_run_dependencies/player_interfaces
+[1.287s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/ament_index/resource_index/parent_prefix_path/player_interfaces
+[1.287s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/ament_prefix_path.sh
+[1.287s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/ament_prefix_path.dsv
+[1.287s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/path.sh
+[1.287s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/environment/path.dsv
+[1.287s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/local_setup.bash
+[1.288s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/local_setup.sh
+[1.288s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/local_setup.zsh
+[1.288s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/local_setup.dsv
+[1.288s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.dsv
+[1.288s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/ament_index/resource_index/packages/player_interfaces
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cExport.cmake
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_cppExport.cmake
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.290s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cExport.cmake
+[1.290s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.290s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cppExport.cmake
+[1.291s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.291s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_pyExport.cmake
+[1.291s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/export_player_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.291s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.291s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.291s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.292s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.292s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.294s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.294s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.295s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfacesConfig.cmake
+[1.297s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/cmake/player_interfacesConfig-version.cmake
+[1.297s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.xml
+[1.298s] Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces

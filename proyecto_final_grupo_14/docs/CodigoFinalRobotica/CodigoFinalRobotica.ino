@@ -441,7 +441,7 @@ void MotorAdelante(float vel)
   digitalWrite (PinIN1, LOW);
   digitalWrite (PinIN2, HIGH);
 
-  analogWrite (PinENB, new_vel);
+  analogWrite (PinENB, new_vel+10);
   digitalWrite (PinIN3, HIGH);
   digitalWrite (PinIN4, LOW);
   

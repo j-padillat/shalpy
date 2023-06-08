@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/final_shalpy/final_shalpy.egg-info/PKG-INFO
+writing dependency_links to ../../build/final_shalpy/final_shalpy.egg-info/dependency_links.txt
+writing entry points to ../../build/final_shalpy/final_shalpy.egg-info/entry_points.txt
+writing requirements to ../../build/final_shalpy/final_shalpy.egg-info/requires.txt
+writing top-level names to ../../build/final_shalpy/final_shalpy.egg-info/top_level.txt
+reading manifest file '../../build/final_shalpy/final_shalpy.egg-info/SOURCES.txt'
+writing manifest file '../../build/final_shalpy/final_shalpy.egg-info/SOURCES.txt'
+running build
+running build_py
+copying final_shalpy/turtle_bot_player.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib/final_shalpy
+running install
+running install_lib
+copying /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build/lib/final_shalpy/turtle_bot_player.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy
+byte-compiling /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy/turtle_bot_player.py to turtle_bot_player.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/final_shalpy/final_shalpy.egg-info to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages/final_shalpy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cliente_master script to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/final_shalpy
+Installing shalpy_teleop script to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/final_shalpy
+Installing turtle_bot_interface script to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/final_shalpy
+Installing turtle_bot_player script to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/final_shalpy
+writing list of installed files to '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/install.log'

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from example_interfaces/srv/Juanpaser.srv
+// generated code does not contain a copyright notice
+
+
+module example_interfaces {
+  module srv {
+    struct Juanpaser_Request {
+      int32 banner;
+
+      string empieza;
+    };
+    struct Juanpaser_Response {
+      string termina;
+    };
+  };
+};

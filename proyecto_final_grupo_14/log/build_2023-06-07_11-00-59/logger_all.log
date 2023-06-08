@@ -1,0 +1,500 @@
+[0.378s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.378s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f03d37d4430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f03d3f85a20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f03d3f85a20>>)
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.404s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/CodigoFinalRobotica) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'ros'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'cmake'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'python'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extensions ['python_setup_py']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Navegacion) by extension 'python_setup_py'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'ros'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extensions ['cmake', 'python']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'cmake'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'python'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extensions ['python_setup_py']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'ros'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extensions ['cmake', 'python']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'cmake'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'python'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extensions ['python_setup_py']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/Proyecto-Final-Robotica-202310-main/proyecto_final_ws/src) by extension 'python_setup_py'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_interfaces) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_interfaces' with type 'ros.ament_cmake' and name 'example_interfaces'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_shalpy) by extension 'ros'
+[0.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/final_shalpy' with type 'ros.ament_python' and name 'final_shalpy'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/player_interfaces) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/player_interfaces' with type 'ros.ament_cmake' and name 'player_interfaces'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_interfaces) by extension 'ros'
+[0.428s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proyecto_interfaces' with type 'ros.ament_cmake' and name 'proyecto_interfaces'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/proyecto_master_pkg) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proyecto_master_pkg' with type 'ros.ament_python' and name 'proyecto_master_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.458s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install
+[0.460s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.527s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'example_interfaces' is in: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding example_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'example_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'example_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces', 'merge_install': False, 'path': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/example_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'final_shalpy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'final_shalpy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy', 'merge_install': False, 'path': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/final_shalpy', 'symlink_install': False, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'player_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'player_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces', 'merge_install': False, 'path': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/player_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'proyecto_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'proyecto_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces', 'merge_install': False, 'path': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'proyecto_master_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'proyecto_master_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg', 'merge_install': False, 'path': '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_master_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.535s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/example_interfaces' with build type 'ament_cmake'
+[0.539s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/example_interfaces'
+[0.544s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/final_shalpy' with build type 'ament_python'
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_shalpy', 'ament_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/hook/ament_prefix_path.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/hook/ament_prefix_path.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/hook/ament_prefix_path.sh'
+[0.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.559s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/player_interfaces' with build type 'ament_cmake'
+[0.559s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/player_interfaces'
+[0.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.565s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_interfaces' with build type 'ament_cmake'
+[0.565s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_interfaces'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.572s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_master_pkg' with build type 'ament_python'
+[0.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('proyecto_master_pkg', 'ament_prefix_path')
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/hook/ament_prefix_path.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/hook/ament_prefix_path.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/hook/ament_prefix_path.sh'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces -- -j8 -l8
+[0.998s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/final_shalpy'
+[1.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces -- -j8 -l8
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces -- -j8 -l8
+[1.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_master_pkg'
+[1.605s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces -- -j8 -l8
+[1.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces -- -j8 -l8
+[1.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces -- -j8 -l8
+[1.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces
+[2.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces
+[2.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(player_interfaces)
+[2.118s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces' for CMake module files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces' for CMake config files
+[2.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'cmake_prefix_path')
+[2.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.sh'
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib'
+[2.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'ld_library_path_lib')
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.ps1'
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.dsv'
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.sh'
+[2.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/player_interfaces
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/bin'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/pkgconfig/player_interfaces.pc'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/python3.10/site-packages'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/bin'
+[2.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.ps1'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.sh'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.bash'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.zsh'
+[2.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/colcon-core/packages/player_interfaces)
+[2.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proyecto_interfaces)
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces' for CMake module files
+[2.166s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces' for CMake config files
+[2.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('proyecto_interfaces', 'cmake_prefix_path')
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/cmake_prefix_path.ps1'
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/cmake_prefix_path.dsv'
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/cmake_prefix_path.sh'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib'
+[2.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('proyecto_interfaces', 'ld_library_path_lib')
+[2.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/ld_library_path_lib.ps1'
+[2.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces
+[2.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/ld_library_path_lib.dsv'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/ld_library_path_lib.sh'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/bin'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/pkgconfig/proyecto_interfaces.pc'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/python3.10/site-packages'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/bin'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.sh'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.bash'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.zsh'
+[2.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/colcon-core/packages/proyecto_interfaces)
+[2.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(player_interfaces)
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces' for CMake module files
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces' for CMake config files
+[2.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'cmake_prefix_path')
+[2.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.ps1'
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.dsv'
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/cmake_prefix_path.sh'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib'
+[2.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('player_interfaces', 'ld_library_path_lib')
+[2.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.ps1'
+[2.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.dsv'
+[2.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/hook/ld_library_path_lib.sh'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/bin'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/pkgconfig/player_interfaces.pc'
+[2.340s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/lib/python3.10/site-packages'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/bin'
+[2.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.ps1'
+[2.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.sh'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.bash'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/player_interfaces/package.zsh'
+[2.348s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/player_interfaces/share/colcon-core/packages/player_interfaces)
+[2.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proyecto_interfaces)
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces' for CMake module files
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces' for CMake config files
+[2.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('proyecto_interfaces', 'cmake_prefix_path')
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/cmake_prefix_path.ps1'
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/cmake_prefix_path.dsv'
+[2.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/cmake_prefix_path.sh'
+[2.397s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib'
+[2.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('proyecto_interfaces', 'ld_library_path_lib')
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/ld_library_path_lib.ps1'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/ld_library_path_lib.dsv'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/hook/ld_library_path_lib.sh'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/bin'
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/pkgconfig/proyecto_interfaces.pc'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/python3.10/site-packages'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/bin'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.sh'
+[2.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.bash'
+[2.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.zsh'
+[2.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/colcon-core/packages/proyecto_interfaces)
+[2.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/final_shalpy': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/final_shalpy build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/install.log --single-version-externally-managed
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_master_pkg': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proyecto_master_pkg build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/install.log --install-scripts $base/lib/proyecto_master_pkg --single-version-externally-managed
+[2.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy' for CMake module files
+[3.119s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy' for CMake config files
+[3.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/final_shalpy' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/final_shalpy build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/final_shalpy/install.log --single-version-externally-managed
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/bin'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/pkgconfig/final_shalpy.pc'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/lib/python3.10/site-packages'
+[3.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_shalpy', 'pythonpath')
+[3.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/hook/pythonpath.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/hook/pythonpath.dsv'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/hook/pythonpath.sh'
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/bin'
+[3.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(final_shalpy)
+[3.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/package.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/package.dsv'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/package.sh'
+[3.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/package.bash'
+[3.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/final_shalpy/package.zsh'
+[3.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy/share/colcon-core/packages/final_shalpy)
+[3.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_interfaces)
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces' for CMake module files
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces' for CMake config files
+[3.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/example_interfaces
+[3.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'cmake_prefix_path')
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.ps1'
+[3.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.dsv'
+[3.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.sh'
+[3.164s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/lib'
+[3.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'ld_library_path_lib')
+[3.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.ps1'
+[3.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.dsv'
+[3.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.sh'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/bin'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/lib/pkgconfig/example_interfaces.pc'
+[3.169s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/lib/python3.10/site-packages'
+[3.170s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/bin'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.ps1'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.sh'
+[3.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.bash'
+[3.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.zsh'
+[3.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/colcon-core/packages/example_interfaces)
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg' for CMake module files
+[3.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_master_pkg' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proyecto_master_pkg build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/install.log --install-scripts $base/lib/proyecto_master_pkg --single-version-externally-managed
+[3.183s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg' for CMake config files
+[3.184s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib'
+[3.184s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/bin'
+[3.184s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/pkgconfig/proyecto_master_pkg.pc'
+[3.184s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages'
+[3.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('proyecto_master_pkg', 'pythonpath')
+[3.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/hook/pythonpath.ps1'
+[3.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/hook/pythonpath.dsv'
+[3.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/hook/pythonpath.sh'
+[3.189s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/bin'
+[3.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proyecto_master_pkg)
+[3.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/package.ps1'
+[3.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/package.dsv'
+[3.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/package.sh'
+[3.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/package.bash'
+[3.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg/package.zsh'
+[3.195s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/colcon-core/packages/proyecto_master_pkg)
+[4.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_interfaces)
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces' for CMake module files
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces' for CMake config files
+[4.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'cmake_prefix_path')
+[4.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.ps1'
+[4.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.dsv'
+[4.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/cmake_prefix_path.sh'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/lib'
+[4.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_interfaces', 'ld_library_path_lib')
+[4.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.ps1'
+[4.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.dsv'
+[4.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/hook/ld_library_path_lib.sh'
+[4.097s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/bin'
+[4.097s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/lib/pkgconfig/example_interfaces.pc'
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/lib/python3.10/site-packages'
+[4.098s] Level 1:colcon.colcon_core.environment:checking '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/bin'
+[4.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.ps1'
+[4.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.dsv'
+[4.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.sh'
+[4.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.bash'
+[4.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/example_interfaces/package.zsh'
+[4.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/example_interfaces/share/colcon-core/packages/example_interfaces)
+[4.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.103s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.112s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.123s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/local_setup.ps1'
+[4.128s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/_local_setup_util_ps1.py'
+[4.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/setup.ps1'
+[4.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/local_setup.sh'
+[4.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/_local_setup_util_sh.py'
+[4.136s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/setup.sh'
+[4.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/local_setup.bash'
+[4.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/setup.bash'
+[4.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/local_setup.zsh'
+[4.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/setup.zsh'

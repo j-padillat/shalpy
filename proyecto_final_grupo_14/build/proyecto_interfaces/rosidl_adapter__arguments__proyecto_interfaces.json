@@ -1,0 +1,9 @@
+{
+  "package_name": "proyecto_interfaces",
+  "non_idl_tuples": [
+    "/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_interfaces:msg/Banner.msg",
+    "/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_interfaces:srv/StartNavigationTest.srv",
+    "/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_interfaces:srv/StartPerceptionTest.srv",
+    "/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_interfaces:srv/StartManipulationTest.srv"
+  ]
+}

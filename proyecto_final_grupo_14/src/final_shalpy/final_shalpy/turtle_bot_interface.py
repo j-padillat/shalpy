@@ -111,6 +111,7 @@ def cargar_recorrido():
             twistIndividual.angular.z = anguloth[i]
             
             twistVector.append(twistIndividual)
+    print(keysVector, linealx, linealy, anguloth,timesVector)
     
     twistIndividual = Twist()
     twistIndividual.linear.x = 0.0

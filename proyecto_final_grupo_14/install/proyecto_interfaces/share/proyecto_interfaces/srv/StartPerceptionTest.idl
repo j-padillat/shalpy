@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from proyecto_interfaces/srv/StartPerceptionTest.srv
+// generated code does not contain a copyright notice
+
+
+module proyecto_interfaces {
+  module srv {
+    struct StartPerceptionTest_Request {
+      int32 banner_a;
+
+      int32 banner_b;
+    };
+    struct StartPerceptionTest_Response {
+      string answer;
+    };
+  };
+};

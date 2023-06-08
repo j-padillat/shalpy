@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info
+writing ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/requires.txt
+writing top-level names to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/top_level.txt
+writing manifest file '../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build
+creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build/lib
+creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build/lib/proyecto_master_pkg
+copying proyecto_master_pkg/__init__.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build/lib/proyecto_master_pkg
+copying proyecto_master_pkg/master.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build/lib/proyecto_master_pkg
+running install
+running install_lib
+creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg
+copying /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build/lib/proyecto_master_pkg/__init__.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg
+copying /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build/lib/proyecto_master_pkg/master.py -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg
+byte-compiling /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg/master.py to master.cpython-310.pyc
+running install_data
+creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/ament_index
+creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/ament_index/resource_index
+creating /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/ament_index/resource_index/packages
+copying resource/proyecto_master_pkg -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/share/proyecto_master_pkg
+running install_egg_info
+Copying ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing master script to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/proyecto_master_pkg
+writing list of installed files to '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/install.log'

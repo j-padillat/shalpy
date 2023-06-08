@@ -1,0 +1,221 @@
+[0.398s] Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces -- -j8 -l8
+[0.484s] [  5%] Built target proyecto_interfaces__cpp
+[0.484s] [ 12%] Built target proyecto_interfaces__rosidl_generator_c
+[0.507s] [ 12%] Built target ament_cmake_python_copy_proyecto_interfaces
+[0.566s] [ 25%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_c
+[0.568s] [ 36%] Built target proyecto_interfaces__rosidl_typesupport_introspection_c
+[0.570s] [ 45%] Built target proyecto_interfaces__rosidl_typesupport_cpp
+[0.581s] [ 56%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.582s] [ 67%] Built target proyecto_interfaces__rosidl_typesupport_introspection_cpp
+[0.590s] [ 78%] Built target proyecto_interfaces__rosidl_typesupport_c
+[0.623s] [ 78%] Built target proyecto_interfaces
+[0.655s] [ 80%] Built target proyecto_interfaces__py
+[0.696s] [ 89%] Built target proyecto_interfaces__rosidl_generator_py
+[0.729s] [ 92%] Built target proyecto_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.730s] [ 96%] Built target proyecto_interfaces__rosidl_typesupport_c__pyext
+[0.732s] [100%] Built target proyecto_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.966s] running egg_info
+[0.967s] writing proyecto_interfaces.egg-info/PKG-INFO
+[0.967s] writing dependency_links to proyecto_interfaces.egg-info/dependency_links.txt
+[0.968s] writing top-level names to proyecto_interfaces.egg-info/top_level.txt
+[0.973s] reading manifest file 'proyecto_interfaces.egg-info/SOURCES.txt'
+[0.974s] writing manifest file 'proyecto_interfaces.egg-info/SOURCES.txt'
+[1.029s] [100%] Built target ament_cmake_python_build_proyecto_interfaces_egg
+[1.057s] Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --build /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces -- -j8 -l8
+[1.205s] Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces
+[1.220s] -- Install configuration: ""
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/ament_index/resource_index/rosidl_interfaces/proyecto_interfaces
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.221s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/banner.h
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__functions.c
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__struct.h
+[1.222s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.h
+[1.223s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__functions.h
+[1.223s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[1.223s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_perception_test.h
+[1.223s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_navigation_test.h
+[1.223s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_manipulation_test.h
+[1.223s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__struct.h
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.h
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__functions.c
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__functions.h
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__functions.h
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.h
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.h
+[1.224s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__functions.c
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__struct.h
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__functions.h
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__functions.c
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__struct.h
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/library_path.sh
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/library_path.dsv
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_c.so
+[1.225s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_fastrtps_c.h
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_c.h
+[1.226s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_c.h
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_c.h
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_introspection_c.h
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.c
+[1.227s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.c
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.c
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.c
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_introspection_c.h
+[1.228s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_c.h
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_c.so
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_c.so
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/banner.hpp
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__traits.hpp
+[1.229s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__builder.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__struct.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__struct.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__struct.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__traits.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__traits.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__struct.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__builder.hpp
+[1.230s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__traits.hpp
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__builder.hpp
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__builder.hpp
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_manipulation_test.hpp
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_perception_test.hpp
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/start_navigation_test.hpp
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[1.231s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.232s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[1.232s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/dds_fastrtps
+[1.232s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_fastrtps_cpp.hpp
+[1.232s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[1.232s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[1.232s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[1.232s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_fastrtps_cpp.hpp
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/dds_fastrtps
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_fastrtps_cpp.hpp
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__rosidl_typesupport_introspection_cpp.hpp
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/msg/detail/banner__type_support.cpp
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__type_support.cpp
+[1.233s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_manipulation_test__rosidl_typesupport_introspection_cpp.hpp
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__type_support.cpp
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__type_support.cpp
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_navigation_test__rosidl_typesupport_introspection_cpp.hpp
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/include/proyecto_interfaces/proyecto_interfaces/srv/detail/start_perception_test__rosidl_typesupport_introspection_cpp.hpp
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_typesupport_cpp.so
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/pythonpath.sh
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/pythonpath.dsv
+[1.234s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info
+[1.234s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.234s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.234s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.234s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.235s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces
+[1.235s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg
+[1.235s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/__init__.py
+[1.235s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/_banner.py
+[1.235s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg/_banner_s.c
+[1.235s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/__init__.py
+[1.235s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/libproyecto_interfaces__rosidl_generator_py.so
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_perception_test_s.c
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_perception_test.py
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_manipulation_test.py
+[1.236s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/__init__.py
+[1.237s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_navigation_test_s.c
+[1.237s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_navigation_test.py
+[1.237s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv/_start_manipulation_test_s.c
+[1.237s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.237s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.237s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/_proyecto_interfaces_s.ep.rosidl_typesupport_c.c
+[1.283s] Listing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces'...
+[1.283s] Listing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/msg'...
+[1.283s] Listing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/srv'...
+[1.292s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.292s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.294s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/local/lib/python3.10/dist-packages/proyecto_interfaces/proyecto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.295s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/lib/libproyecto_interfaces__rosidl_generator_py.so
+[1.295s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/msg/Banner.idl
+[1.296s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest.idl
+[1.296s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest.idl
+[1.296s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest.idl
+[1.296s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/msg/Banner.msg
+[1.297s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest.srv
+[1.297s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest_Request.msg
+[1.297s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartNavigationTest_Response.msg
+[1.298s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest.srv
+[1.299s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest_Request.msg
+[1.299s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartPerceptionTest_Response.msg
+[1.300s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest.srv
+[1.300s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest_Request.msg
+[1.300s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/srv/StartManipulationTest_Response.msg
+[1.300s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/ament_index/resource_index/package_run_dependencies/proyecto_interfaces
+[1.301s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/ament_index/resource_index/parent_prefix_path/proyecto_interfaces
+[1.301s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/ament_prefix_path.sh
+[1.302s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/ament_prefix_path.dsv
+[1.302s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/path.sh
+[1.302s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/environment/path.dsv
+[1.302s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.bash
+[1.302s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.sh
+[1.303s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.zsh
+[1.303s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/local_setup.dsv
+[1.303s] -- Installing: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.dsv
+[1.303s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/ament_index/resource_index/packages/proyecto_interfaces
+[1.303s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cExport.cmake
+[1.303s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.303s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.304s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.304s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.304s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.304s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cExport.cmake
+[1.304s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.304s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_cppExport.cmake
+[1.305s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.305s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.305s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.305s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.305s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cppExport.cmake
+[1.305s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.305s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_pyExport.cmake
+[1.306s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/export_proyecto_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.306s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.306s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.306s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.306s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.306s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.306s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.307s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.307s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfacesConfig.cmake
+[1.307s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/cmake/proyecto_interfacesConfig-version.cmake
+[1.307s] -- Up-to-date: /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_interfaces/share/proyecto_interfaces/package.xml
+[1.347s] Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/final_shalpy:/opt/ros/humble /usr/bin/cmake --install /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_interfaces

@@ -1,0 +1,3 @@
+[console_scripts]
+master = proyecto_master_pkg.master:main
+

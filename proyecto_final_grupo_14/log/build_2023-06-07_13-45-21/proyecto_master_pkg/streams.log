@@ -1,0 +1,25 @@
+[1.798s] Invoking command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_master_pkg': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proyecto_master_pkg build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/install.log --install-scripts $base/lib/proyecto_master_pkg --single-version-externally-managed
+[2.134s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.134s]   warnings.warn(
+[2.144s] running egg_info
+[2.145s] writing ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/PKG-INFO
+[2.145s] writing dependency_links to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/dependency_links.txt
+[2.146s] writing entry points to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/entry_points.txt
+[2.146s] writing requirements to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/requires.txt
+[2.146s] writing top-level names to ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/top_level.txt
+[2.148s] reading manifest file '../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/SOURCES.txt'
+[2.149s] writing manifest file '../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info/SOURCES.txt'
+[2.150s] running build
+[2.150s] running build_py
+[2.150s] running install
+[2.150s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.150s]   warnings.warn(
+[2.150s] running install_lib
+[2.152s] running install_data
+[2.153s] running install_egg_info
+[2.155s] removing '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.155s] Copying ../../build/proyecto_master_pkg/proyecto_master_pkg.egg-info to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages/proyecto_master_pkg-0.0.0-py3.10.egg-info
+[2.156s] running install_scripts
+[2.186s] Installing master script to /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/proyecto_master_pkg
+[2.187s] writing list of installed files to '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/install.log'
+[2.220s] Invoked command in '/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/src/proyecto_master_pkg' returned '0': PYTHONPATH=/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/prefix_override:/home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/install/proyecto_master_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/proyecto_master_pkg build --build-base /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/build install --record /home/juanespadi/Documents/shalpy/proyecto_final_grupo_14/build/proyecto_master_pkg/install.log --install-scripts $base/lib/proyecto_master_pkg --single-version-externally-managed
